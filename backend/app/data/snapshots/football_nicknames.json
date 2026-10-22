@@ -1,0 +1,6892 @@
+{
+  "snapshot_version": 1,
+  "generator": "harvest_fact_snapshots.py",
+  "retrieved_at": "2026-10-20T20:51:59+00:00",
+  "source": {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "sparql_endpoint": "https://query.wikidata.org/sparql",
+    "license": "CC0 1.0 (Wikidata structured data)",
+    "access": "public SPARQL + wbgetentities API"
+  },
+  "filters": {
+    "single_clean_nickname": true,
+    "single_country": true,
+    "unique_nickname_owner": true,
+    "name_variant_rejected": true,
+    "profanity_rejected": true,
+    "note": "Nicknames are P1449 statements; name-like variants and shared nicknames are rejected."
+  },
+  "players": [
+    {
+      "qid": "Q17515",
+      "player_ar": "دييغو مارادونا",
+      "player_en": "Diego Maradona",
+      "nickname": "El Pibe de Oro",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 175,
+      "source_url": "https://www.wikidata.org/wiki/Q17515",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q1835",
+      "player_ar": "زين الدين زيدان",
+      "player_en": "Zinedine Zidane",
+      "nickname": "Zizou",
+      "country_qid": "Q142",
+      "country_label": "فرنسا",
+      "positions": [
+        "لاعب وسط",
+        "لاعب وسط هجومي"
+      ],
+      "sitelinks": 146,
+      "source_url": "https://www.wikidata.org/wiki/Q1835",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q20110",
+      "player_ar": "فرانشيسكو توتي",
+      "player_en": "Francesco Totti",
+      "nickname": "il Capitano",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 126,
+      "source_url": "https://www.wikidata.org/wiki/Q20110",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q1912",
+      "player_ar": "كريم بنزيما",
+      "player_en": "Karim Benzema",
+      "nickname": "KB9",
+      "country_qid": "Q142",
+      "country_label": "فرنسا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 107,
+      "source_url": "https://www.wikidata.org/wiki/Q1912",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q1354960",
+      "player_ar": "محمد صلاح",
+      "player_en": "Mohamed Salah",
+      "nickname": "The Pharaoh",
+      "country_qid": "Q79",
+      "country_label": "مصر",
+      "positions": [
+        "جناح",
+        "مهاجم",
+        "نصف الجناح"
+      ],
+      "sitelinks": 104,
+      "source_url": "https://www.wikidata.org/wiki/Q1354960",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q455462",
+      "player_ar": "أنطوان غريزمان",
+      "player_en": "Antoine Griezmann",
+      "nickname": "Grizou",
+      "country_qid": "Q142",
+      "country_label": "فرنسا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 100,
+      "source_url": "https://www.wikidata.org/wiki/Q455462",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q73360",
+      "player_ar": "تيبو كورتوا",
+      "player_en": "Thibaut Courtois",
+      "nickname": "The Wall",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 88,
+      "source_url": "https://www.wikidata.org/wiki/Q73360",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q102027",
+      "player_ar": "فابيو كانافارو",
+      "player_en": "Fabio Cannavaro",
+      "nickname": "Il muro di Berlino",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "قلب الدفاع",
+        "مدافع"
+      ],
+      "sitelinks": 84,
+      "source_url": "https://www.wikidata.org/wiki/Q102027",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q178649",
+      "player_ar": "روماريو",
+      "player_en": "Romário",
+      "nickname": "Empachi",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مهاجم",
+        "مهاجم صريح"
+      ],
+      "sitelinks": 80,
+      "source_url": "https://www.wikidata.org/wiki/Q178649",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q17158",
+      "player_ar": "كارليس بويول",
+      "player_en": "Carles Puyol",
+      "nickname": "Tarzan",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 79,
+      "source_url": "https://www.wikidata.org/wiki/Q17158",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q57079",
+      "player_ar": "يورغن كلينسمان",
+      "player_en": "Jürgen Klinsmann",
+      "nickname": "Klinsi",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 77,
+      "source_url": "https://www.wikidata.org/wiki/Q57079",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q214903",
+      "player_ar": "دييغو غودين",
+      "player_en": "Diego Godín",
+      "nickname": "el Faraón",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 76,
+      "source_url": "https://www.wikidata.org/wiki/Q214903",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q173972",
+      "player_ar": "رود خوليت",
+      "player_en": "Ruud Gullit",
+      "nickname": "De Zwarte Tulp",
+      "country_qid": "Q29999",
+      "country_label": "مملكة هولندا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 75,
+      "source_url": "https://www.wikidata.org/wiki/Q173972",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q222789",
+      "player_ar": "لويس إنريكي",
+      "player_en": "Luis Enrique",
+      "nickname": "Lucho",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 68,
+      "source_url": "https://www.wikidata.org/wiki/Q222789",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q295307",
+      "player_ar": "سالفاتوري سكيلاتشي",
+      "player_en": "Salvatore Schillaci",
+      "nickname": "Totò",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 68,
+      "source_url": "https://www.wikidata.org/wiki/Q295307",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q18976",
+      "player_ar": "أوله غونار سولشار",
+      "player_en": "Ole Gunnar Solskjær",
+      "nickname": "The Baby-faced Assassin",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 66,
+      "source_url": "https://www.wikidata.org/wiki/Q18976",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q182451",
+      "player_ar": "ألبيرتو جيلاردينو",
+      "player_en": "Alberto Gilardino",
+      "nickname": "Gilagol",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 65,
+      "source_url": "https://www.wikidata.org/wiki/Q182451",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q188241",
+      "player_ar": "ريكاردو كواريسما",
+      "player_en": "Ricardo Quaresma",
+      "nickname": "Harry Potter",
+      "country_qid": "Q45",
+      "country_label": "البرتغال",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 65,
+      "source_url": "https://www.wikidata.org/wiki/Q188241",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q20830808",
+      "player_ar": "جانلويجي دوناروما",
+      "player_en": "Gianluigi Donnarumma",
+      "nickname": "Gigio",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 65,
+      "source_url": "https://www.wikidata.org/wiki/Q20830808",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q191634",
+      "player_ar": "لويس فيليبي سكولاري",
+      "player_en": "Luiz Felipe Scolari",
+      "nickname": "Felipão",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 63,
+      "source_url": "https://www.wikidata.org/wiki/Q191634",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q3275904",
+      "player_ar": "إيميليانو مارتينيز",
+      "player_en": "Emiliano Martínez",
+      "nickname": "El Dibu",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 63,
+      "source_url": "https://www.wikidata.org/wiki/Q3275904",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q227892",
+      "player_ar": "أليساندرو نيستا",
+      "player_en": "Alessandro Nesta",
+      "nickname": "Tempesta perfetta",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "قلب الدفاع",
+        "مدافع"
+      ],
+      "sitelinks": 62,
+      "source_url": "https://www.wikidata.org/wiki/Q227892",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q44464",
+      "player_ar": "رودي فولر",
+      "player_en": "Rudi Völler",
+      "nickname": "Tante Käthe",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 62,
+      "source_url": "https://www.wikidata.org/wiki/Q44464",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q179995",
+      "player_ar": "كلاوديو ماركيزيو",
+      "player_en": "Claudio Marchisio",
+      "nickname": "Il Principino",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 61,
+      "source_url": "https://www.wikidata.org/wiki/Q179995",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q233510",
+      "player_ar": "ألكس مورغان",
+      "player_en": "Alex Morgan",
+      "nickname": "Baby Horse",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 61,
+      "source_url": "https://www.wikidata.org/wiki/Q233510",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q13002",
+      "player_ar": "بول غاسكوين",
+      "player_en": "Paul Gascoigne",
+      "nickname": "Gazza",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q13002",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q202237",
+      "player_ar": "لاندون دونوفان",
+      "player_en": "Landon Donovan",
+      "nickname": "Captain America",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "مهاجم",
+        "نصف الجناح"
+      ],
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q202237",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q2058682",
+      "player_ar": "يان أوبلاك",
+      "player_en": "Jan Oblak",
+      "nickname": "El Guardián",
+      "country_qid": "Q215",
+      "country_label": "سلوفينيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q2058682",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q184218",
+      "player_ar": "ريان بابل",
+      "player_en": "Ryan Babel",
+      "nickname": "De Tijdbom en the gun",
+      "country_qid": "Q29999",
+      "country_label": "مملكة هولندا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 58,
+      "source_url": "https://www.wikidata.org/wiki/Q184218",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q201860",
+      "player_ar": "كلينت ديمبسي",
+      "player_en": "Clint Dempsey",
+      "nickname": "Deuce",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم",
+        "نصف الجناح"
+      ],
+      "sitelinks": 58,
+      "source_url": "https://www.wikidata.org/wiki/Q201860",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q192122",
+      "player_ar": "إستبان كمبياسو",
+      "player_en": "Esteban Cambiasso",
+      "nickname": "Cuchu",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 57,
+      "source_url": "https://www.wikidata.org/wiki/Q192122",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q44420",
+      "player_ar": "جوفاني تراباتوني",
+      "player_en": "Giovanni Trapattoni",
+      "nickname": "Il Trap",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 56,
+      "source_url": "https://www.wikidata.org/wiki/Q44420",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q46502",
+      "player_ar": "خوان سيباستيان فيرون",
+      "player_en": "Juan Sebastián Verón",
+      "nickname": "La Brujita",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 56,
+      "source_url": "https://www.wikidata.org/wiki/Q46502",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q235159",
+      "player_ar": "جوزيبي بيرغومي",
+      "player_en": "Giuseppe Bergomi",
+      "nickname": "Lo Zio",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "قلب الدفاع",
+        "مدافع"
+      ],
+      "sitelinks": 53,
+      "source_url": "https://www.wikidata.org/wiki/Q235159",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q44470",
+      "player_ar": "أوفه زيلر",
+      "player_en": "Uwe Seeler",
+      "nickname": "Unser Uwe",
+      "country_qid": "Q713750",
+      "country_label": "ألمانيا الغربية",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 53,
+      "source_url": "https://www.wikidata.org/wiki/Q44470",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q2301910",
+      "player_ar": "ميتشي باتشوايي",
+      "player_en": "Michy Batshuayi",
+      "nickname": "Batsman",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 52,
+      "source_url": "https://www.wikidata.org/wiki/Q2301910",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q312454",
+      "player_ar": "باولو روبرتو فالكاو",
+      "player_en": "Paulo Roberto Falcão",
+      "nickname": "L’ottavo Re di Roma",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 52,
+      "source_url": "https://www.wikidata.org/wiki/Q312454",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q507190",
+      "player_ar": "باكو ألكاسير",
+      "player_en": "Paco Alcácer",
+      "nickname": "Figamolla",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 52,
+      "source_url": "https://www.wikidata.org/wiki/Q507190",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q210914",
+      "player_ar": "خوانفران",
+      "player_en": "Juanfran Torres",
+      "nickname": "Xuanfran",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "ظهير",
+        "مدافع"
+      ],
+      "sitelinks": 51,
+      "source_url": "https://www.wikidata.org/wiki/Q210914",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q342698",
+      "player_ar": "ميرتشا لوتشيسكو",
+      "player_en": "Mircea Lucescu",
+      "nickname": "Domnul, Il Luce",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "جناح"
+      ],
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q342698",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q57152",
+      "player_ar": "توماس هيتزلسبيرغر",
+      "player_en": "Thomas Hitzlsperger",
+      "nickname": "der Hammer",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q57152",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q68050",
+      "player_ar": "جامبييرو بونيبيرتي",
+      "player_en": "Giampiero Boniperti",
+      "nickname": "Marisa",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 48,
+      "source_url": "https://www.wikidata.org/wiki/Q68050",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q1993131",
+      "player_ar": "ماساهيرو إندو",
+      "player_en": "Masahiro Endo",
+      "nickname": "エンマサ",
+      "country_qid": "Q17",
+      "country_label": "اليابان",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q1993131",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q315839",
+      "player_ar": "كلاوديو جينتيلي",
+      "player_en": "Claudio Gentile",
+      "nickname": "Gheddafi",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q315839",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q378101",
+      "player_ar": "مارسيلينهو ماريوكا",
+      "player_en": "Marcelinho Carioca",
+      "nickname": "Pé-de-Anjo",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q378101",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q558910",
+      "player_ar": "ريوجي باندو",
+      "player_en": "Ryuji Bando",
+      "nickname": "Ban",
+      "country_qid": "Q17",
+      "country_label": "اليابان",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q558910",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q60691",
+      "player_ar": "هيلموت ران",
+      "player_en": "Helmut Rahn",
+      "nickname": "Der Boss",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q60691",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q155911",
+      "player_ar": "توماس هسلر",
+      "player_en": "Thomas Häßler",
+      "nickname": "Icke",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "لاعب وسط هجومي"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q155911",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q213111",
+      "player_ar": "سيباستيان جيوفينكو",
+      "player_en": "Sebastian Giovinco",
+      "nickname": "Formica atomica",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q213111",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q316917",
+      "player_ar": "كيفن ميرالاس",
+      "player_en": "Kevin Mirallas",
+      "nickname": "Ronaldo van de armen",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q316917",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q699557",
+      "player_ar": "ستانيسلاف تشيرتشيسوف",
+      "player_en": "Stanislav Cherchesov",
+      "nickname": "Черчилль",
+      "country_qid": "Q159",
+      "country_label": "روسيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q699557",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q81227",
+      "player_ar": "هرنان غافيريا",
+      "player_en": "Hernán Gaviria",
+      "nickname": "Carepa",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q81227",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q29047921",
+      "player_ar": "مريخ دميرال",
+      "player_en": "Merih Demiral",
+      "nickname": "Savunma bakanı",
+      "country_qid": "Q43",
+      "country_label": "تركيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q29047921",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q312626",
+      "player_ar": "ماركو تارديلي",
+      "player_en": "Marco Tardelli",
+      "nickname": "Schizzo",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q312626",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q313480",
+      "player_ar": "جيانلوكا باليوكا",
+      "player_en": "Gianluca Pagliuca",
+      "nickname": "Il Muro",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q313480",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q318456",
+      "player_ar": "أبل هرناندز",
+      "player_en": "Abel Hernández",
+      "nickname": "La Joya",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q318456",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q378275",
+      "player_ar": "سميح شنترك",
+      "player_en": "Semih Şentürk",
+      "nickname": "Nöbetçi Golcü",
+      "country_qid": "Q43",
+      "country_label": "تركيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q378275",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q28699707",
+      "player_ar": "كيم مين جاي",
+      "player_en": "Kim Min-jae",
+      "nickname": "The Monster",
+      "country_qid": "Q884",
+      "country_label": "كوريا الجنوبية",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q28699707",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q2063279",
+      "player_ar": "أوسكار دوارتي",
+      "player_en": "Óscar Duarte",
+      "nickname": "Piedra",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q2063279",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q299413",
+      "player_ar": "خافيير كليمنتي",
+      "player_en": "Javier Clemente",
+      "nickname": "Barakaldoko ilehoria",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q299413",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q360765",
+      "player_ar": "كارلوس بيلاردو",
+      "player_en": "Carlos Bilardo",
+      "nickname": "El Narigón",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q360765",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q314241",
+      "player_ar": "خوسيه سوزا",
+      "player_en": "José Sosa",
+      "nickname": "Principito",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q314241",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q321321",
+      "player_ar": "ماريانو أندوخار",
+      "player_en": "Mariano Andújar",
+      "nickname": "Dollberg",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q321321",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q299515",
+      "player_ar": "ميروسلاف ستوخ",
+      "player_en": "Miroslav Stoch",
+      "nickname": "Miňo",
+      "country_qid": "Q214",
+      "country_label": "سلوفاكيا",
+      "positions": [
+        "لاعب وسط هجومي",
+        "مركز الجناح",
+        "نصف الجناح"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q299515",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q613659",
+      "player_ar": "ميهايلو بتروفيتش",
+      "player_en": "Mihailo Petrović",
+      "nickname": "Миша",
+      "country_qid": "Q403",
+      "country_label": "صربيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q613659",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q361694",
+      "player_ar": "كريستيان بولانيوس",
+      "player_en": "Cristian Gamboa",
+      "nickname": "Bola",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q361694",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q61899299",
+      "player_ar": "ستراهينيا بافلوفيتش",
+      "player_en": "Strahinja Pavlović",
+      "nickname": "Kalaba",
+      "country_qid": "Q403",
+      "country_label": "صربيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q61899299",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q122341",
+      "player_ar": "ماركو شتريلر",
+      "player_en": "Marco Streller",
+      "nickname": "Pipi",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q122341",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q273530",
+      "player_ar": "نادين آنجرير",
+      "player_en": "Nadine Angerer",
+      "nickname": "Natze",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q273530",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q313443",
+      "player_ar": "ألفريد هايوس",
+      "player_en": "Alfréd Hajós",
+      "nickname": "Magyar delfin",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q313443",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q351990",
+      "player_ar": "بيترو فييرجوود",
+      "player_en": "Pietro Vierchowod",
+      "nickname": "Lo Zar",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q351990",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q681913",
+      "player_ar": "بوغدان ستانكو",
+      "player_en": "Bogdan Stancu",
+      "nickname": "Motanul",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q681913",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q215469",
+      "player_ar": "فرانشيسكو خافيير رودريغيز",
+      "player_en": "Francisco Javier Rodríguez",
+      "nickname": "Maza",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "قلب الدفاع",
+        "مدافع"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q215469",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q356418",
+      "player_ar": "ستيوارت بيرس",
+      "player_en": "Stuart Pearce",
+      "nickname": "psycho",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "ظهير",
+        "مدافع"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q356418",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q312089",
+      "player_ar": "باتريك أندرسون",
+      "player_en": "Patrik Andersson",
+      "nickname": "Bjärred",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q312089",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q438495",
+      "player_ar": "بيريغرينو أنسيلمو",
+      "player_en": "Peregrino Anselmo",
+      "nickname": "Napoleón",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q438495",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q463746",
+      "player_ar": "ألفارو غيستيدو",
+      "player_en": "Álvaro Gestido",
+      "nickname": "El Caballero de Deporte",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "لاعب وسط",
+        "مدافع"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q463746",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q344902",
+      "player_ar": "بيتر بونيتي",
+      "player_en": "Peter Bonetti",
+      "nickname": "The Cat",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q344902",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q369133",
+      "player_ar": "روبيرتو سينسيني",
+      "player_en": "Roberto Sensini",
+      "nickname": "Boquita",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q369133",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q446181",
+      "player_ar": "ماجد عبد الله",
+      "player_en": "Majed Abdullah",
+      "nickname": "بيليه العربية",
+      "country_qid": "Q851",
+      "country_label": "السعودية",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q446181",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q315665",
+      "player_ar": "ريكاردو أوسوريو",
+      "player_en": "Ricardo Osorio",
+      "nickname": "Oso, Don Ramón",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 34,
+      "source_url": "https://www.wikidata.org/wiki/Q315665",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q353017",
+      "player_ar": "ويم فان هانيغيم",
+      "player_en": "Willem van Hanegem",
+      "nickname": "de Kromme",
+      "country_qid": "Q29999",
+      "country_label": "مملكة هولندا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 34,
+      "source_url": "https://www.wikidata.org/wiki/Q353017",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q438478",
+      "player_ar": "سانتوس أورديناران",
+      "player_en": "Santos Urdinarán",
+      "nickname": "El Vasquito",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 34,
+      "source_url": "https://www.wikidata.org/wiki/Q438478",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q248057",
+      "player_ar": "ماركو فابيان",
+      "player_en": "Marco Fabián",
+      "nickname": "Marquito",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q248057",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q315043",
+      "player_ar": "سيزار سانشيز",
+      "player_en": "César Sánchez",
+      "nickname": "El coyote de Coria",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q315043",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q350447",
+      "player_ar": "دوزان باجيفيتش",
+      "player_en": "Dušan Bajević",
+      "nickname": "Princ sa Neretve",
+      "country_qid": "Q225",
+      "country_label": "البوسنة والهرسك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q350447",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q445468",
+      "player_ar": "والتر سينتينو",
+      "player_en": "Walter Centeno",
+      "nickname": "Paté",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "جناح"
+      ],
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q445468",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q475730",
+      "player_ar": "كارلوس رويز",
+      "player_en": "Carlos Ruiz",
+      "nickname": "El Pescadito",
+      "country_qid": "Q774",
+      "country_label": "غواتيمالا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q475730",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q1457192",
+      "player_ar": "لويس تيخادا",
+      "player_en": "Luis Tejada",
+      "nickname": "Matador",
+      "country_qid": "Q804",
+      "country_label": "بنما",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q1457192",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q350279",
+      "player_ar": "خوسيه تشاموت",
+      "player_en": "José Chamot",
+      "nickname": "Lito",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q350279",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q3808254",
+      "player_ar": "جوني أكوستا",
+      "player_en": "Jhonny Acosta",
+      "nickname": "La Volpe",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q3808254",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q704308",
+      "player_ar": "بيرنارد ديتز",
+      "player_en": "Bernard Dietz",
+      "nickname": "Ennatz",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q704308",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q1754462",
+      "player_ar": "موريكي",
+      "player_en": "Luiz Guilherme da Conceição Silva",
+      "nickname": "Muriqui",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q1754462",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q2339817",
+      "player_ar": "هوغو مارادونا",
+      "player_en": "Hugo Maradona",
+      "nickname": "El Turco",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q2339817",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q350398",
+      "player_ar": "كارلوس بافون",
+      "player_en": "Carlos Pavón",
+      "nickname": "La Sombra Voladora",
+      "country_qid": "Q783",
+      "country_label": "هندوراس",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q350398",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q442182",
+      "player_ar": "كلاس إنغيسون",
+      "player_en": "Klas Ingesson",
+      "nickname": "Klabbe",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q442182",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q641387",
+      "player_ar": "راؤول دي توماس",
+      "player_en": "Raúl de Tomás",
+      "nickname": "RDT",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q641387",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q722572",
+      "player_ar": "ألكسندر ترينانيتش",
+      "player_en": "Aleksandar Tirnanić",
+      "nickname": "Tirke",
+      "country_qid": "Q191077",
+      "country_label": "مملكة يوغسلافيا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q722572",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q257761",
+      "player_ar": "لاسلو بوداي",
+      "player_en": "László Budai",
+      "nickname": "Púpos",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q257761",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q269275",
+      "player_ar": "يان توماشوسكي",
+      "player_en": "Jan Tomaszewski",
+      "nickname": "Tomek",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q269275",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q351819",
+      "player_ar": "دانييل مايستوروفيتش",
+      "player_en": "Daniel Majstorović",
+      "nickname": "Maestro",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "قلب الدفاع"
+      ],
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q351819",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q375012",
+      "player_ar": "ستيفانو تاكوني",
+      "player_en": "Stefano Tacconi",
+      "nickname": "Capitan Fracassa",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q375012",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q354150",
+      "player_ar": "إديلاردو رودريغيز",
+      "player_en": "Adelardo Rodríguez",
+      "nickname": "La Leyenda",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q354150",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q465468",
+      "player_ar": "أندريه أبيغلين",
+      "player_en": "André Abegglen",
+      "nickname": "Trello",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q465468",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q732682",
+      "player_ar": "مانويل فيريرا",
+      "player_en": "Manuel Ferreira",
+      "nickname": "Nolo",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q732682",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q265428",
+      "player_ar": "أنطونيو كارباخال",
+      "player_en": "Antonio Carbajal",
+      "nickname": "El Cinco Copas / Tota",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q265428",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q366494",
+      "player_ar": "Buakaw Banchamek",
+      "player_en": "Buakaw Banchamek",
+      "nickname": "บัติ",
+      "country_qid": "Q869",
+      "country_label": "تايلاند",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q366494",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q452758",
+      "player_ar": "كريستيان شولتس",
+      "player_en": "Christian Schulz",
+      "nickname": "Schulle",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "قلب الدفاع",
+        "لاعب وسط"
+      ],
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q452758",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q5216833",
+      "player_ar": "دانيال كوليندريس",
+      "player_en": "Daniel Colindres",
+      "nickname": "Mister Bean",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q5216833",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q735009",
+      "player_ar": "طومي دوكيرتي",
+      "player_en": "Tommy Docherty",
+      "nickname": "The Doc",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q735009",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q794512",
+      "player_ar": "غودفري تشيتالو",
+      "player_en": "Godfrey Chitalu",
+      "nickname": "Ucar",
+      "country_qid": "Q953",
+      "country_label": "زامبيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q794512",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q13500573",
+      "player_ar": "نيكول مان",
+      "player_en": "Nicole Mann",
+      "nickname": "Duke",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [],
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q13500573",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q16554916",
+      "player_ar": "إيزيكيل بونسه",
+      "player_en": "Ezequiel Ponce",
+      "nickname": "Eze",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q16554916",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q3325311",
+      "player_ar": "سيرخيو ألفاريز",
+      "player_en": "Sergio Álvarez Conde",
+      "nickname": "O Gato de Catoira",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q3325311",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q350326",
+      "player_ar": "خوان كاستيلو",
+      "player_en": "Juan Guillermo Castillo",
+      "nickname": "Muralla",
+      "country_qid": "Q148",
+      "country_label": "الصين",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q350326",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q436144",
+      "player_ar": "أندرو ريدماين",
+      "player_en": "Andrew Redmayne Cyclat",
+      "nickname": "Papá de Perú",
+      "country_qid": "Q408",
+      "country_label": "أستراليا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q436144",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q796301",
+      "player_ar": "هيرنان ميدفورد",
+      "player_en": "Hernán Medford",
+      "nickname": "Pelícano",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "مهاجم",
+        "نصف الجناح"
+      ],
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q796301",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q128905",
+      "player_ar": "كينيث فيرمير",
+      "player_en": "Kenneth Vermeer",
+      "nickname": "Kleine Menzo",
+      "country_qid": "Q29999",
+      "country_label": "مملكة هولندا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q128905",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q176479",
+      "player_ar": "اندريس مزالي",
+      "player_en": "Andrés Mazali",
+      "nickname": "El Buzo",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q176479",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q365208",
+      "player_ar": "أدولفو فالنسيا",
+      "player_en": "Adolfo Valencia",
+      "nickname": "El Tren",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q365208",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 200
+    },
+    {
+      "qid": "Q507163",
+      "player_ar": "مارسيلو ديلجادو",
+      "player_en": "Marcelo Delgado",
+      "nickname": "El Chelo",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q507163",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q734558",
+      "player_ar": "روبرتو بيرفومو",
+      "player_en": "Roberto Perfumo",
+      "nickname": "El Mariscal",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q734558",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q88130791",
+      "player_ar": "كارلوس ألكاراز",
+      "player_en": "Carlos Alcaraz",
+      "nickname": "Charly",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q88130791",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2451439",
+      "player_ar": "خوان كارلوس أبلانيدو",
+      "player_en": "Juan Carlos Ablanedo",
+      "nickname": "El gato",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q2451439",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q377945",
+      "player_ar": "أدريان غونزاليز موراليس",
+      "player_en": "Adrián González",
+      "nickname": "La Mula",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q377945",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q440031",
+      "player_ar": "لوكا تشيغاريني",
+      "player_en": "Luca Cigarini",
+      "nickname": "Toscanini",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q440031",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q440097",
+      "player_ar": "فابيان مونزون",
+      "player_en": "Luciano Fabián Monzón",
+      "nickname": "El Granadero",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q440097",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q460177",
+      "player_ar": "إيمي رودريغز",
+      "player_en": "Amy Rodriguez",
+      "nickname": "A-Rod",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q460177",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q462224",
+      "player_ar": "باراسكيفاس أنتزاس",
+      "player_en": "Paraskevas Antzas",
+      "nickname": "Voulis",
+      "country_qid": "Q41",
+      "country_label": "اليونان",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q462224",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q672727",
+      "player_ar": "ليوبولد كيلهولتس",
+      "player_en": "Leopold Kielholz",
+      "nickname": "Poldi",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q672727",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q957219",
+      "player_ar": "خوسيه كوبيرو",
+      "player_en": "José Miguel Cubero",
+      "nickname": "Cucu",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q957219",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1370340",
+      "player_ar": "ستيف هايواي",
+      "player_en": "Steve Heighway",
+      "nickname": "Big Bamber",
+      "country_qid": "Q27",
+      "country_label": "أيرلندا",
+      "positions": [
+        "لاعب وسط",
+        "نصف الجناح"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q1370340",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q165048",
+      "player_ar": "خوان كارينو",
+      "player_en": "Juan Carreño",
+      "nickname": "Trompito",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q165048",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q327978",
+      "player_ar": "تومي لورنس",
+      "player_en": "Tommy Lawrence",
+      "nickname": "The Flying Pig",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q327978",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q461541",
+      "player_ar": "باول مكستاي",
+      "player_en": "Paul McStay",
+      "nickname": "the Maestro",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q461541",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q516192",
+      "player_ar": "Franck Sauzée",
+      "player_en": "Franck Sauzée",
+      "nickname": "Le God",
+      "country_qid": "Q142",
+      "country_label": "فرنسا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q516192",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q520731",
+      "player_ar": "خوان كارلوس أركي",
+      "player_en": "Juan Carlos Arce",
+      "nickname": "Conejo",
+      "country_qid": "Q750",
+      "country_label": "بوليفيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q520731",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q719481",
+      "player_ar": "بييترو باولو فيرديس",
+      "player_en": "Pietro Paolo Virdis",
+      "nickname": "Indiana Jones",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q719481",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q725602",
+      "player_ar": "سوفوس نيلسن",
+      "player_en": "Sophus Nielsen",
+      "nickname": "Krølben",
+      "country_qid": "Q756617",
+      "country_label": "مملكة الدنمارك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q725602",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q919302",
+      "player_ar": "لوفتر كيتوكوندايناس",
+      "player_en": "Lefter Küçükandonyadis",
+      "nickname": "Ordinaryus",
+      "country_qid": "Q43",
+      "country_label": "تركيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q919302",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1101626",
+      "player_ar": "كلينت ماثيس",
+      "player_en": "Clint Mathis",
+      "nickname": "Cletus",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q1101626",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1573323",
+      "player_ar": "يوسوكي إينوسوكا",
+      "player_en": "Yusuke Inuzuka",
+      "nickname": "ワンちゃん",
+      "country_qid": "Q17",
+      "country_label": "اليابان",
+      "positions": [
+        "stopper"
+      ],
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q1573323",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1850464",
+      "player_ar": "شيكابالا",
+      "player_en": "Shikabala",
+      "nickname": "El Apache",
+      "country_qid": "Q79",
+      "country_label": "مصر",
+      "positions": [
+        "جناح"
+      ],
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q1850464",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q24084221",
+      "player_ar": "دودو",
+      "player_en": "Domilson Cordeiro dos Santos",
+      "nickname": "Dodô",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q24084221",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q817228",
+      "player_ar": "Bengt Gustavsson",
+      "player_en": "Bengt Gustavsson",
+      "nickname": "Julle",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "centerhalf"
+      ],
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q817228",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q108304158",
+      "player_ar": "برتوغ يلدريم",
+      "player_en": "Bertuğ Yıldırım",
+      "nickname": "Yerli Haaland",
+      "country_qid": "Q43",
+      "country_label": "تركيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q108304158",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2287325",
+      "player_ar": "أنتوني دي أفيلا",
+      "player_en": "Ántony de Ávila",
+      "nickname": "El Pitufo",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q2287325",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2622297",
+      "player_ar": "ماريو دي لاس كاساس",
+      "player_en": "Mario de las Casas",
+      "nickname": "Agapito",
+      "country_qid": "Q419",
+      "country_label": "بيرو",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q2622297",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q270197",
+      "player_ar": "آن كريستين آرونس",
+      "player_en": "Ann Kristin Aarønes",
+      "nickname": "Anka",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q270197",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2714436",
+      "player_ar": "روميو بيليكياري",
+      "player_en": "Romeu Pellicciari",
+      "nickname": "Chubby",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q2714436",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2778257",
+      "player_ar": "أوسكار باغوي",
+      "player_en": "Óscar Bagüí",
+      "nickname": "Borbon",
+      "country_qid": "Q736",
+      "country_label": "الإكوادور",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q2778257",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q709585",
+      "player_ar": "Jan Åge Fjørtoft",
+      "player_en": "Jan Åge Fjørtoft",
+      "nickname": "Fjøra",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q709585",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q721072",
+      "player_ar": "جوستاف فيترستورم",
+      "player_en": "Gustav Wetterström",
+      "nickname": "Gutta",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q721072",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q721895",
+      "player_ar": "جورج أرمسترونغ",
+      "player_en": "George Armstrong",
+      "nickname": "Geordie",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q721895",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q972706",
+      "player_ar": "Pedro Arispe",
+      "player_en": "Pedro Arispe",
+      "nickname": "El Indio",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q972706",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1036844",
+      "player_ar": "فرنك هيرزر",
+      "player_en": "Ferenc Hirzer",
+      "nickname": "Kicsi",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q1036844",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q113400106",
+      "player_ar": "Jon Aramburu",
+      "player_en": "Jon Aramburu",
+      "nickname": "El búfalo",
+      "country_qid": "Q717",
+      "country_label": "فنزويلا",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q113400106",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1389230",
+      "player_ar": "خوان رامون فيرون",
+      "player_en": "Juan Ramón Verón",
+      "nickname": "La Bruja",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q1389230",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1479715",
+      "player_ar": "ستيفان أبادزيف",
+      "player_en": "Stefan Abadzhiev",
+      "nickname": "Teko",
+      "country_qid": "Q219",
+      "country_label": "بلغاريا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q1479715",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2205632",
+      "player_ar": "فاتسلاف ييزيك",
+      "player_en": "Václav Ježek",
+      "nickname": "Trener",
+      "country_qid": "Q33946",
+      "country_label": "تشيكوسلوفاكيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q2205632",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2480315",
+      "player_ar": "Magnar Isaksen",
+      "player_en": "Magnar Isaksen",
+      "nickname": "Reven",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q2480315",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2601993",
+      "player_ar": "إفراين سانشيز",
+      "player_en": "Efraín Sánchez",
+      "nickname": "El Caimán",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q2601993",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q3246391",
+      "player_ar": "توشيرو توموتشيكا",
+      "player_en": "Toshirō Tomochika",
+      "nickname": "ズーパー",
+      "country_qid": "Q17",
+      "country_label": "اليابان",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q3246391",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q494913",
+      "player_ar": "داليان أتكينسون",
+      "player_en": "Dalian Atkinson",
+      "nickname": "El Txipiron",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q494913",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q59160144",
+      "player_ar": "راشيل كوندانانجي",
+      "player_en": "Racheal Kundananji",
+      "nickname": "Ras",
+      "country_qid": "Q953",
+      "country_label": "زامبيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q59160144",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q966255",
+      "player_ar": "Domingo Tarasconi",
+      "player_en": "Domingo Tarasconi",
+      "nickname": "Tarasca",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q966255",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1115797",
+      "player_ar": "سفين أندرسون",
+      "player_en": "Sven Andersson",
+      "nickname": "Vrålis",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1115797",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1174396",
+      "player_ar": "ديفيد فيركلوف",
+      "player_en": "David Fairclough",
+      "nickname": "Supersub",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1174396",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1298693",
+      "player_ar": "إغون جونسون",
+      "player_en": "Egon Jönsson",
+      "nickname": "Todde",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1298693",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1317911",
+      "player_ar": "نايف هزازي",
+      "player_en": "Naif Hazazi",
+      "nickname": "Al Saqr",
+      "country_qid": "Q851",
+      "country_label": "السعودية",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1317911",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1336279",
+      "player_ar": "تورستن ليندبرغ",
+      "player_en": "Torsten Lindberg",
+      "nickname": "Lindy",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1336279",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1342500",
+      "player_ar": "ميرساد بالييتش",
+      "player_en": "Mirsad Baljić",
+      "nickname": "Žvaka",
+      "country_qid": "Q36704",
+      "country_label": "يوغوسلافيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1342500",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1377048",
+      "player_ar": "سوني أندرسون",
+      "player_en": "Sune Andersson",
+      "nickname": "Mona-Lisa",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1377048",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q16300975",
+      "player_ar": "كينر غوتيريز",
+      "player_en": "Kenner Gutiérrez",
+      "nickname": "Peluche",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "لاعب وسط",
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q16300975",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2168012",
+      "player_ar": "تيوفيل أبيغا",
+      "player_en": "Théophile Abega",
+      "nickname": "The Doctor",
+      "country_qid": "Q1009",
+      "country_label": "الكاميرون",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q2168012",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2410553",
+      "player_ar": "أوتو غلوريا",
+      "player_en": "Otto Glória",
+      "nickname": "Besta",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q2410553",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2625566",
+      "player_ar": "رومارينيو",
+      "player_en": "Romário Ricardo da Silva",
+      "nickname": "Romarinho",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q2625566",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2633064",
+      "player_ar": "عبد الله ليوجيون",
+      "player_en": "Abdellah Liegeon",
+      "nickname": "Doudou",
+      "country_qid": "Q262",
+      "country_label": "الجزائر",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q2633064",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q3310722",
+      "player_ar": "ايستيبان فيغو",
+      "player_en": "Esteban Vigo",
+      "nickname": "Boquerón",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q3310722",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q345736",
+      "player_ar": "جيمي بانكس",
+      "player_en": "Jimmy Banks",
+      "nickname": "Gee",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q345736",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q4017776",
+      "player_ar": "وليد الجاسم",
+      "player_en": "Waleed Al-Jasem",
+      "nickname": "المُعلِّم",
+      "country_qid": "Q817",
+      "country_label": "الكويت",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q4017776",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q635025",
+      "player_ar": "لودفيغ غولدبرونر",
+      "player_en": "Ludwig Goldbrunner",
+      "nickname": "Lutte",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q635025",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q657207",
+      "player_ar": "بيتر نوغلي",
+      "player_en": "Peter Nogly",
+      "nickname": "Eiche",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q657207",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q658710",
+      "player_ar": "نيلس إريكسن",
+      "player_en": "Nils Eriksen",
+      "nickname": "Påsan",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q658710",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q66311",
+      "player_ar": "رينهولد مونزينبيرغ",
+      "player_en": "Reinhold Münzenberg",
+      "nickname": "Der Eiserne",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q66311",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q694857",
+      "player_ar": "أرنولد بادجو",
+      "player_en": "Arnold Badjou",
+      "nickname": "Nolle",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q694857",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q817210",
+      "player_ar": "Bengt Berndtsson",
+      "player_en": "Bengt Berndtsson",
+      "nickname": "Fölet",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "جناح أيمن"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q817210",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q897070",
+      "player_ar": "برادلى رايت فيلبس",
+      "player_en": "Bradley Wright-Phillips",
+      "nickname": "BWP",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q897070",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q940818",
+      "player_ar": "نيكلاس باركروث",
+      "player_en": "Nicklas Bärkroth",
+      "nickname": "Bärka",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "left midfielder",
+        "نصف الجناح"
+      ],
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q940818",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2435591",
+      "player_ar": "كريستيان كاستانييدا",
+      "player_en": "Cristián Castañeda",
+      "nickname": "Scooby Doo",
+      "country_qid": "Q298",
+      "country_label": "تشيلي",
+      "positions": [
+        "ظهير",
+        "مدافع"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q2435591",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2633193",
+      "player_ar": "ألدو دونيلي",
+      "player_en": "Aldo Donelli",
+      "nickname": "Buff",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q2633193",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q47484764",
+      "player_ar": "كارلوس مارتينيز",
+      "player_en": "Carlos Martínez",
+      "nickname": "El NicaTico",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q47484764",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q579777",
+      "player_ar": "لازار سفيرا",
+      "player_en": "Lazăr Sfera",
+      "nickname": "Badea",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q579777",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q607288",
+      "player_ar": "بيري كيتشن",
+      "player_en": "Perry Kitchen",
+      "nickname": "Kevin",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q607288",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q673828",
+      "player_ar": "هانز ياكوب",
+      "player_en": "Hans Jakob",
+      "nickname": "Jahl",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q673828",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q72801",
+      "player_ar": "جورج فولكيرت",
+      "player_en": "Georg Volkert",
+      "nickname": "Schorsch",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q72801",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q746196",
+      "player_ar": "إستفان غيكسي",
+      "player_en": "István Géczi",
+      "nickname": "Vörös",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q746196",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q787073",
+      "player_ar": "Juan Tuñas",
+      "player_en": "Juan Tuñas",
+      "nickname": "Romperredes",
+      "country_qid": "Q241",
+      "country_label": "كوبا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q787073",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q901801",
+      "player_ar": "إرنو سوليموسي",
+      "player_en": "Ernő Solymosi",
+      "nickname": "Pixi",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q901801",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q927124",
+      "player_ar": "ألفريد إيسينبيسر",
+      "player_en": "Alfred Eisenbeisser",
+      "nickname": "Fredi",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q927124",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1060075",
+      "player_ar": "جينو كارولي",
+      "player_en": "Jenő Károly",
+      "nickname": "Tanár úr",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q1060075",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1377172",
+      "player_ar": "Stig Sundqvist",
+      "player_en": "Stig Sundqvist",
+      "nickname": "Vittjärv",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q1377172",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1581399",
+      "player_ar": "هانس ميلد",
+      "player_en": "Hans Mild",
+      "nickname": "Tjalle",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "جناح"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q1581399",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1995259",
+      "player_ar": "خورخي جريفا",
+      "player_en": "Jorge Griffa",
+      "nickname": "Coqui",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q1995259",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2003180",
+      "player_ar": "فالتر كولمان",
+      "player_en": "Walter Kollmann",
+      "nickname": "Bandy",
+      "country_qid": "Q40",
+      "country_label": "النمسا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2003180",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2448967",
+      "player_ar": "ألبيرو أوسورياجا",
+      "player_en": "Albeiro Usuriaga",
+      "nickname": "El Palomo",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2448967",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2457379",
+      "player_ar": "Alf Martinsen",
+      "player_en": "Alf Martinsen",
+      "nickname": "Kaka",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2457379",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2460717",
+      "player_ar": "خوسيه غونزاليس غانوزا",
+      "player_en": "José González Ganoza",
+      "nickname": "Caíco",
+      "country_qid": "Q419",
+      "country_label": "بيرو",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2460717",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2635474",
+      "player_ar": "بروفوسلاف ميهايلوفتش",
+      "player_en": "Prvoslav Mihajlović",
+      "nickname": "Boba",
+      "country_qid": "Q36704",
+      "country_label": "يوغوسلافيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2635474",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q266020",
+      "player_ar": "جول بابارت",
+      "player_en": "Jules Pappaert",
+      "nickname": "Pataat",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q266020",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2712389",
+      "player_ar": "خورخي غونغورا",
+      "player_en": "Jorge Góngora",
+      "nickname": "Fundador",
+      "country_qid": "Q419",
+      "country_label": "بيرو",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2712389",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q390029",
+      "player_ar": "لويس غيرفازوني",
+      "player_en": "Luiz Gervazoni",
+      "nickname": "Itália",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q390029",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q536531",
+      "player_ar": "أسبغورن هالفورسن",
+      "player_en": "Asbjørn Halvorsen",
+      "nickname": "Assi",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q536531",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q641672",
+      "player_ar": "لويس راميريز زاباتا",
+      "player_en": "Luis Ramírez Zapata",
+      "nickname": "El Pelé",
+      "country_qid": "Q792",
+      "country_label": "السلفادور",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q641672",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q720131",
+      "player_ar": "إيوان أندوني",
+      "player_en": "Ioan Andone",
+      "nickname": "Fălcosu",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q720131",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1138843",
+      "player_ar": "راؤول ماغانيا",
+      "player_en": "Raúl Magaña",
+      "nickname": "Araña",
+      "country_qid": "Q792",
+      "country_label": "السلفادور",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q1138843",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1192784",
+      "player_ar": "كيث غامبز",
+      "player_en": "Keith Gumbs",
+      "nickname": "Kayamba",
+      "country_qid": "Q763",
+      "country_label": "سانت كيتس ونيفيس",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q1192784",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1291023",
+      "player_ar": "إدواردو هورتادو",
+      "player_en": "Eduardo Hurtado",
+      "nickname": "El Tanque",
+      "country_qid": "Q736",
+      "country_label": "الإكوادور",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q1291023",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1651788",
+      "player_ar": "ميرسيا ديفيد",
+      "player_en": "Mircea David",
+      "nickname": "Il Dio Zeul",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q1651788",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q16935088",
+      "player_ar": "كيمر لورنس",
+      "player_en": "Kemar Lawrence",
+      "nickname": "Taxi",
+      "country_qid": "Q766",
+      "country_label": "جامايكا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q16935088",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2262246",
+      "player_ar": "Silvio Longobucco",
+      "player_en": "Silvio Longobucco",
+      "nickname": "Ossobuco",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q2262246",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2495738",
+      "player_ar": "ألبيرت هيريمانز",
+      "player_en": "Albert Heremans",
+      "nickname": "Berre",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q2495738",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2527671",
+      "player_ar": "هكتور زيلايا",
+      "player_en": "Héctor Ramón Zelaya",
+      "nickname": "Pecho de Águila",
+      "country_qid": "Q783",
+      "country_label": "هندوراس",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q2527671",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q262607",
+      "player_ar": "جيرالدو فرنسيسكو دوس سانتوس",
+      "player_en": "Geraldo Francisco dos Santos",
+      "nickname": "Zizinho",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q262607",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2633200",
+      "player_ar": "فرانسيس ريان",
+      "player_en": "Francis Ryan",
+      "nickname": "Hun",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q2633200",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q2697499",
+      "player_ar": "خاسينتو فيلالبا",
+      "player_en": "Jacinto Villalba",
+      "nickname": "Hincho",
+      "country_qid": "Q733",
+      "country_label": "باراغواي",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q2697499",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q317327",
+      "player_ar": "يوليوس هيرش",
+      "player_en": "Julius Hirsch",
+      "nickname": "Juller",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q317327",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q353325",
+      "player_ar": "بيرغر روسينغرين",
+      "player_en": "Birger Rosengren",
+      "nickname": "Bian",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q353325",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q3857932",
+      "player_ar": "ميلكو غايدارسكي",
+      "player_en": "Milko Gaydarski",
+      "nickname": "Пилето",
+      "country_qid": "Q219",
+      "country_label": "بلغاريا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q3857932",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q455771",
+      "player_ar": "كانداس شابمان",
+      "player_en": "Candace Chapman",
+      "nickname": "Chappie",
+      "country_qid": "Q16",
+      "country_label": "كندا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q455771",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q456475",
+      "player_ar": "ليوناردو كويار",
+      "player_en": "Leonardo Cuéllar",
+      "nickname": "León de la Metro",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q456475",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q525286",
+      "player_ar": "تشارلي كولومبو",
+      "player_en": "Charlie Colombo",
+      "nickname": "Gloves",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q525286",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q540382",
+      "player_ar": "هوغو فيلافيردي",
+      "player_en": "Hugo Villaverde",
+      "nickname": "Magoo",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q540382",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q59656521",
+      "player_ar": "فيليب ستيفانوفيتش",
+      "player_en": "Filip Stevanović",
+      "nickname": "Fića",
+      "country_qid": "Q403",
+      "country_label": "صربيا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q59656521",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q656876",
+      "player_ar": "أماديو أورتيغا",
+      "player_en": "Amadeo Ortega",
+      "nickname": "Cambai",
+      "country_qid": "Q733",
+      "country_label": "باراغواي",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q656876",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q761533",
+      "player_ar": "نيكولا كوفاشيف",
+      "player_en": "Nikola Kovachev",
+      "nickname": "Tulata",
+      "country_qid": "Q219",
+      "country_label": "بلغاريا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q761533",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q947289",
+      "player_ar": "Gerard Cieślik",
+      "player_en": "Gerard Cieślik",
+      "nickname": "Gienek",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q947289",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q973445",
+      "player_ar": "لويس بيريز",
+      "player_en": "Luis Pérez",
+      "nickname": "Pichojos",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q973445",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1172538",
+      "player_ar": "نوفاك توميتش",
+      "player_en": "Novak Tomić",
+      "nickname": "Krca",
+      "country_qid": "Q36704",
+      "country_label": "يوغوسلافيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q1172538",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1565534",
+      "player_ar": "لويس ريغييرو",
+      "player_en": "Luis Regueiro",
+      "nickname": "El Corzo",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q1565534",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 400
+    },
+    {
+      "qid": "Q1731359",
+      "player_ar": "كارل غوستافسون",
+      "player_en": "Karl Gustafsson",
+      "nickname": "Kalle Köping",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q1731359",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2019686",
+      "player_ar": "هنري دي ديكين",
+      "player_en": "Henri De Deken",
+      "nickname": "Rik",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q2019686",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2457820",
+      "player_ar": "Joffre Guerrón",
+      "player_en": "Joffre Guerrón",
+      "nickname": "El Dinamita",
+      "country_qid": "Q736",
+      "country_label": "الإكوادور",
+      "positions": [
+        "لاعب وسط",
+        "نصف الجناح"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q2457820",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2705368",
+      "player_ar": "رادومير فوكسيفيتش",
+      "player_en": "Radomir Vukčević",
+      "nickname": "Vučko",
+      "country_qid": "Q83286",
+      "country_label": "جمهورية يوغسلافيا الاشتراكية الاتحادية",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q2705368",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3512870",
+      "player_ar": "Ivan Jazbinšek",
+      "player_en": "Ivan Jazbinšek",
+      "nickname": "Oskar",
+      "country_qid": "Q36704",
+      "country_label": "يوغوسلافيا",
+      "positions": [
+        "لاعب وسط",
+        "مدافع"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q3512870",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3810912",
+      "player_ar": "خوان رامون مارتينيز",
+      "player_en": "Juan Ramón Martínez",
+      "nickname": "Mon",
+      "country_qid": "Q792",
+      "country_label": "السلفادور",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q3810912",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q384417",
+      "player_ar": "إشتڤان ناج",
+      "player_en": "István Nagy",
+      "nickname": "Paróka",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q384417",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q4965230",
+      "player_ar": "بريان شميتزير",
+      "player_en": "Brian Schmetzer",
+      "nickname": "Mr. Seattle",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط",
+        "مهاجم"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q4965230",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q540249",
+      "player_ar": "Gustau Biosca",
+      "player_en": "Gustau Biosca",
+      "nickname": "Gitano",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q540249",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q558351",
+      "player_ar": "István Tóth",
+      "player_en": "István Tóth",
+      "nickname": "Potya",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q558351",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q602341",
+      "player_ar": "إيلياس باشيتش",
+      "player_en": "Ilijas Pašić",
+      "nickname": "Paja",
+      "country_qid": "Q36704",
+      "country_label": "يوغوسلافيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q602341",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q686716",
+      "player_ar": "Karl Elsener",
+      "player_en": "Karl Elsener",
+      "nickname": "Charly National",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q686716",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q720741",
+      "player_ar": "جورج اريكسون",
+      "player_en": "Georg Ericson",
+      "nickname": "Åby",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q720741",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q768428",
+      "player_ar": "Charles Casali",
+      "player_en": "Charles Casali",
+      "nickname": "Schärlu",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q768428",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q971253",
+      "player_ar": "ألفريدو توريس",
+      "player_en": "Alfredo Torres",
+      "nickname": "El Pistache",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q971253",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1153455",
+      "player_ar": "سباستيان رامبرتو",
+      "player_en": "Esteban Staniscia",
+      "nickname": "Avioncito",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q1153455",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1675514",
+      "player_ar": "إيفان بودان",
+      "player_en": "Ivan Bodin",
+      "nickname": "Bodde",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مدافع",
+        "مهاجم صريح"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q1675514",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1777645",
+      "player_ar": "كنوت هانسون",
+      "player_en": "Knut Hansson",
+      "nickname": "Buckla",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q1777645",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q203372",
+      "player_ar": "كاتالين بالينجر",
+      "player_en": "Katalin Pálinger",
+      "nickname": "Ginnie",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q203372",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2464025",
+      "player_ar": "ألون مزراحي",
+      "player_en": "Alon Mizrahi",
+      "nickname": "האווירון",
+      "country_qid": "Q801",
+      "country_label": "إسرائيل",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q2464025",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2480519",
+      "player_ar": "فريدريك هورن",
+      "player_en": "Fredrik Horn",
+      "nickname": "Fingen",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q2480519",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q4968337",
+      "player_ar": "Siri Mullinix",
+      "player_en": "Siri Mullinix",
+      "nickname": "SeerDog",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q4968337",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q4979204",
+      "player_ar": "بول بيدرسن",
+      "player_en": "Poul Pedersen",
+      "nickname": "Polle",
+      "country_qid": "Q756617",
+      "country_label": "مملكة الدنمارك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q4979204",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q505430",
+      "player_ar": "Felipe Ruvalcaba",
+      "player_en": "Felipe Ruvalcaba",
+      "nickname": "Pipis",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q505430",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q505618",
+      "player_ar": "José Naranjo",
+      "player_en": "José Naranjo",
+      "nickname": "Chepe",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q505618",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q5400776",
+      "player_ar": "إستيبان درير",
+      "player_en": "Esteban Dreer",
+      "nickname": "Rifle",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q5400776",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q603767",
+      "player_ar": "انطونيو مونغيا",
+      "player_en": "Antonio Munguía",
+      "nickname": "El Negró",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q603767",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q606429",
+      "player_ar": "Arkadiusz Onyszko",
+      "player_en": "Arkadiusz Onyszko",
+      "nickname": "Arek",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q606429",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q64074",
+      "player_ar": "Ludwig Kögl",
+      "player_en": "Ludwig Kögl",
+      "nickname": "Wiggerl",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q64074",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q74734",
+      "player_ar": "أوغينيوز فابر",
+      "player_en": "Eugeniusz Faber",
+      "nickname": "Ojga",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q74734",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q767441",
+      "player_ar": "ألبرتو ساينز",
+      "player_en": "Alberto Sainz",
+      "nickname": "Nicha",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q767441",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q927023",
+      "player_ar": "Sten Pålsson",
+      "player_en": "Sten Pålsson",
+      "nickname": "Pålle",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 15,
+      "source_url": "https://www.wikidata.org/wiki/Q927023",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1353833",
+      "player_ar": "إريك بيرجستروم",
+      "player_en": "Erik Bergström",
+      "nickname": "Backen",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q1353833",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1370058",
+      "player_ar": "Per Kaufeldt",
+      "player_en": "Per Kaufeldt",
+      "nickname": "Pära",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q1370058",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q16230236",
+      "player_ar": "خوسي مانويل رودريغز",
+      "player_en": "José Manuel Rodríguez Benito",
+      "nickname": "Chema",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q16230236",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2301459",
+      "player_ar": "كايزر جونيور",
+      "player_en": "Kaizer Motaung",
+      "nickname": "Chincha Guluva",
+      "country_qid": "Q258",
+      "country_label": "جنوب إفريقيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q2301459",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2348130",
+      "player_ar": "Erik Bergqvist",
+      "player_en": "Erik Bergqvist",
+      "nickname": "Берка",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q2348130",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2355053",
+      "player_ar": "ألكسندر ميسا",
+      "player_en": "Mariano González Maroto",
+      "nickname": "Nano",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "ظهير"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q2355053",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2557760",
+      "player_ar": "Jorge Alcalde",
+      "player_en": "Jorge Alcalde",
+      "nickname": "Campolo",
+      "country_qid": "Q419",
+      "country_label": "بيرو",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q2557760",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2635291",
+      "player_ar": "لوي غوبيه",
+      "player_en": "Louis Gobet",
+      "nickname": "Ludi",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q2635291",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3434322",
+      "player_ar": "Paul Fässler",
+      "player_en": "Paul Fässler",
+      "nickname": "Bölle",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q3434322",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q348694",
+      "player_ar": "روجر كاناس",
+      "player_en": "Roger Cañas",
+      "nickname": "Ихо",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q348694",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q349463",
+      "player_ar": "Fritjof Hillén",
+      "player_en": "Fritjof Hillén",
+      "nickname": "Fritte",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q349463",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3499427",
+      "player_ar": "ستيغ بيترسون",
+      "player_en": "Stig Pettersson",
+      "nickname": "Stickan",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q3499427",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q353795",
+      "player_ar": "غونار هولمبرغ",
+      "player_en": "Gunnar Holmberg",
+      "nickname": "Bajadären",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "centerhalf"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q353795",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q511577",
+      "player_ar": "ميغيل غوتيريز",
+      "player_en": "Miguel Gutiérrez",
+      "nickname": "El Mulo",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "مدافع",
+        "مهاجم"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q511577",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q53855488",
+      "player_ar": "مجاهد صديق إليو",
+      "player_en": "Mujaid Sadick Aliu",
+      "nickname": "Pipita",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q53855488",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q55238094",
+      "player_ar": "كريستوفر فيلدي",
+      "player_en": "Kristoffer Velde",
+      "nickname": "Veldinho",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q55238094",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q783216",
+      "player_ar": "فرانسيسكو روكا",
+      "player_en": "Francesco Rocca",
+      "nickname": "Kawasaki",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q783216",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q951404",
+      "player_ar": "Gábor Obitz",
+      "player_en": "Gábor Obitz",
+      "nickname": "Apa",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 14,
+      "source_url": "https://www.wikidata.org/wiki/Q951404",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1990293",
+      "player_ar": "لويز ريبيرو بينتو نيتو",
+      "player_en": "Luiz Ribeiro Pinto Neto",
+      "nickname": "Lula",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q1990293",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2278399",
+      "player_ar": "Stefano Desideri",
+      "player_en": "Stefano Desideri",
+      "nickname": "Cicciobello",
+      "country_qid": "Q38",
+      "country_label": "إيطاليا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q2278399",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q24577799",
+      "player_ar": "باكيري جاتا",
+      "player_en": "Bakery Jatta",
+      "nickname": "Kanu",
+      "country_qid": "Q1005",
+      "country_label": "غامبيا",
+      "positions": [
+        "جناح"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q24577799",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q28674259",
+      "player_ar": "باتريك كليمالا",
+      "player_en": "Patryk Klimala",
+      "nickname": "The Devil",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q28674259",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q326990",
+      "player_ar": "هنري بارد",
+      "player_en": "Henri Bard",
+      "nickname": "Cadum",
+      "country_qid": "Q142",
+      "country_label": "فرنسا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q326990",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3680861",
+      "player_ar": "كلايف باركر",
+      "player_en": "Clive Barker",
+      "nickname": "The Dog",
+      "country_qid": "Q258",
+      "country_label": "جنوب إفريقيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q3680861",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3726144",
+      "player_ar": "إنريكي غارسيا",
+      "player_en": "Enrique García",
+      "nickname": "Chueco",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q3726144",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q373761",
+      "player_ar": "Georges Hebdin",
+      "player_en": "Georges Hebdin",
+      "nickname": "Georgy",
+      "country_qid": "Q31",
+      "country_label": "بلجيكا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q373761",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3792243",
+      "player_ar": "Ignacio Agirrezabala",
+      "player_en": "Ignacio Agirrezabala",
+      "nickname": "Txirri II",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q3792243",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q460013",
+      "player_ar": "لوري ليندسي",
+      "player_en": "Lori Lindsey",
+      "nickname": "Lightning",
+      "country_qid": "Q30",
+      "country_label": "الولايات المتحدة",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q460013",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q525082",
+      "player_ar": "ريكاردو فيريرا دا سيلفا",
+      "player_en": "Ricardo Ferreira da Silva",
+      "nickname": "Ricardinho",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q525082",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q570500",
+      "player_ar": "ساندور كاتونا",
+      "player_en": "Sándor Katona",
+      "nickname": "Gatya",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q570500",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q6246247",
+      "player_ar": "جون ماكنزي",
+      "player_en": "John MacKenzie",
+      "nickname": "Firhill Flyer",
+      "country_qid": "Q145",
+      "country_label": "المملكة المتحدة",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q6246247",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q839936",
+      "player_ar": "إيمري راب",
+      "player_en": "Imre Rapp",
+      "nickname": "Kócos",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q839936",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q940763",
+      "player_ar": "مامادو ديالو",
+      "player_en": "Mamadou Diallo",
+      "nickname": "Big Mama",
+      "country_qid": "Q912",
+      "country_label": "مالي",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q940763",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q983146",
+      "player_ar": "تمبينكوسي فانتيني",
+      "player_en": "Thembinkosi Fanteni",
+      "nickname": "Terror",
+      "country_qid": "Q258",
+      "country_label": "جنوب إفريقيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 13,
+      "source_url": "https://www.wikidata.org/wiki/Q983146",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1151154",
+      "player_ar": "كاتلين مونتيانو",
+      "player_en": "Cătălin Munteanu",
+      "nickname": "cap de zmeu",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q1151154",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1749041",
+      "player_ar": "Nando Yosu",
+      "player_en": "Nando Yosu",
+      "nickname": "El brujo de Munguía",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q1749041",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1751728",
+      "player_ar": "هنري زامبرانو",
+      "player_en": "Henry Zambrano",
+      "nickname": "El Ferry",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q1751728",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q18045447",
+      "player_ar": "ديفيد راميريز",
+      "player_en": "David Ramírez",
+      "nickname": "Chícharo",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q18045447",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2316906",
+      "player_ar": "أوسكار غوميز سانشيز",
+      "player_en": "Óscar Gómez Sánchez",
+      "nickname": "Huaqui",
+      "country_qid": "Q419",
+      "country_label": "بيرو",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q2316906",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2334382",
+      "player_ar": "Ergilio Hato",
+      "player_en": "Ergilio Hato",
+      "nickname": "Pantera Negra",
+      "country_qid": "Q29999",
+      "country_label": "مملكة هولندا",
+      "positions": [
+        "حارس مرمى",
+        "مهاجم"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q2334382",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q26704582",
+      "player_ar": "Ronaldo Deaconu",
+      "player_en": "Ronaldo Deaconu",
+      "nickname": "Rony",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q26704582",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3434101",
+      "player_ar": "سفين يندكفيست",
+      "player_en": "Sven Lindqvist",
+      "nickname": "Linkan",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q3434101",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q352735",
+      "player_ar": "ماغنوس يوهانسون",
+      "player_en": "Magnus Johansson",
+      "nickname": "Ölme",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q352735",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3784422",
+      "player_ar": "هينريتش مولر",
+      "player_en": "Heinrich Müller",
+      "nickname": "Henry",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q3784422",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3905323",
+      "player_ar": "كارلوس ألبرتو غوميز مونتيرو",
+      "player_en": "Carlos Alberto Pintinho",
+      "nickname": "Holandês do Borel",
+      "country_qid": "Q155",
+      "country_label": "البرازيل",
+      "positions": [
+        "لاعب وسط",
+        "مدافع"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q3905323",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3942718",
+      "player_ar": "Rune Emanuelsson",
+      "player_en": "Rune Emanuelsson",
+      "nickname": "Killing",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q3942718",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q54074580",
+      "player_ar": "ريكاردو جريجوري",
+      "player_en": "Ricardo Grigore",
+      "nickname": "Ricci",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q54074580",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q571962",
+      "player_ar": "Dezső Lauber",
+      "player_en": "Dezső Lauber",
+      "nickname": "Decskó",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q571962",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q58756956",
+      "player_ar": "أدريان بينيديتشاك",
+      "player_en": "Adrian Benedyczak",
+      "nickname": "Benek",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q58756956",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q664798",
+      "player_ar": "José Vanzzino",
+      "player_en": "José Vanzzino",
+      "nickname": "Cochemba",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q664798",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q7155168",
+      "player_ar": "باولو أنطونيو ألفيس",
+      "player_en": "Paulo António Alves",
+      "nickname": "Paulão",
+      "country_qid": "Q916",
+      "country_label": "أنغولا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q7155168",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q9283243",
+      "player_ar": "سباستيان جايمي",
+      "player_en": "Sebastián Jaime",
+      "nickname": "El Tomas Vargas Argentino",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 12,
+      "source_url": "https://www.wikidata.org/wiki/Q9283243",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q12275928",
+      "player_ar": "Gavril Stoyanov",
+      "player_en": "Gavril Stoyanov",
+      "nickname": "Gatso",
+      "country_qid": "Q219",
+      "country_label": "بلغاريا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q12275928",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q14594469",
+      "player_ar": "Mária Korenčiová",
+      "player_en": "Mária Korenčiová",
+      "nickname": "Majka",
+      "country_qid": "Q214",
+      "country_label": "سلوفاكيا",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q14594469",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q16160212",
+      "player_ar": "كارل أندرسون (لاعب كرة قدم سويدي)",
+      "player_en": "Karl-Erik Andersson",
+      "nickname": "Cacka",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q16160212",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2435915",
+      "player_ar": "رودريغو رويز",
+      "player_en": "Rodrigo Ruiz",
+      "nickname": "Pony",
+      "country_qid": "Q298",
+      "country_label": "تشيلي",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q2435915",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2699931",
+      "player_ar": "مارسين جاوتشا",
+      "player_en": "Marcin Jałocha",
+      "nickname": "Jałoszkin",
+      "country_qid": "Q36",
+      "country_label": "بولندا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q2699931",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q282100",
+      "player_ar": "Carlos Marinelli",
+      "player_en": "Carlos Marinelli",
+      "nickname": "el Carli",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q282100",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q285965",
+      "player_ar": "Émile Hamilius",
+      "player_en": "Émile Hamilius",
+      "nickname": "Mulles",
+      "country_qid": "Q32",
+      "country_label": "لوكسمبورغ",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q285965",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q314443",
+      "player_ar": "Willi Lippens",
+      "player_en": "Willi Lippens",
+      "nickname": "Ente",
+      "country_qid": "Q29999",
+      "country_label": "مملكة هولندا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q314443",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3899470",
+      "player_ar": "بير هينركسن",
+      "player_en": "Per Henriksen",
+      "nickname": "Pesien",
+      "country_qid": "Q20",
+      "country_label": "النرويج",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q3899470",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q429432",
+      "player_ar": "Peter Risi",
+      "player_en": "Peter Risi",
+      "nickname": "Schützenwiesel",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q429432",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q4776674",
+      "player_ar": "أنطونيو غونزاليس ألفاريز",
+      "player_en": "Antonio González Álvarez",
+      "nickname": "Chuzo",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q4776674",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q60215515",
+      "player_ar": "علاء عباس",
+      "player_en": "Alaa Abbas",
+      "nickname": "الاباتشي",
+      "country_qid": "Q796",
+      "country_label": "العراق",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q60215515",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q7235517",
+      "player_ar": "بول أندرسن",
+      "player_en": "Poul Andersen",
+      "nickname": "Løve",
+      "country_qid": "Q756617",
+      "country_label": "مملكة الدنمارك",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q7235517",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q7363412",
+      "player_ar": "روبيليو كاستيو",
+      "player_en": "Rubilio Castillo",
+      "nickname": "Rubigol",
+      "country_qid": "Q783",
+      "country_label": "هندوراس",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q7363412",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q803941",
+      "player_ar": "János Biri",
+      "player_en": "János Biri",
+      "nickname": "Tarka",
+      "country_qid": "Q28",
+      "country_label": "المجر",
+      "positions": [
+        "حارس مرمى"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q803941",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q930348",
+      "player_ar": "أندريس أوروزكو",
+      "player_en": "Andrés Orozco",
+      "nickname": "Coron",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 11,
+      "source_url": "https://www.wikidata.org/wiki/Q930348",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q105076942",
+      "player_ar": "Wikelman Carmona",
+      "player_en": "Wikelman Carmona",
+      "nickname": "Wiki",
+      "country_qid": "Q717",
+      "country_label": "فنزويلا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q105076942",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1158981",
+      "player_ar": "دان اليكس",
+      "player_en": "Dan Alexa",
+      "nickname": "Chirurgul",
+      "country_qid": "Q218",
+      "country_label": "رومانيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q1158981",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q12263008",
+      "player_ar": "Marcelino Agirrezabala",
+      "player_en": "Marcelino Agirrezabala",
+      "nickname": "Txirri I",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q12263008",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q1369162",
+      "player_ar": "Þórður Guðjónsson",
+      "player_en": "Þórður Guðjónsson",
+      "nickname": "Doddi",
+      "country_qid": "Q189",
+      "country_label": "آيسلندا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q1369162",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q15519098",
+      "player_ar": "خافيير فرنانديز",
+      "player_en": "Javier Fernández Abruñedo",
+      "nickname": "Bicho",
+      "country_qid": "Q889",
+      "country_label": "أفغانستان",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q15519098",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q174878",
+      "player_ar": "ألبرت اولسون",
+      "player_en": "Albert Olsson",
+      "nickname": "Abben",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q174878",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2006157",
+      "player_ar": "نيكولاس فريتاس",
+      "player_en": "Nicolás Freitas",
+      "nickname": "Compás",
+      "country_qid": "Q77",
+      "country_label": "الأوروغواي",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q2006157",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2038702",
+      "player_ar": "أوتو فيشر",
+      "player_en": "Otto Fischer",
+      "nickname": "Schloime",
+      "country_qid": "Q40",
+      "country_label": "النمسا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q2038702",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q20641131",
+      "player_ar": "خافيير إدواردو لوبيز",
+      "player_en": "Javier Eduardo López",
+      "nickname": "La Chofis",
+      "country_qid": "Q96",
+      "country_label": "المكسيك",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q20641131",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q2325844",
+      "player_ar": "ألكسيس غارسيا",
+      "player_en": "Alexis García",
+      "nickname": "El Capitan",
+      "country_qid": "Q739",
+      "country_label": "كولومبيا",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q2325844",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q24451672",
+      "player_ar": "فيتي",
+      "player_en": "Víctor Álvarez Rozada",
+      "nickname": "la bala de Llaviana",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "نصف الجناح"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q24451672",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q270861",
+      "player_ar": "أكي أندرسون",
+      "player_en": "Åke Andersson",
+      "nickname": "Plutten",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q270861",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3779896",
+      "player_ar": "Gustav Gottenkieny",
+      "player_en": "Gustav Gottenkieny",
+      "nickname": "Guschti",
+      "country_qid": "Q39",
+      "country_label": "سويسرا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q3779896",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q3826163",
+      "player_ar": "غوستافو لومباردي",
+      "player_en": "Gustavo Lombardi",
+      "nickname": "La virgen del gol",
+      "country_qid": "Q414",
+      "country_label": "الأرجنتين",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q3826163",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q468359",
+      "player_ar": "Wilhelm Simetsreiter",
+      "player_en": "Wilhelm Simetsreiter",
+      "nickname": "Schimmy",
+      "country_qid": "Q183",
+      "country_label": "ألمانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q468359",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q4802409",
+      "player_ar": "Arvid Fagrell",
+      "player_en": "Arvid Fagrell",
+      "nickname": "Dompan",
+      "country_qid": "Q34",
+      "country_label": "السويد",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q4802409",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q55640530",
+      "player_ar": "ستويتشكوف",
+      "player_en": "Juan Diego Molina",
+      "nickname": "Stoichkov",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q55640530",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q5621170",
+      "player_ar": "غوستاف ليتشنر",
+      "player_en": "Gustav Lechner",
+      "nickname": "Lembika",
+      "country_qid": "Q83286",
+      "country_label": "جمهورية يوغسلافيا الاشتراكية الاتحادية",
+      "positions": [
+        "لاعب وسط"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q5621170",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q5937697",
+      "player_ar": "خوسيه أنطونيو باريوس",
+      "player_en": "José Antonio Barrios",
+      "nickname": "Tigre",
+      "country_qid": "Q29",
+      "country_label": "إسبانيا",
+      "positions": [
+        "مهاجم"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q5937697",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    },
+    {
+      "qid": "Q6165485",
+      "player_ar": "خافيير ديلغادو برادو",
+      "player_en": "Javier Delgado",
+      "nickname": "Sheriff",
+      "country_qid": "Q800",
+      "country_label": "كوستاريكا",
+      "positions": [
+        "مدافع"
+      ],
+      "sitelinks": 10,
+      "source_url": "https://www.wikidata.org/wiki/Q6165485",
+      "claims": {
+        "nickname": "P1449",
+        "country": "P27",
+        "position": "P413"
+      },
+      "difficulty": 600
+    }
+  ]
+}

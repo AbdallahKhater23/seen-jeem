@@ -1,0 +1,2973 @@
+{
+  "snapshot_version": 1,
+  "generator": "harvest_fact_snapshots.py",
+  "retrieved_at": "2026-10-20T20:49:40+00:00",
+  "source": {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "sparql_endpoint": "https://query.wikidata.org/sparql",
+    "license": "CC0 1.0 (Wikidata structured data)",
+    "access": "public SPARQL + wbgetentities API"
+  },
+  "filters": {
+    "single_human_founder": true,
+    "single_country": true,
+    "single_inception_year": true,
+    "industry_qids": [
+      "Q880371",
+      "Q21157865",
+      "Q56611700",
+      "Q132898730",
+      "Q5358497",
+      "Q2986369",
+      "Q941594"
+    ]
+  },
+  "companies": [
+    {
+      "qid": "Q160120",
+      "label_ar": "هواوي",
+      "label_en": "Huawei",
+      "founder_qid": "Q712802",
+      "founder_label_ar": "رن تشنغ فاي",
+      "founder_label_en": "Ren Zhengfei",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "1987",
+      "sitelinks": 95,
+      "source_url": "https://www.wikidata.org/wiki/Q160120",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q14799",
+      "label_ar": "لينوفو",
+      "label_en": "Lenovo",
+      "founder_qid": "Q1045031",
+      "founder_label_ar": "Liu Chuanzhi",
+      "founder_label_en": "Liu Chuanzhi",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "1984",
+      "sitelinks": 83,
+      "source_url": "https://www.wikidata.org/wiki/Q14799",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q53247",
+      "label_ar": "باناسونيك",
+      "label_en": "Panasonic Holdings Corporation",
+      "founder_qid": "Q252785",
+      "founder_label_ar": "كونوسكه ماتسوشيتا",
+      "founder_label_en": "Kōnosuke Matsushita",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1918",
+      "sitelinks": 79,
+      "source_url": "https://www.wikidata.org/wiki/Q53247",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q81230",
+      "label_ar": "سيمنز",
+      "label_en": "Siemens",
+      "founder_qid": "Q58577",
+      "founder_label_ar": "إيرنست فيرنر فون سيمنز",
+      "founder_label_en": "Werner von Siemens",
+      "country_qid": "Q183",
+      "country_label_ar": "ألمانيا",
+      "country_label_en": "Germany",
+      "inception_year": "1847",
+      "sitelinks": 79,
+      "source_url": "https://www.wikidata.org/wiki/Q81230",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q173941",
+      "label_ar": "إلكترونيك آرتس",
+      "label_en": "Electronic Arts",
+      "founder_qid": "Q460459",
+      "founder_label_ar": "تريب هوكينز",
+      "founder_label_en": "Trip Hawkins",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1982",
+      "sitelinks": 71,
+      "source_url": "https://www.wikidata.org/wiki/Q173941",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q178824",
+      "label_ar": "بليزارد إنترتينمنت",
+      "label_en": "Blizzard Entertainment",
+      "founder_qid": "Q52994",
+      "founder_label_ar": "مايكل مورهايم",
+      "founder_label_en": "Michael Morhaime",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1991",
+      "sitelinks": 63,
+      "source_url": "https://www.wikidata.org/wiki/Q178824",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q481778",
+      "label_ar": "آيسر",
+      "label_en": "Acer",
+      "founder_qid": "Q716952",
+      "founder_label_ar": "ستان شيه",
+      "founder_label_en": "Stan Shih",
+      "country_qid": "Q865",
+      "country_label_ar": "تايوان",
+      "country_label_en": "Taiwan",
+      "inception_year": "1976",
+      "sitelinks": 61,
+      "source_url": "https://www.wikidata.org/wiki/Q481778",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q20718",
+      "label_ar": "إلكترونيات سامسونج",
+      "label_en": "Samsung Electronics",
+      "founder_qid": "Q445643",
+      "founder_label_ar": "لي بيونغ تشول",
+      "founder_label_en": "Lee Byung-chul",
+      "country_qid": "Q884",
+      "country_label_ar": "كوريا الجنوبية",
+      "country_label_en": "South Korea",
+      "inception_year": "1969",
+      "sitelinks": 60,
+      "source_url": "https://www.wikidata.org/wiki/Q20718",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q45700",
+      "label_ar": "كونامي",
+      "label_en": "Konami",
+      "founder_qid": "Q11359112",
+      "founder_label_ar": "Kagemasa Kozuki",
+      "founder_label_en": "Kagemasa Kozuki",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1969",
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q45700",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q14428",
+      "label_ar": "كابكوم",
+      "label_en": "Capcom",
+      "founder_qid": "Q11638233",
+      "founder_label_ar": "تسوجيموتو كينزو",
+      "founder_label_en": "Kenzō Tsujimoto",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1979",
+      "sitelinks": 58,
+      "source_url": "https://www.wikidata.org/wiki/Q14428",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q53227",
+      "label_ar": "شركة شارب",
+      "label_en": "Sharp Corporation",
+      "founder_qid": "Q722643",
+      "founder_label_ar": "توكوجي هاياكاوا",
+      "founder_label_en": "Tokuji Hayakawa",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1912",
+      "sitelinks": 58,
+      "source_url": "https://www.wikidata.org/wiki/Q53227",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q217365",
+      "label_ar": "مختبرات بل",
+      "label_en": "Bell Labs",
+      "founder_qid": "Q34286",
+      "founder_label_ar": "ألكسندر غراهام بل",
+      "founder_label_en": "Alexander Graham Bell",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1925",
+      "sitelinks": 57,
+      "source_url": "https://www.wikidata.org/wiki/Q217365",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q217338",
+      "label_ar": "كاسيو",
+      "label_en": "Casio",
+      "founder_qid": "Q19583075",
+      "founder_label_ar": "تاو كاسيو",
+      "founder_label_en": "Tadao Kashio",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1957",
+      "sitelinks": 56,
+      "source_url": "https://www.wikidata.org/wiki/Q217338",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q463094",
+      "label_ar": "فوكسكون",
+      "label_en": "فوكسكون",
+      "founder_qid": "Q716830",
+      "founder_label_ar": "Terry Gou",
+      "founder_label_en": "Terry Gou",
+      "country_qid": "Q865",
+      "country_label_ar": "تايوان",
+      "country_label_en": "Taiwan",
+      "inception_year": "1974",
+      "sitelinks": 56,
+      "source_url": "https://www.wikidata.org/wiki/Q463094",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q193412",
+      "label_ar": "تكساس إنسترومنتس",
+      "label_en": "Texas Instruments",
+      "founder_qid": "Q4357288",
+      "founder_label_ar": "سيسيل هوارد غرين",
+      "founder_label_en": "Cecil Howard Green",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1930",
+      "sitelinks": 54,
+      "source_url": "https://www.wikidata.org/wiki/Q193412",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q713418",
+      "label_ar": "شركة تايوان لصناعة أشباه الموصلات المحدودة",
+      "label_en": "TSMC",
+      "founder_qid": "Q4745214",
+      "founder_label_ar": "موريس تشانغ",
+      "founder_label_en": "Morris Chang",
+      "country_qid": "Q865",
+      "country_label_ar": "تايوان",
+      "country_label_en": "Taiwan",
+      "inception_year": "1987",
+      "sitelinks": 54,
+      "source_url": "https://www.wikidata.org/wiki/Q713418",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1129295",
+      "label_ar": "موجانغ",
+      "label_en": "Mojang Studios",
+      "founder_qid": "Q266224",
+      "founder_label_ar": "ماركوس بيرسون",
+      "founder_label_en": "Markus Persson",
+      "country_qid": "Q34",
+      "country_label_ar": "السويد",
+      "country_label_en": "Sweden",
+      "inception_year": "2009",
+      "sitelinks": 53,
+      "source_url": "https://www.wikidata.org/wiki/Q1129295",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q39064",
+      "label_ar": "كانونيكال المحدودة",
+      "label_en": "Canonical Ltd.",
+      "founder_qid": "Q227030",
+      "founder_label_ar": "مارك شاتلوورث",
+      "founder_label_en": "Mark Shuttleworth",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "2004",
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q39064",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q213849",
+      "label_ar": "إيه تي آي تكنولوجيز",
+      "label_en": "ATI Technologies",
+      "founder_qid": "Q3200863",
+      "founder_label_ar": "كوك يون هو",
+      "founder_label_en": "Kwok Yuen Ho",
+      "country_qid": "Q16",
+      "country_label_ar": "كندا",
+      "country_label_en": "Canada",
+      "inception_year": "1985",
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q213849",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q208305",
+      "label_ar": "كومودور إنترناشونال",
+      "label_en": "Commodore International",
+      "founder_qid": "Q380363",
+      "founder_label_ar": "جاك تراميول",
+      "founder_label_en": "Jack Tramiel",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1958",
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q208305",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q684425",
+      "label_ar": "بيثيسدا سوفت ووركس",
+      "label_en": "Bethesda Softworks",
+      "founder_qid": "Q5113396",
+      "founder_label_ar": "Christopher Weaver",
+      "founder_label_en": "Christopher Weaver",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1986",
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q684425",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q94893",
+      "label_ar": "روكستار نورث",
+      "label_en": "روكستار نورث",
+      "founder_qid": "Q2747788",
+      "founder_label_ar": "دايفيد جونز",
+      "founder_label_en": "David Jones",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1988",
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q94893",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q309996",
+      "label_ar": "نامكو",
+      "label_en": "Namco",
+      "founder_qid": "Q6782765",
+      "founder_label_ar": "ماسايا ناكامورا",
+      "founder_label_en": "Masaya Nakamura",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1955",
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q309996",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q344341",
+      "label_ar": "أكتيفجن بليزارد",
+      "label_en": "Activision Blizzard",
+      "founder_qid": "Q4117176",
+      "founder_label_ar": "روبرت كوتيك",
+      "founder_label_en": null,
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2008",
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q344341",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q16924332",
+      "label_ar": "دي جيه آي",
+      "label_en": "DJI",
+      "founder_qid": "Q27126937",
+      "founder_label_ar": "Frank Wang",
+      "founder_label_en": "Frank Wang",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "2006",
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q16924332",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q308993",
+      "label_ar": "نكست",
+      "label_en": "NeXT",
+      "founder_qid": "Q19837",
+      "founder_label_ar": "ستيف جوبز",
+      "founder_label_en": "Steve Jobs",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1985",
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q308993",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q49203",
+      "label_ar": "سانيو",
+      "label_en": "Sanyo",
+      "founder_qid": "Q7827757",
+      "founder_label_ar": "توشيو ايو",
+      "founder_label_en": "Toshio Iue",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1947",
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q49203",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q267313",
+      "label_ar": "مكافي",
+      "label_en": "McAfee, LLC",
+      "founder_qid": "Q45864",
+      "founder_label_ar": "جون مكافي",
+      "founder_label_en": "John McAfee",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1987",
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q267313",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q234946",
+      "label_ar": "ماكروميديا",
+      "label_en": "Macromedia",
+      "founder_qid": "Q6755451",
+      "founder_label_ar": "Marc Canter",
+      "founder_label_en": "Marc Canter",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1992",
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q234946",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q702135",
+      "label_ar": "غلوك Ges.mbH",
+      "label_en": "Glock Ges.m.b.H.",
+      "founder_qid": "Q112193",
+      "founder_label_ar": "غاستون غلوك",
+      "founder_label_en": "Gaston Glock",
+      "country_qid": "Q40",
+      "country_label_ar": "النمسا",
+      "country_label_en": "Austria",
+      "inception_year": "1963",
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q702135",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q73801",
+      "label_ar": "إكس بوكس غيم ستوديوز",
+      "label_en": "Xbox Game Studios",
+      "founder_qid": "Q5284",
+      "founder_label_ar": "بل غيتس",
+      "founder_label_en": "Bill Gates",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2000",
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q73801",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q94933",
+      "label_ar": "تيك-تو إنترأكتيف",
+      "label_en": "Take-Two Interactive",
+      "founder_qid": "Q119933903",
+      "founder_label_ar": "ريان آشلي برانت",
+      "founder_label_en": "Ryan Ashley Brant",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1993",
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q94933",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q973054",
+      "label_ar": "راكوتن",
+      "label_en": "Rakuten Group, Inc.",
+      "founder_qid": "Q5366748",
+      "founder_label_ar": "هيروشي ميكيتاني",
+      "founder_label_en": "Hiroshi Mikitani",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1997",
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q973054",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1143917",
+      "label_ar": "ميزو",
+      "label_en": "Meizu",
+      "founder_qid": "Q23416847",
+      "founder_label_ar": "جاك وونغ",
+      "founder_label_en": "Jack Wong",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "2003",
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q1143917",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q216611",
+      "label_ar": "لوكاس آرتز",
+      "label_en": "Lucasfilm Games",
+      "founder_qid": "Q38222",
+      "founder_label_ar": "جورج لوكاس",
+      "founder_label_en": "George Lucas",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1982",
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q216611",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1194689",
+      "label_ar": "بانداي نامكو إنترتينمنت",
+      "label_en": "Bandai Namco Entertainment",
+      "founder_qid": "Q6782765",
+      "founder_label_ar": "ماسايا ناكامورا",
+      "founder_label_en": "Masaya Nakamura",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2006",
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q1194689",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q210075",
+      "label_ar": "بورلاند",
+      "label_en": "Borland",
+      "founder_qid": "Q1373386",
+      "founder_label_ar": "فيليب خان",
+      "founder_label_en": "Philippe Kahn",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1983",
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q210075",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q4034686",
+      "label_ar": "بي بي كي إليكترونيكس",
+      "label_en": "BBK Electronics",
+      "founder_qid": "Q4169040",
+      "founder_label_ar": "دوان يونغ بينغ",
+      "founder_label_en": "Duan Yongping",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "1995",
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q4034686",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q507269",
+      "label_ar": "بانداي",
+      "label_en": "Bandai",
+      "founder_qid": "Q56745963",
+      "founder_label_ar": "Naoharu Yamashina",
+      "founder_label_en": "Naoharu Yamashina",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1950",
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q507269",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q650867",
+      "label_ar": "مادهاوس",
+      "label_en": "Madhouse",
+      "founder_qid": "Q3297177",
+      "founder_label_ar": "ماساو ماروياما",
+      "founder_label_en": "Masao Maruyama",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1972",
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q650867",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q941127",
+      "label_ar": "سيلز فورس",
+      "label_en": "Salesforce",
+      "founder_qid": "Q1521908",
+      "founder_label_ar": "مارك بينيوف",
+      "founder_label_en": "Marc Benioff",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1999",
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q941127",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q370719",
+      "label_ar": "إس كيه هاينكس",
+      "label_en": "SK Hynix",
+      "founder_qid": "Q468467",
+      "founder_label_ar": "تشانغ جو يونغ",
+      "founder_label_en": "Jeong Ju-yung",
+      "country_qid": "Q884",
+      "country_label_ar": "كوريا الجنوبية",
+      "country_label_en": "South Korea",
+      "inception_year": "1983",
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q370719",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q848490",
+      "label_ar": "شركة رولاند",
+      "label_en": "Roland Corporation",
+      "founder_qid": "Q322845",
+      "founder_label_ar": "Ikutaro Kakehashi",
+      "founder_label_en": "Ikutaro Kakehashi",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1972",
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q848490",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q673267",
+      "label_ar": "اولیوتی",
+      "label_en": "Olivetti",
+      "founder_qid": "Q1029394",
+      "founder_label_ar": "Camillo Olivetti",
+      "founder_label_en": "Camillo Olivetti",
+      "country_qid": "Q38",
+      "country_label_ar": "إيطاليا",
+      "country_label_en": "Italy",
+      "inception_year": "1908",
+      "sitelinks": 34,
+      "source_url": "https://www.wikidata.org/wiki/Q673267",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1054765",
+      "label_ar": "كادوكاوا شوتين",
+      "label_en": "Kadokawa Shoten",
+      "founder_qid": "Q8013078",
+      "founder_label_ar": "Gen'yoshi Kadokawa",
+      "founder_label_en": "Gen'yoshi Kadokawa",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1945",
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q1054765",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q117617480",
+      "label_ar": "إكس كورب.",
+      "label_en": "X Corp.",
+      "founder_qid": "Q317521",
+      "founder_label_ar": "إيلون ماسك",
+      "founder_label_en": "Elon Musk",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2023",
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q117617480",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q3077586",
+      "label_ar": "بيليبيلي",
+      "label_en": "Bilibili",
+      "founder_qid": "Q65047041",
+      "founder_label_ar": "Xu Yi",
+      "founder_label_en": "Xu Yi",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "2009",
+      "sitelinks": 33,
+      "source_url": "https://www.wikidata.org/wiki/Q3077586",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1046482",
+      "label_ar": "زايلنيكس",
+      "label_en": "Xilinx",
+      "founder_qid": "Q57313564",
+      "founder_label_ar": "James V. Barnett II",
+      "founder_label_en": "James V. Barnett II",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1984",
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q1046482",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1054844",
+      "label_ar": "تايتو",
+      "label_en": "Taito",
+      "founder_qid": "Q967325",
+      "founder_label_ar": "مايكل كوغان",
+      "founder_label_en": "Michael Kogan",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1953",
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q1054844",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1141245",
+      "label_ar": "إنسومنياك غيمز",
+      "label_en": "Insomniac Games",
+      "founder_qid": "Q1451415",
+      "founder_label_ar": "تيد برايس",
+      "founder_label_en": "Ted Price",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1994",
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q1141245",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q151135",
+      "label_ar": "يوكو",
+      "label_en": "Youku",
+      "founder_qid": "Q7926068",
+      "founder_label_ar": "فكتور كو",
+      "founder_label_en": "Victor Koo",
+      "country_qid": "Q148",
+      "country_label_ar": "الصين",
+      "country_label_en": "People's Republic of China",
+      "inception_year": "2006",
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q151135",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q735670",
+      "label_ar": "برودكشن آي جي",
+      "label_en": "Production I.G",
+      "founder_qid": "Q6883235",
+      "founder_label_ar": "ميتسوهيسا إشيكاوا",
+      "founder_label_en": "Mitsuhisa Ishikawa",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1987",
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q735670",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q739552",
+      "label_ar": "سكوير",
+      "label_en": "Square",
+      "founder_qid": "Q1788122",
+      "founder_label_ar": "ماسافومي مياموتو",
+      "founder_label_en": "Masashi Miyamoto",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1986",
+      "sitelinks": 32,
+      "source_url": "https://www.wikidata.org/wiki/Q739552",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q164716",
+      "label_ar": "كرايتيك",
+      "label_en": "كرايتيك",
+      "founder_qid": "Q75210",
+      "founder_label_ar": "Cevat Yerli",
+      "founder_label_en": "Cevat Yerli",
+      "country_qid": "Q183",
+      "country_label_ar": "ألمانيا",
+      "country_label_en": "Germany",
+      "inception_year": "1999",
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q164716",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q178778",
+      "label_ar": "ريكوه",
+      "label_en": "Ricoh",
+      "founder_qid": "Q11480504",
+      "founder_label_ar": "Kiyoshi Ichimura",
+      "founder_label_en": "Kiyoshi Ichimura",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1936",
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q178778",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q580866",
+      "label_ar": "تي إتش كيو",
+      "label_en": "THQ",
+      "founder_qid": "Q6112592",
+      "founder_label_ar": "جاك فريدمان",
+      "founder_label_en": "Jack Friedman",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1990",
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q580866",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q633839",
+      "label_ar": "فيا للتقنيات",
+      "label_en": "VIA Technologies",
+      "founder_qid": "Q700913",
+      "founder_label_ar": "Cher Wang",
+      "founder_label_en": "Cher Wang",
+      "country_qid": "Q865",
+      "country_label_ar": "تايوان",
+      "country_label_en": "Taiwan",
+      "inception_year": "1987",
+      "sitelinks": 31,
+      "source_url": "https://www.wikidata.org/wiki/Q633839",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q628249",
+      "label_ar": "إنتربلاي إنترتينمينت",
+      "label_en": "Interplay Entertainment",
+      "founder_qid": "Q607104",
+      "founder_label_ar": "برايان فارجو",
+      "founder_label_en": "Brian Fargo",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1983",
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q628249",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q743712",
+      "label_ar": null,
+      "label_en": "Black Isle Studios",
+      "founder_qid": "Q996918",
+      "founder_label_ar": "Feargus Urquhart",
+      "founder_label_en": "Feargus Urquhart",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1996",
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q743712",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q916196",
+      "label_ar": "أنظمة سايتركس",
+      "label_en": "Citrix Systems",
+      "founder_qid": "Q5334978",
+      "founder_label_ar": "Ed Iacobucci",
+      "founder_label_en": "Ed Iacobucci",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1989",
+      "sitelinks": 30,
+      "source_url": "https://www.wikidata.org/wiki/Q916196",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1318002",
+      "label_ar": "سلدج همر غيمز",
+      "label_en": "Sledgehammer Games",
+      "founder_qid": "Q4526310",
+      "founder_label_ar": "Glen Schofield",
+      "founder_label_en": "Glen Schofield",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2009",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q1318002",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1840188",
+      "label_ar": "روستيخ",
+      "label_en": "Rostec",
+      "founder_qid": "Q7747",
+      "founder_label_ar": "فلاديمير بوتين",
+      "founder_label_en": "Vladimir Putin",
+      "country_qid": "Q159",
+      "country_label_ar": "روسيا",
+      "country_label_en": "Russia",
+      "inception_year": "2007",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q1840188",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q229698",
+      "label_ar": "ثري دي إف إكس إنترأكتف",
+      "label_en": "3dfx Interactive",
+      "founder_qid": "Q3098621",
+      "founder_label_ar": "Q3098621",
+      "founder_label_en": null,
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1994",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q229698",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q328568",
+      "label_ar": "شركة بوز",
+      "label_en": "Bose Corporation",
+      "founder_qid": "Q454696",
+      "founder_label_ar": "عمار بوز",
+      "founder_label_en": "Amar Bose",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1964",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q328568",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q478825",
+      "label_ar": "أمستراد",
+      "label_en": "Amstrad",
+      "founder_qid": "Q336520",
+      "founder_label_ar": "ألان شوغر",
+      "founder_label_en": "Alan Sugar",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1968",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q478825",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q806259",
+      "label_ar": "بانداي نامكو القابضة",
+      "label_en": "Bandai Namco Holdings",
+      "founder_qid": "Q6782765",
+      "founder_label_ar": "ماسايا ناكامورا",
+      "founder_label_en": "Masaya Nakamura",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2005",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q806259",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q854437",
+      "label_ar": "شركة بالم",
+      "label_en": "Palm, Inc.",
+      "founder_qid": "Q92993",
+      "founder_label_ar": "جيف هوكينز",
+      "founder_label_en": "Jeff Hawkins",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1992",
+      "sitelinks": 29,
+      "source_url": "https://www.wikidata.org/wiki/Q854437",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1053684",
+      "label_ar": "بوليفني ديجيتال",
+      "label_en": "Polyphony Digital",
+      "founder_qid": "Q554137",
+      "founder_label_ar": "كازنوري ياموتشي",
+      "founder_label_en": "Kazunori Yamauchi",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1998",
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q1053684",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1064703",
+      "label_ar": "بوب كاب",
+      "label_en": "بوب كاب",
+      "founder_qid": "Q64748302",
+      "founder_label_ar": "Jason Kapalka",
+      "founder_label_en": "Jason Kapalka",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2000",
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q1064703",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q267427",
+      "label_ar": "همبل بندل",
+      "label_en": "Humble Bundle, Inc.",
+      "founder_qid": "Q6176240",
+      "founder_label_ar": "جيفري روزين",
+      "founder_label_en": "Jeffrey Rosen",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2010",
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q267427",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q303580",
+      "label_ar": "دي - لينك",
+      "label_en": "D-Link",
+      "founder_qid": "Q6387921",
+      "founder_label_ar": "Ken Kao",
+      "founder_label_en": "Ken Kao",
+      "country_qid": "Q865",
+      "country_label_ar": "تايوان",
+      "country_label_en": "Taiwan",
+      "inception_year": "1986",
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q303580",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q372471",
+      "label_ar": "وور غيمينغ",
+      "label_en": "Wargaming",
+      "founder_qid": "Q24229091",
+      "founder_label_ar": "Victor Kislyi",
+      "founder_label_en": "Victor Kislyi",
+      "country_qid": "Q229",
+      "country_label_ar": "قبرص",
+      "country_label_en": "Cyprus",
+      "inception_year": "1998",
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q372471",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q835702",
+      "label_ar": "شركة كوريل",
+      "label_en": "Corel",
+      "founder_qid": "Q3776174",
+      "founder_label_ar": "مايكل كوو بلاند",
+      "founder_label_en": "Michael Cowpland",
+      "country_qid": "Q16",
+      "country_label_ar": "كندا",
+      "country_label_en": "Canada",
+      "inception_year": "1985",
+      "sitelinks": 28,
+      "source_url": "https://www.wikidata.org/wiki/Q835702",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1046593",
+      "label_ar": "جيربوكس سوفتوير",
+      "label_en": "Gearbox Software",
+      "founder_qid": "Q7292371",
+      "founder_label_ar": "Randy Pitchford",
+      "founder_label_en": "Randy Pitchford",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1999",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q1046593",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q13462819",
+      "label_ar": "شركة نيانتك",
+      "label_en": "Niantic Games Team",
+      "founder_qid": "Q5787781",
+      "founder_label_ar": "John Hanke",
+      "founder_label_en": "John Hanke",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2010",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q13462819",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q170420",
+      "label_ar": "نينتندو إنترتينمنت أنالسيس أند دفيلوبمنت",
+      "label_en": "Nintendo Entertainment Analysis & Development",
+      "founder_qid": "Q354768",
+      "founder_label_ar": "هيروشي ياموتشي",
+      "founder_label_en": "Hiroshi Yamauchi",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1983",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q170420",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q679933",
+      "label_ar": "إيدوس إنتراكتيف",
+      "label_en": "Eidos Interactive",
+      "founder_qid": "Q7608628",
+      "founder_label_ar": "ستيفن برنارد ستريتر",
+      "founder_label_en": "Stephen B. Streater",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1990",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q679933",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q700466",
+      "label_ar": null,
+      "label_en": "Audio-Technica",
+      "founder_qid": "Q66311660",
+      "founder_label_ar": "هيديو ماتسوشيتا",
+      "founder_label_en": "Hideo Matsushita",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1962",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q700466",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q7884447",
+      "label_ar": "ريسباون إنترتينمنت",
+      "label_en": "Respawn Entertainment",
+      "founder_qid": "Q113996148",
+      "founder_label_ar": "فينس زامبيلا",
+      "founder_label_en": "Vince Zampella",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2010",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q7884447",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q830947",
+      "label_ar": "ريميدي إنترتيمنت",
+      "label_en": "ريميدي إنترتيمنت",
+      "founder_qid": "Q23040945",
+      "founder_label_ar": "Samuli Syvähuoko",
+      "founder_label_en": "Samuli Syvähuoko",
+      "country_qid": "Q33",
+      "country_label_ar": "فنلندا",
+      "country_label_en": "Finland",
+      "inception_year": "1995",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q830947",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q928122",
+      "label_ar": "كرستال دينامكس",
+      "label_en": "Crystal Dynamics",
+      "founder_qid": "Q533030",
+      "founder_label_ar": "ديفيد شانون مورس",
+      "founder_label_en": "David Shannon Morse",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1992",
+      "sitelinks": 27,
+      "source_url": "https://www.wikidata.org/wiki/Q928122",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1423789",
+      "label_ar": "تيكمو",
+      "label_en": "Tecmo",
+      "founder_qid": "Q11534986",
+      "founder_label_ar": "Yoshihito Kakihara",
+      "founder_label_en": "Yoshihito Kakihara",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1967",
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q1423789",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q4409",
+      "label_ar": "سنكلير للأبحاث",
+      "label_en": "Sinclair Research",
+      "founder_qid": "Q23889",
+      "founder_label_ar": "كليف سنكلير",
+      "founder_label_en": "Clive Sinclair",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1973",
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q4409",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q468381",
+      "label_ar": "Avira",
+      "label_en": "Avira",
+      "founder_qid": "Q53403754",
+      "founder_label_ar": "Tjark Auerbach",
+      "founder_label_en": "Tjark Auerbach",
+      "country_qid": "Q183",
+      "country_label_ar": "ألمانيا",
+      "country_label_en": "Germany",
+      "inception_year": "1986",
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q468381",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q522016",
+      "label_ar": "إف سيكيور",
+      "label_en": "F-Secure",
+      "founder_qid": "Q5492733",
+      "founder_label_ar": "Risto Siilasmaa",
+      "founder_label_en": "Risto Siilasmaa",
+      "country_qid": "Q33",
+      "country_label_ar": "فنلندا",
+      "country_label_en": "Finland",
+      "inception_year": "1988",
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q522016",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q776039",
+      "label_ar": null,
+      "label_en": "ViewSonic",
+      "founder_qid": "Q24886982",
+      "founder_label_ar": "James Chu",
+      "founder_label_en": "James Chu",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1987",
+      "sitelinks": 26,
+      "source_url": "https://www.wikidata.org/wiki/Q776039",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1347782",
+      "label_ar": "مارفيل تكنولوجي",
+      "label_en": "Marvell Technology",
+      "founder_qid": "Q7446496",
+      "founder_label_ar": "سيهات سوتارجا",
+      "founder_label_en": "Sehat Sutardja",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1995",
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q1347782",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q77202",
+      "label_ar": "ون سي كامبوني",
+      "label_en": "1C Company",
+      "founder_qid": "Q4328055",
+      "founder_label_ar": "Boris Nuraliyev",
+      "founder_label_en": "Boris Nuraliyev",
+      "country_qid": "Q159",
+      "country_label_ar": "روسيا",
+      "country_label_en": "Russia",
+      "inception_year": "1991",
+      "sitelinks": 25,
+      "source_url": "https://www.wikidata.org/wiki/Q77202",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1062171",
+      "label_ar": "ذا ثري دي أو كومباني",
+      "label_en": "The 3DO Company",
+      "founder_qid": "Q460459",
+      "founder_label_ar": "تريب هوكينز",
+      "founder_label_en": "Trip Hawkins",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1991",
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q1062171",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q229459",
+      "label_ar": "3دي ريالمز",
+      "label_en": "3D Realms",
+      "founder_qid": "Q1091242",
+      "founder_label_ar": "سكوت ميلر",
+      "founder_label_en": "Scott Miller",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1994",
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q229459",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2381223",
+      "label_ar": "ميديا ماركت",
+      "label_en": "MediaMarkt",
+      "founder_qid": "Q1352552",
+      "founder_label_ar": "Erich Kellerhals",
+      "founder_label_en": "Erich Kellerhals",
+      "country_qid": "Q183",
+      "country_label_ar": "ألمانيا",
+      "country_label_en": "Germany",
+      "inception_year": "1979",
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q2381223",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q477016",
+      "label_ar": "تكنولوجيا إبداعية",
+      "label_en": "Creative Technology",
+      "founder_qid": "Q4419447",
+      "founder_label_ar": "Sim Wong Hoo",
+      "founder_label_en": "Sim Wong Hoo",
+      "country_qid": "Q334",
+      "country_label_ar": "سنغافورة",
+      "country_label_en": "Singapore",
+      "inception_year": "1981",
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q477016",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q7577190",
+      "label_ar": "سبايك شونسوفت",
+      "label_en": "Spike Chunsoft",
+      "founder_qid": "Q2994961",
+      "founder_label_ar": "كويتشي ناكامورا",
+      "founder_label_en": "Koichi Nakamura",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2012",
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q7577190",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q995863",
+      "label_ar": "برودربوند",
+      "label_en": "Broderbund",
+      "founder_qid": "Q3714587",
+      "founder_label_ar": "Doug Carlston",
+      "founder_label_en": "Doug Carlston",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1980",
+      "sitelinks": 24,
+      "source_url": "https://www.wikidata.org/wiki/Q995863",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2020713",
+      "label_ar": "روكستار فانكوفر",
+      "label_en": "Rockstar Vancouver",
+      "founder_qid": "Q984061",
+      "founder_label_ar": "سام هاوسر",
+      "founder_label_en": "Sam Houser",
+      "country_qid": "Q16",
+      "country_label_ar": "كندا",
+      "country_label_en": "Canada",
+      "inception_year": "1998",
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q2020713",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2307159",
+      "label_ar": "روك ستيدي ستوديوز",
+      "label_en": "Rocksteady Studios",
+      "founder_qid": "Q20863157",
+      "founder_label_ar": "Sefton Hill",
+      "founder_label_en": "Sefton Hill",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "2004",
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q2307159",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q393762",
+      "label_ar": null,
+      "label_en": "Agilent Technologies",
+      "founder_qid": "Q380467",
+      "founder_label_ar": "ويليم ريدنغتون هيوليت",
+      "founder_label_en": "Bill Hewlett",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1999",
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q393762",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q674686",
+      "label_ar": "ليفل-5",
+      "label_en": "Level-5",
+      "founder_qid": "Q2082917",
+      "founder_label_ar": "أكيهيرو هينو",
+      "founder_label_en": "Akihiro Hino",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1998",
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q674686",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q959759",
+      "label_ar": "فراكسيس غيمز",
+      "label_en": "Firaxis Games",
+      "founder_qid": "Q92616",
+      "founder_label_ar": "سيد ماير",
+      "founder_label_en": "Sid Meier",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1996",
+      "sitelinks": 23,
+      "source_url": "https://www.wikidata.org/wiki/Q959759",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1054754",
+      "label_ar": "تايب-مون",
+      "label_en": "Type‐Moon",
+      "founder_qid": "Q1072659",
+      "founder_label_ar": "كينوكو ناسو",
+      "founder_label_en": "Kinoko Nasu",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2003",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q1054754",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q107257663",
+      "label_ar": "يوبي سوفت بلو بايت",
+      "label_en": "Ubisoft Blue Byte",
+      "founder_qid": "Q51790129",
+      "founder_label_ar": "Thomas Hertzler",
+      "founder_label_en": "Thomas Hertzler",
+      "country_qid": "Q183",
+      "country_label_ar": "ألمانيا",
+      "country_label_en": "Germany",
+      "inception_year": "1988",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q107257663",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q117536672",
+      "label_ar": "مايكروسوفت للألعاب",
+      "label_en": "مايكروسوفت للألعاب",
+      "founder_qid": "Q16734485",
+      "founder_label_ar": "فيل سبنسر",
+      "founder_label_en": "Phil Spencer",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2022",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q117536672",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1251435",
+      "label_ar": "دابل فاين",
+      "label_en": "Double Fine",
+      "founder_qid": "Q523191",
+      "founder_label_ar": "تيم شيفر",
+      "founder_label_en": "Tim Schafer",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2000",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q1251435",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q150001",
+      "label_ar": "إنتيليجنت سيستمز",
+      "label_en": "Intelligent Systems",
+      "founder_qid": "Q3530395",
+      "founder_label_ar": "Tohru Narihiro",
+      "founder_label_en": "Tohru Narihiro",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1986",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q150001",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1933462",
+      "label_ar": "ستوديو ليفربول",
+      "label_en": "SCE Studio Liverpool",
+      "founder_qid": "Q3147277",
+      "founder_label_ar": "Ian Hetherington",
+      "founder_label_en": "Ian Hetherington",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1984",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q1933462",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2568920",
+      "label_ar": "ترافيلرز تيلز",
+      "label_en": "Traveller's Tales",
+      "founder_qid": "Q6270460",
+      "founder_label_ar": "جون بورتون",
+      "founder_label_en": "Jon Burton",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1989",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q2568920",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2994389",
+      "label_ar": "غارينا",
+      "label_en": "Garena",
+      "founder_qid": "Q61974364",
+      "founder_label_ar": "فورست لي",
+      "founder_label_en": "Forrest Li",
+      "country_qid": "Q252",
+      "country_label_ar": "إندونيسيا",
+      "country_label_en": "Indonesia",
+      "inception_year": "2009",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q2994389",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q7112063",
+      "label_ar": "آوت فيت 7",
+      "label_en": "Outfit7",
+      "founder_qid": "Q132530013",
+      "founder_label_ar": "Samo Login",
+      "founder_label_en": "Samo Login",
+      "country_qid": "Q215",
+      "country_label_ar": "سلوفينيا",
+      "country_label_en": "Slovenia",
+      "inception_year": "2009",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q7112063",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q743717",
+      "label_ar": "إراشينال جيمز",
+      "label_en": "Irrational Games",
+      "founder_qid": "Q1155636",
+      "founder_label_ar": "كين ليفين",
+      "founder_label_en": "Ken Levine",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1997",
+      "sitelinks": 22,
+      "source_url": "https://www.wikidata.org/wiki/Q743717",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1239326",
+      "label_ar": "مونوليث سوفت",
+      "label_en": "Monolith Soft Inc.",
+      "founder_qid": "Q2626699",
+      "founder_label_ar": "تيتسويا تاكاهاشي",
+      "founder_label_en": "Tetsuya Takahashi",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1999",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q1239326",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1372258",
+      "label_ar": "توكوما شوتين",
+      "label_en": "Tokuma Shoten",
+      "founder_qid": "Q11071898",
+      "founder_label_ar": "ياسويوشي توكوما",
+      "founder_label_en": "Yasuyoshi Tokuma",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1954",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q1372258",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1584469",
+      "label_ar": "P.A.Works",
+      "label_en": "P.A. Works",
+      "founder_qid": "Q5960053",
+      "founder_label_ar": "Kenji Horikawa",
+      "founder_label_en": "Kenji Horikawa",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2000",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q1584469",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q24228",
+      "label_ar": "هيلو ستوديوز",
+      "label_en": "Halo Studios",
+      "founder_qid": "Q20630595",
+      "founder_label_ar": "بوني روس",
+      "founder_label_en": "Bonnie Ross",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2009",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q24228",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q261952",
+      "label_ar": "شركة آمبكس",
+      "label_en": "Ampex",
+      "founder_qid": "Q2577851",
+      "founder_label_ar": "Alexander M. Poniatoff",
+      "founder_label_en": "Alexander M. Poniatoff",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1944",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q261952",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2696696",
+      "label_ar": "نيثرريلم ستوديوز",
+      "label_en": "NetherRealm Studios",
+      "founder_qid": "Q1282289",
+      "founder_label_ar": "إد بون",
+      "founder_label_en": "Ed Boon",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2010",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q2696696",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q286774",
+      "label_ar": "ABBYY",
+      "label_en": "ABBYY",
+      "founder_qid": "Q845401",
+      "founder_label_ar": "David Yang",
+      "founder_label_en": "David Yang",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1989",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q286774",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q339228",
+      "label_ar": "أكليم إنترتينمينت",
+      "label_en": "أكليم إنترتينمينت",
+      "founder_qid": "Q5605560",
+      "founder_label_ar": "Greg Fischbach",
+      "founder_label_en": "Greg Fischbach",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1987",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q339228",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q4042609",
+      "label_ar": "لاريان ستوديوز",
+      "label_en": "Larian Studios",
+      "founder_qid": "Q17125907",
+      "founder_label_ar": "Swen Vincke",
+      "founder_label_en": "Swen Vincke",
+      "country_qid": "Q31",
+      "country_label_ar": "بلجيكا",
+      "country_label_en": "Belgium",
+      "inception_year": "1996",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q4042609",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q7673435",
+      "label_ar": "تابلو سوفتوير",
+      "label_en": "Tableau Software, Inc.",
+      "founder_qid": "Q7143512",
+      "founder_label_ar": "بات هانراهان",
+      "founder_label_en": "Pat Hanrahan",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2003",
+      "sitelinks": 21,
+      "source_url": "https://www.wikidata.org/wiki/Q7673435",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1142226",
+      "label_ar": null,
+      "label_en": "Q1142226",
+      "founder_qid": "Q115791404",
+      "founder_label_ar": "Masayuki Kato",
+      "founder_label_en": "Masayuki Kato",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1981",
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q1142226",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2167391",
+      "label_ar": "قیتوی",
+      "label_en": "Gateway",
+      "founder_qid": "Q7693845",
+      "founder_label_ar": "Ted Waitt",
+      "founder_label_en": "Ted Waitt",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1985",
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q2167391",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q531167",
+      "label_ar": "ريترو ستوديوز",
+      "label_en": "Retro Studios",
+      "founder_qid": "Q3176585",
+      "founder_label_ar": "Jeff Spangenberg",
+      "founder_label_en": "Jeff Spangenberg",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1998",
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q531167",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q952164",
+      "label_ar": "هالو غيمز",
+      "label_en": "Hello Games",
+      "founder_qid": "Q26156133",
+      "founder_label_ar": "Sean Murray",
+      "founder_label_en": "Sean Murray",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "2008",
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q952164",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q994003",
+      "label_ar": "ايفولوشن ستوديوس",
+      "label_en": "Evolution Studios",
+      "founder_qid": "Q16732046",
+      "founder_label_ar": "Martin Kenwright",
+      "founder_label_en": "Martin Kenwright",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1999",
+      "sitelinks": 20,
+      "source_url": "https://www.wikidata.org/wiki/Q994003",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1004175",
+      "label_ar": "BULL",
+      "label_en": "Groupe Bull",
+      "founder_qid": "Q1383491",
+      "founder_label_ar": "Fredrik Rosing Bull",
+      "founder_label_en": "Fredrik Rosing Bull",
+      "country_qid": "Q142",
+      "country_label_ar": "فرنسا",
+      "country_label_en": "France",
+      "inception_year": "1931",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q1004175",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1137522",
+      "label_ar": "استديو جونزو",
+      "label_en": "Gonzo",
+      "founder_qid": "Q81078",
+      "founder_label_ar": "Mahiro Maeda",
+      "founder_label_en": "Mahiro Maeda",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1992",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q1137522",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1268871",
+      "label_ar": null,
+      "label_en": "Strategic Simulations",
+      "founder_qid": "Q6213240",
+      "founder_label_ar": "جويل بيلنغز",
+      "founder_label_en": "Joel Billings",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1979",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q1268871",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q13512339",
+      "label_ar": "فيس بنش ستوديوز",
+      "label_en": "فيس بنش ستوديوز",
+      "founder_qid": "Q111450507",
+      "founder_label_ar": "Garry Newman",
+      "founder_label_en": "Garry Newman",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "2004",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q13512339",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1518612",
+      "label_ar": "ريليك إنترتينمنت",
+      "label_en": "ريليك إنترتينمنت",
+      "founder_qid": "Q4717034",
+      "founder_label_ar": "Alex Garden",
+      "founder_label_en": "Alex Garden",
+      "country_qid": "Q16",
+      "country_label_ar": "كندا",
+      "country_label_en": "Canada",
+      "inception_year": "1997",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q1518612",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1781702",
+      "label_ar": "سيستيما",
+      "label_en": "Sistema",
+      "founder_qid": "Q2007053",
+      "founder_label_ar": "Vladimir Yevtushenkov",
+      "founder_label_en": "Vladimir Yevtushenkov",
+      "country_qid": "Q159",
+      "country_label_ar": "روسيا",
+      "country_label_en": "Russia",
+      "inception_year": "1993",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q1781702",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q385572",
+      "label_ar": "نالسوفت",
+      "label_en": "Nullsoft",
+      "founder_qid": "Q92964",
+      "founder_label_ar": "جاستن فرانكل",
+      "founder_label_en": "Justin Frankel",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1997",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q385572",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q484930",
+      "label_ar": "أنالوج ديفايسز",
+      "label_en": "Analog Devices",
+      "founder_qid": "Q7298142",
+      "founder_label_ar": "Ray Stata",
+      "founder_label_en": "Ray Stata",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1965",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q484930",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q5647891",
+      "label_ar": "هانجار 13",
+      "label_en": "هانجار 13",
+      "founder_qid": "Q20877665",
+      "founder_label_ar": "هايدن بلاكمان",
+      "founder_label_en": "Haden Blackman",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2014",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q5647891",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q625647",
+      "label_ar": "نيت ماربل",
+      "label_en": "Netmarble",
+      "founder_qid": "Q24000131",
+      "founder_label_ar": "Bang Jun-hyuk",
+      "founder_label_en": "Bang Jun-hyuk",
+      "country_qid": "Q884",
+      "country_label_ar": "كوريا الجنوبية",
+      "country_label_en": "South Korea",
+      "inception_year": "2000",
+      "sitelinks": 19,
+      "source_url": "https://www.wikidata.org/wiki/Q625647",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1923795",
+      "label_ar": "يوكز",
+      "label_en": "Yuke's",
+      "founder_qid": "Q975020",
+      "founder_label_ar": "Yukinori Taniguchi",
+      "founder_label_en": "Yukinori Taniguchi",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1993",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q1923795",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q22123955",
+      "label_ar": "كوجيما للإنتاج",
+      "label_en": "كوجيما للإنتاج",
+      "founder_qid": "Q315577",
+      "founder_label_ar": "هيديو كوجيما",
+      "founder_label_en": "Hideo Kojima",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2015",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q22123955",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q26222",
+      "label_ar": null,
+      "label_en": "Wargaming Seattle",
+      "founder_qid": "Q723515",
+      "founder_label_ar": "كريس تايلور",
+      "founder_label_en": "Chris Taylor",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1897",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q26222",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2712143",
+      "label_ar": "إنكسايل إنترتينمنت",
+      "label_en": "inXile entertainment",
+      "founder_qid": "Q607104",
+      "founder_label_ar": "برايان فارجو",
+      "founder_label_en": "Brian Fargo",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2002",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2712143",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2740414",
+      "label_ar": "تيم نينجا",
+      "label_en": "Team Ninja",
+      "founder_qid": "Q2469860",
+      "founder_label_ar": "تومونوبو إيتاغاكي",
+      "founder_label_en": "Tomonobu Itagaki",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1995",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q2740414",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q500799",
+      "label_ar": "يوبي سوفت تورنتو",
+      "label_en": "Ubisoft Toronto",
+      "founder_qid": "Q235734",
+      "founder_label_ar": "جيد رايموند",
+      "founder_label_en": "Jade Raymond",
+      "country_qid": "Q16",
+      "country_label_ar": "كندا",
+      "country_label_en": "Canada",
+      "inception_year": "2009",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q500799",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q60354586",
+      "label_ar": "هيزلايت ستوديوز",
+      "label_en": "هيزلايت ستوديوز",
+      "founder_qid": "Q1345960",
+      "founder_label_ar": "جوزيف فارس",
+      "founder_label_en": "Josef Fares",
+      "country_qid": "Q34",
+      "country_label_ar": "السويد",
+      "country_label_en": "Sweden",
+      "inception_year": "2014",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q60354586",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q7480253",
+      "label_ar": "تانغو جيم وركس",
+      "label_en": "Tango Gameworks",
+      "founder_qid": "Q741631",
+      "founder_label_ar": "شينجي ميكامي",
+      "founder_label_en": "Shinji Mikami",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "2010",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q7480253",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q813988",
+      "label_ar": "بي تراين",
+      "label_en": "Bee Train",
+      "founder_qid": "Q426822",
+      "founder_label_ar": "Kōichi Mashimo",
+      "founder_label_en": "Kōichi Mashimo",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1997",
+      "sitelinks": 18,
+      "source_url": "https://www.wikidata.org/wiki/Q813988",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1134268",
+      "label_ar": "شركة سوني الأمريكية",
+      "label_en": "Sony Corporation of America",
+      "founder_qid": "Q310845",
+      "founder_label_ar": "أكيو موريتا",
+      "founder_label_en": "Akio Morita",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1960",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q1134268",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q2296711",
+      "label_ar": "أرتلاند",
+      "label_en": "Artland",
+      "founder_qid": "Q1187981",
+      "founder_label_ar": "Noboru Ishiguro",
+      "founder_label_en": "Noboru Ishiguro",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1978",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q2296711",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q256907",
+      "label_ar": "أرغوناوت سوفتوير",
+      "label_en": "Argonaut Games",
+      "founder_qid": "Q15968449",
+      "founder_label_ar": "Jez San",
+      "founder_label_en": "Jez San",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1982",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q256907",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q3008126",
+      "label_ar": "سيبر كونيكت 2",
+      "label_en": "CyberConnect2",
+      "founder_qid": "Q3136356",
+      "founder_label_ar": "هيروشي ماتسوياما",
+      "founder_label_en": "Hiroshi Matsuyama",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1996",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q3008126",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q302251",
+      "label_ar": "فرونتير دفلوبمنتس",
+      "label_en": "Frontier Developments",
+      "founder_qid": "Q1173809",
+      "founder_label_ar": "ديفيد برابن",
+      "founder_label_en": "David Braben",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1994",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q302251",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q3147892",
+      "label_ar": "ديك ناين",
+      "label_en": "ديك ناين",
+      "founder_qid": "Q16663143",
+      "founder_label_ar": "مارك ليونس",
+      "founder_label_en": "Mark Lyons",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1997",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q3147892",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q38805988",
+      "label_ar": "أنابورنا إنتراكتيف",
+      "label_en": "أنابورنا إنتراكتيف",
+      "founder_qid": "Q1840340",
+      "founder_label_ar": "ميجان إليسون",
+      "founder_label_en": "Megan Ellison",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "2016",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q38805988",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q632336",
+      "label_ar": null,
+      "label_en": "S3 Graphics",
+      "founder_qid": "Q5208098",
+      "founder_label_ar": "Dado Banatao",
+      "founder_label_en": "Dado Banatao",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1989",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q632336",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q707730",
+      "label_ar": "سايبر لينك",
+      "label_en": "CyberLink",
+      "founder_qid": "Q78122796",
+      "founder_label_ar": "Jau Huang",
+      "founder_label_en": "Jau Huang",
+      "country_qid": "Q865",
+      "country_label_ar": "تايوان",
+      "country_label_en": "Taiwan",
+      "inception_year": "1996",
+      "sitelinks": 17,
+      "source_url": "https://www.wikidata.org/wiki/Q707730",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1191897",
+      "label_ar": "غراسهوبر مانيوفاكتور",
+      "label_en": "Grasshopper Manufacture",
+      "founder_qid": "Q920630",
+      "founder_label_ar": "جويشي سودا",
+      "founder_label_en": "Goichi Suda",
+      "country_qid": "Q17",
+      "country_label_ar": "اليابان",
+      "country_label_en": "Japan",
+      "inception_year": "1998",
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q1191897",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1347787",
+      "label_ar": null,
+      "label_en": "Epyx",
+      "founder_qid": "Q6270735",
+      "founder_label_ar": "Jon Freeman",
+      "founder_label_en": "Jon Freeman",
+      "country_qid": "Q30",
+      "country_label_ar": "الولايات المتحدة",
+      "country_label_en": "United States",
+      "inception_year": "1978",
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q1347787",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    },
+    {
+      "qid": "Q1756771",
+      "label_ar": null,
+      "label_en": "Psion",
+      "founder_qid": "Q5233202",
+      "founder_label_ar": "David E. Potter",
+      "founder_label_en": "David E. Potter",
+      "country_qid": "Q145",
+      "country_label_ar": "المملكة المتحدة",
+      "country_label_en": "United Kingdom",
+      "inception_year": "1980",
+      "sitelinks": 16,
+      "source_url": "https://www.wikidata.org/wiki/Q1756771",
+      "claims": {
+        "founder": "P112",
+        "inception": "P571",
+        "country": "P17"
+      }
+    }
+  ]
+}

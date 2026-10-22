@@ -1,0 +1,28 @@
+INFO:     Started server process [15528]
+INFO:     Waiting for application startup.
+2026-10-20 22:53:59,614 INFO seenjeem database ready path=data\seenjeem.db schema=3 interrupted_sync_jobs=0
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+2026-10-20 22:54:06,336 INFO seenjeem request id=efbb15836ce44a6892243c4f3586878f method=GET path=/api/v1/health status=200 duration_ms=37.3
+2026-10-20 22:54:12,720 INFO seenjeem request id=1899f166d6d646d48067fa5c9d348742 method=GET path=/api/v1/categories status=200 duration_ms=353.7
+2026-10-20 22:54:41,559 INFO seenjeem request id=22d942d858bb4a419d2196a14ada253a method=GET path=/api/v1/matches/DO6BHdQpeGEmRZxn status=404 duration_ms=7.9
+2026-10-20 22:54:45,384 INFO seenjeem request id=05e47106c904469fa9003dae170a6a93 method=GET path=/api/v1/users status=200 duration_ms=15.4
+2026-10-20 22:54:45,993 INFO seenjeem request id=14c6247e03674cd39e5bf96176d6c951 method=GET path=/api/v1/categories status=200 duration_ms=616.6
+2026-10-20 22:54:56,605 INFO seenjeem request id=7077b6983a9241468f6550409ddc9930 method=POST path=/api/v1/users status=201 duration_ms=26.9
+2026-10-20 22:56:42,448 INFO seenjeem request id=b6cd7e6a5637475fbc933df5f61a6877 method=GET path=/api/v1/admin/question-bank status=403 duration_ms=27.4
+2026-10-20 22:56:42,453 INFO seenjeem request id=dbe67ba39790463ea066a73e446792ee method=GET path=/api/v1/admin/matches status=403 duration_ms=11.0
+2026-10-20 22:56:42,455 INFO seenjeem request id=e8139e5a9cff45ceb3857efbb3905ece method=GET path=/api/v1/admin/seed-history status=403 duration_ms=13.5
+2026-10-20 22:56:51,712 INFO seenjeem request id=7be926b795c04e8c858588e90bcf0f05 method=GET path=/api/v1/admin/seed-history status=403 duration_ms=2.5
+2026-10-20 22:56:51,714 INFO seenjeem request id=b11b8df87a5a4fe6bfee0b5b7a434720 method=GET path=/api/v1/admin/question-bank status=403 duration_ms=5.1
+2026-10-20 22:56:51,715 INFO seenjeem request id=8d6802be732b46a2afa47fea894c2b9a method=GET path=/api/v1/admin/matches status=403 duration_ms=4.0
+2026-10-20 22:56:53,674 INFO seenjeem request id=173629e53658427bb3d97fd4209688cc method=GET path=/api/v1/admin/seed-history status=403 duration_ms=2.2
+2026-10-20 22:56:53,676 INFO seenjeem request id=aea5418ce37440bda3277b5c2762d9da method=GET path=/api/v1/admin/question-bank status=403 duration_ms=3.9
+2026-10-20 22:56:53,677 INFO seenjeem request id=46be7fa56a23466db4732bff5f87a3dc method=GET path=/api/v1/admin/matches status=403 duration_ms=5.3
+2026-10-20 22:59:52,823 INFO seenjeem request id=0e9bd1f738534e50b7a2e72316b2fdde method=GET path=/api/v1/health status=200 duration_ms=29.1
+2026-10-20 22:59:57,791 INFO seenjeem request id=e9277584d30842b1a286033aafd61b23 method=GET path=/api/v1/admin/seed-status status=200 duration_ms=224.1
+2026-10-20 23:00:17,557 INFO seenjeem request id=72428372cafd4f4a860a88900914692b method=GET path=/api/v1/admin/seed-history status=200 duration_ms=12.4
+2026-10-20 23:00:17,572 INFO seenjeem request id=2bfbb1bdac98482da67282ba501bef3d method=GET path=/api/v1/admin/matches status=200 duration_ms=27.1
+2026-10-20 23:00:17,659 INFO seenjeem request id=edc9061c7d094422801f22332309c5dc method=GET path=/api/v1/admin/question-bank status=200 duration_ms=114.5
+2026-10-20 23:10:24,147 INFO seenjeem request id=0c8586b8bdf943bfad0182c5a5893338 method=GET path=/api/v1/admin/seed-history status=200 duration_ms=38.5
+2026-10-20 23:10:24,149 INFO seenjeem request id=d1f961d9fccc42e39c10c332f0ff3552 method=GET path=/api/v1/admin/matches status=200 duration_ms=39.7
+2026-10-20 23:10:24,312 INFO seenjeem request id=0ec94cc496474df699469d3f62fac427 method=GET path=/api/v1/admin/question-bank status=200 duration_ms=213.1

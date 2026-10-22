@@ -1,0 +1,1 @@
+export default function StageBackdrop({ variant = 'stage', className = '' }) { return <div aria-hidden="true" className={`brand-backdrop brand-backdrop--${variant} ${className}`}><span className="brand-backdrop__ring" /><span className="brand-backdrop__dots" /></div>; }

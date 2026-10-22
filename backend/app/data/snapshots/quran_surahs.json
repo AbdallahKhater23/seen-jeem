@@ -1,0 +1,1185 @@
+{
+  "snapshot_version": 1,
+  "generator": "harvest_fact_snapshots.py",
+  "retrieved_at": "2026-10-20T20:41:00+00:00",
+  "source": {
+    "name": "AlQuran Cloud API",
+    "url": "https://api.alquran.cloud/v1/surah",
+    "license": "Quran metadata from AlQuran Cloud; Quran text attribution: Tanzil.net",
+    "access": "public JSON API"
+  },
+  "surahs": [
+    {
+      "number": 1,
+      "name_ar": "الفاتحة",
+      "name_en": "Al-Faatiha",
+      "ayahs": 7,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/1",
+      "reference_url": "https://quran.com/1"
+    },
+    {
+      "number": 2,
+      "name_ar": "البقرة",
+      "name_en": "Al-Baqara",
+      "ayahs": 286,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/2",
+      "reference_url": "https://quran.com/2"
+    },
+    {
+      "number": 3,
+      "name_ar": "آل عمران",
+      "name_en": "Aal-i-Imraan",
+      "ayahs": 200,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/3",
+      "reference_url": "https://quran.com/3"
+    },
+    {
+      "number": 4,
+      "name_ar": "النساء",
+      "name_en": "An-Nisaa",
+      "ayahs": 176,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/4",
+      "reference_url": "https://quran.com/4"
+    },
+    {
+      "number": 5,
+      "name_ar": "المائـدة",
+      "name_en": "Al-Maaida",
+      "ayahs": 120,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/5",
+      "reference_url": "https://quran.com/5"
+    },
+    {
+      "number": 6,
+      "name_ar": "الأنعام",
+      "name_en": "Al-An'aam",
+      "ayahs": 165,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/6",
+      "reference_url": "https://quran.com/6"
+    },
+    {
+      "number": 7,
+      "name_ar": "الأعراف",
+      "name_en": "Al-A'raaf",
+      "ayahs": 206,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/7",
+      "reference_url": "https://quran.com/7"
+    },
+    {
+      "number": 8,
+      "name_ar": "الأنفال",
+      "name_en": "Al-Anfaal",
+      "ayahs": 75,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/8",
+      "reference_url": "https://quran.com/8"
+    },
+    {
+      "number": 9,
+      "name_ar": "التوبة",
+      "name_en": "At-Tawba",
+      "ayahs": 129,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/9",
+      "reference_url": "https://quran.com/9"
+    },
+    {
+      "number": 10,
+      "name_ar": "يونس",
+      "name_en": "Yunus",
+      "ayahs": 109,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/10",
+      "reference_url": "https://quran.com/10"
+    },
+    {
+      "number": 11,
+      "name_ar": "هود",
+      "name_en": "Hud",
+      "ayahs": 123,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/11",
+      "reference_url": "https://quran.com/11"
+    },
+    {
+      "number": 12,
+      "name_ar": "يوسف",
+      "name_en": "Yusuf",
+      "ayahs": 111,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/12",
+      "reference_url": "https://quran.com/12"
+    },
+    {
+      "number": 13,
+      "name_ar": "الرعد",
+      "name_en": "Ar-Ra'd",
+      "ayahs": 43,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/13",
+      "reference_url": "https://quran.com/13"
+    },
+    {
+      "number": 14,
+      "name_ar": "إبراهيم",
+      "name_en": "Ibrahim",
+      "ayahs": 52,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/14",
+      "reference_url": "https://quran.com/14"
+    },
+    {
+      "number": 15,
+      "name_ar": "الحجر",
+      "name_en": "Al-Hijr",
+      "ayahs": 99,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/15",
+      "reference_url": "https://quran.com/15"
+    },
+    {
+      "number": 16,
+      "name_ar": "النحل",
+      "name_en": "An-Nahl",
+      "ayahs": 128,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/16",
+      "reference_url": "https://quran.com/16"
+    },
+    {
+      "number": 17,
+      "name_ar": "الإسراء",
+      "name_en": "Al-Israa",
+      "ayahs": 111,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/17",
+      "reference_url": "https://quran.com/17"
+    },
+    {
+      "number": 18,
+      "name_ar": "الكهف",
+      "name_en": "Al-Kahf",
+      "ayahs": 110,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/18",
+      "reference_url": "https://quran.com/18"
+    },
+    {
+      "number": 19,
+      "name_ar": "مريم",
+      "name_en": "Maryam",
+      "ayahs": 98,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/19",
+      "reference_url": "https://quran.com/19"
+    },
+    {
+      "number": 20,
+      "name_ar": "طه",
+      "name_en": "Taa-Haa",
+      "ayahs": 135,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/20",
+      "reference_url": "https://quran.com/20"
+    },
+    {
+      "number": 21,
+      "name_ar": "الأنبياء",
+      "name_en": "Al-Anbiyaa",
+      "ayahs": 112,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/21",
+      "reference_url": "https://quran.com/21"
+    },
+    {
+      "number": 22,
+      "name_ar": "الحج",
+      "name_en": "Al-Hajj",
+      "ayahs": 78,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/22",
+      "reference_url": "https://quran.com/22"
+    },
+    {
+      "number": 23,
+      "name_ar": "المؤمنون",
+      "name_en": "Al-Muminoon",
+      "ayahs": 118,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/23",
+      "reference_url": "https://quran.com/23"
+    },
+    {
+      "number": 24,
+      "name_ar": "النور",
+      "name_en": "An-Noor",
+      "ayahs": 64,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/24",
+      "reference_url": "https://quran.com/24"
+    },
+    {
+      "number": 25,
+      "name_ar": "الفرقان",
+      "name_en": "Al-Furqaan",
+      "ayahs": 77,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/25",
+      "reference_url": "https://quran.com/25"
+    },
+    {
+      "number": 26,
+      "name_ar": "الشعراء",
+      "name_en": "Ash-Shu'araa",
+      "ayahs": 227,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/26",
+      "reference_url": "https://quran.com/26"
+    },
+    {
+      "number": 27,
+      "name_ar": "النمل",
+      "name_en": "An-Naml",
+      "ayahs": 93,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/27",
+      "reference_url": "https://quran.com/27"
+    },
+    {
+      "number": 28,
+      "name_ar": "القصص",
+      "name_en": "Al-Qasas",
+      "ayahs": 88,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/28",
+      "reference_url": "https://quran.com/28"
+    },
+    {
+      "number": 29,
+      "name_ar": "العنكبوت",
+      "name_en": "Al-Ankaboot",
+      "ayahs": 69,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/29",
+      "reference_url": "https://quran.com/29"
+    },
+    {
+      "number": 30,
+      "name_ar": "الروم",
+      "name_en": "Ar-Room",
+      "ayahs": 60,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/30",
+      "reference_url": "https://quran.com/30"
+    },
+    {
+      "number": 31,
+      "name_ar": "لقمان",
+      "name_en": "Luqman",
+      "ayahs": 34,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/31",
+      "reference_url": "https://quran.com/31"
+    },
+    {
+      "number": 32,
+      "name_ar": "السجدة",
+      "name_en": "As-Sajda",
+      "ayahs": 30,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/32",
+      "reference_url": "https://quran.com/32"
+    },
+    {
+      "number": 33,
+      "name_ar": "الأحزاب",
+      "name_en": "Al-Ahzaab",
+      "ayahs": 73,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/33",
+      "reference_url": "https://quran.com/33"
+    },
+    {
+      "number": 34,
+      "name_ar": "سبإ",
+      "name_en": "Saba",
+      "ayahs": 54,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/34",
+      "reference_url": "https://quran.com/34"
+    },
+    {
+      "number": 35,
+      "name_ar": "فاطر",
+      "name_en": "Faatir",
+      "ayahs": 45,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/35",
+      "reference_url": "https://quran.com/35"
+    },
+    {
+      "number": 36,
+      "name_ar": "يس",
+      "name_en": "Yaseen",
+      "ayahs": 83,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/36",
+      "reference_url": "https://quran.com/36"
+    },
+    {
+      "number": 37,
+      "name_ar": "الصافات",
+      "name_en": "As-Saaffaat",
+      "ayahs": 182,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/37",
+      "reference_url": "https://quran.com/37"
+    },
+    {
+      "number": 38,
+      "name_ar": "ص",
+      "name_en": "Saad",
+      "ayahs": 88,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/38",
+      "reference_url": "https://quran.com/38"
+    },
+    {
+      "number": 39,
+      "name_ar": "الزمر",
+      "name_en": "Az-Zumar",
+      "ayahs": 75,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/39",
+      "reference_url": "https://quran.com/39"
+    },
+    {
+      "number": 40,
+      "name_ar": "غافر",
+      "name_en": "Ghafir",
+      "ayahs": 85,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/40",
+      "reference_url": "https://quran.com/40"
+    },
+    {
+      "number": 41,
+      "name_ar": "فصلت",
+      "name_en": "Fussilat",
+      "ayahs": 54,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/41",
+      "reference_url": "https://quran.com/41"
+    },
+    {
+      "number": 42,
+      "name_ar": "الشورى",
+      "name_en": "Ash-Shura",
+      "ayahs": 53,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/42",
+      "reference_url": "https://quran.com/42"
+    },
+    {
+      "number": 43,
+      "name_ar": "الزخرف",
+      "name_en": "Az-Zukhruf",
+      "ayahs": 89,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/43",
+      "reference_url": "https://quran.com/43"
+    },
+    {
+      "number": 44,
+      "name_ar": "الدخان",
+      "name_en": "Ad-Dukhaan",
+      "ayahs": 59,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/44",
+      "reference_url": "https://quran.com/44"
+    },
+    {
+      "number": 45,
+      "name_ar": "الجاثية",
+      "name_en": "Al-Jaathiya",
+      "ayahs": 37,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/45",
+      "reference_url": "https://quran.com/45"
+    },
+    {
+      "number": 46,
+      "name_ar": "الأحقاف",
+      "name_en": "Al-Ahqaf",
+      "ayahs": 35,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/46",
+      "reference_url": "https://quran.com/46"
+    },
+    {
+      "number": 47,
+      "name_ar": "محمد",
+      "name_en": "Muhammad",
+      "ayahs": 38,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/47",
+      "reference_url": "https://quran.com/47"
+    },
+    {
+      "number": 48,
+      "name_ar": "الفتح",
+      "name_en": "Al-Fath",
+      "ayahs": 29,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/48",
+      "reference_url": "https://quran.com/48"
+    },
+    {
+      "number": 49,
+      "name_ar": "الحجرات",
+      "name_en": "Al-Hujuraat",
+      "ayahs": 18,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/49",
+      "reference_url": "https://quran.com/49"
+    },
+    {
+      "number": 50,
+      "name_ar": "ق",
+      "name_en": "Qaaf",
+      "ayahs": 45,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/50",
+      "reference_url": "https://quran.com/50"
+    },
+    {
+      "number": 51,
+      "name_ar": "الذاريات",
+      "name_en": "Adh-Dhaariyat",
+      "ayahs": 60,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/51",
+      "reference_url": "https://quran.com/51"
+    },
+    {
+      "number": 52,
+      "name_ar": "الطور",
+      "name_en": "At-Tur",
+      "ayahs": 49,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/52",
+      "reference_url": "https://quran.com/52"
+    },
+    {
+      "number": 53,
+      "name_ar": "النجم",
+      "name_en": "An-Najm",
+      "ayahs": 62,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/53",
+      "reference_url": "https://quran.com/53"
+    },
+    {
+      "number": 54,
+      "name_ar": "القمر",
+      "name_en": "Al-Qamar",
+      "ayahs": 55,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/54",
+      "reference_url": "https://quran.com/54"
+    },
+    {
+      "number": 55,
+      "name_ar": "الرحمن",
+      "name_en": "Ar-Rahmaan",
+      "ayahs": 78,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/55",
+      "reference_url": "https://quran.com/55"
+    },
+    {
+      "number": 56,
+      "name_ar": "الواقعة",
+      "name_en": "Al-Waaqia",
+      "ayahs": 96,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/56",
+      "reference_url": "https://quran.com/56"
+    },
+    {
+      "number": 57,
+      "name_ar": "الحديد",
+      "name_en": "Al-Hadid",
+      "ayahs": 29,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/57",
+      "reference_url": "https://quran.com/57"
+    },
+    {
+      "number": 58,
+      "name_ar": "المجادلة",
+      "name_en": "Al-Mujaadila",
+      "ayahs": 22,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/58",
+      "reference_url": "https://quran.com/58"
+    },
+    {
+      "number": 59,
+      "name_ar": "الحشر",
+      "name_en": "Al-Hashr",
+      "ayahs": 24,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/59",
+      "reference_url": "https://quran.com/59"
+    },
+    {
+      "number": 60,
+      "name_ar": "الممتحنة",
+      "name_en": "Al-Mumtahana",
+      "ayahs": 13,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/60",
+      "reference_url": "https://quran.com/60"
+    },
+    {
+      "number": 61,
+      "name_ar": "الصف",
+      "name_en": "As-Saff",
+      "ayahs": 14,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/61",
+      "reference_url": "https://quran.com/61"
+    },
+    {
+      "number": 62,
+      "name_ar": "الجمعة",
+      "name_en": "Al-Jumu'a",
+      "ayahs": 11,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/62",
+      "reference_url": "https://quran.com/62"
+    },
+    {
+      "number": 63,
+      "name_ar": "المنافقون",
+      "name_en": "Al-Munaafiqoon",
+      "ayahs": 11,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/63",
+      "reference_url": "https://quran.com/63"
+    },
+    {
+      "number": 64,
+      "name_ar": "التغابن",
+      "name_en": "At-Taghaabun",
+      "ayahs": 18,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/64",
+      "reference_url": "https://quran.com/64"
+    },
+    {
+      "number": 65,
+      "name_ar": "الطلاق",
+      "name_en": "At-Talaaq",
+      "ayahs": 12,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/65",
+      "reference_url": "https://quran.com/65"
+    },
+    {
+      "number": 66,
+      "name_ar": "التحريم",
+      "name_en": "At-Tahrim",
+      "ayahs": 12,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/66",
+      "reference_url": "https://quran.com/66"
+    },
+    {
+      "number": 67,
+      "name_ar": "الملك",
+      "name_en": "Al-Mulk",
+      "ayahs": 30,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/67",
+      "reference_url": "https://quran.com/67"
+    },
+    {
+      "number": 68,
+      "name_ar": "القلم",
+      "name_en": "Al-Qalam",
+      "ayahs": 52,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/68",
+      "reference_url": "https://quran.com/68"
+    },
+    {
+      "number": 69,
+      "name_ar": "الحاقة",
+      "name_en": "Al-Haaqqa",
+      "ayahs": 52,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/69",
+      "reference_url": "https://quran.com/69"
+    },
+    {
+      "number": 70,
+      "name_ar": "المعارج",
+      "name_en": "Al-Ma'aarij",
+      "ayahs": 44,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/70",
+      "reference_url": "https://quran.com/70"
+    },
+    {
+      "number": 71,
+      "name_ar": "نوح",
+      "name_en": "Nooh",
+      "ayahs": 28,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/71",
+      "reference_url": "https://quran.com/71"
+    },
+    {
+      "number": 72,
+      "name_ar": "الجن",
+      "name_en": "Al-Jinn",
+      "ayahs": 28,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/72",
+      "reference_url": "https://quran.com/72"
+    },
+    {
+      "number": 73,
+      "name_ar": "المزمل",
+      "name_en": "Al-Muzzammil",
+      "ayahs": 20,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/73",
+      "reference_url": "https://quran.com/73"
+    },
+    {
+      "number": 74,
+      "name_ar": "المدثر",
+      "name_en": "Al-Muddaththir",
+      "ayahs": 56,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/74",
+      "reference_url": "https://quran.com/74"
+    },
+    {
+      "number": 75,
+      "name_ar": "القيامة",
+      "name_en": "Al-Qiyaama",
+      "ayahs": 40,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/75",
+      "reference_url": "https://quran.com/75"
+    },
+    {
+      "number": 76,
+      "name_ar": "الإنسان",
+      "name_en": "Al-Insaan",
+      "ayahs": 31,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/76",
+      "reference_url": "https://quran.com/76"
+    },
+    {
+      "number": 77,
+      "name_ar": "المرسلات",
+      "name_en": "Al-Mursalaat",
+      "ayahs": 50,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/77",
+      "reference_url": "https://quran.com/77"
+    },
+    {
+      "number": 78,
+      "name_ar": "النبإ",
+      "name_en": "An-Naba",
+      "ayahs": 40,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/78",
+      "reference_url": "https://quran.com/78"
+    },
+    {
+      "number": 79,
+      "name_ar": "النازعات",
+      "name_en": "An-Naazi'aat",
+      "ayahs": 46,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/79",
+      "reference_url": "https://quran.com/79"
+    },
+    {
+      "number": 80,
+      "name_ar": "عبس",
+      "name_en": "Abasa",
+      "ayahs": 42,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/80",
+      "reference_url": "https://quran.com/80"
+    },
+    {
+      "number": 81,
+      "name_ar": "التكوير",
+      "name_en": "At-Takwir",
+      "ayahs": 29,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/81",
+      "reference_url": "https://quran.com/81"
+    },
+    {
+      "number": 82,
+      "name_ar": "الانفطار",
+      "name_en": "Al-Infitaar",
+      "ayahs": 19,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/82",
+      "reference_url": "https://quran.com/82"
+    },
+    {
+      "number": 83,
+      "name_ar": "المطففين",
+      "name_en": "Al-Mutaffifin",
+      "ayahs": 36,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/83",
+      "reference_url": "https://quran.com/83"
+    },
+    {
+      "number": 84,
+      "name_ar": "الانشقاق",
+      "name_en": "Al-Inshiqaaq",
+      "ayahs": 25,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/84",
+      "reference_url": "https://quran.com/84"
+    },
+    {
+      "number": 85,
+      "name_ar": "البروج",
+      "name_en": "Al-Burooj",
+      "ayahs": 22,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/85",
+      "reference_url": "https://quran.com/85"
+    },
+    {
+      "number": 86,
+      "name_ar": "الطارق",
+      "name_en": "At-Taariq",
+      "ayahs": 17,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/86",
+      "reference_url": "https://quran.com/86"
+    },
+    {
+      "number": 87,
+      "name_ar": "الأعلى",
+      "name_en": "Al-A'laa",
+      "ayahs": 19,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/87",
+      "reference_url": "https://quran.com/87"
+    },
+    {
+      "number": 88,
+      "name_ar": "الغاشية",
+      "name_en": "Al-Ghaashiya",
+      "ayahs": 26,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/88",
+      "reference_url": "https://quran.com/88"
+    },
+    {
+      "number": 89,
+      "name_ar": "الفجر",
+      "name_en": "Al-Fajr",
+      "ayahs": 30,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/89",
+      "reference_url": "https://quran.com/89"
+    },
+    {
+      "number": 90,
+      "name_ar": "البلد",
+      "name_en": "Al-Balad",
+      "ayahs": 20,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/90",
+      "reference_url": "https://quran.com/90"
+    },
+    {
+      "number": 91,
+      "name_ar": "الشمس",
+      "name_en": "Ash-Shams",
+      "ayahs": 15,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/91",
+      "reference_url": "https://quran.com/91"
+    },
+    {
+      "number": 92,
+      "name_ar": "الليل",
+      "name_en": "Al-Lail",
+      "ayahs": 21,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/92",
+      "reference_url": "https://quran.com/92"
+    },
+    {
+      "number": 93,
+      "name_ar": "الضحى",
+      "name_en": "Ad-Dhuhaa",
+      "ayahs": 11,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/93",
+      "reference_url": "https://quran.com/93"
+    },
+    {
+      "number": 94,
+      "name_ar": "الشرح",
+      "name_en": "Ash-Sharh",
+      "ayahs": 8,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/94",
+      "reference_url": "https://quran.com/94"
+    },
+    {
+      "number": 95,
+      "name_ar": "التين",
+      "name_en": "At-Tin",
+      "ayahs": 8,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/95",
+      "reference_url": "https://quran.com/95"
+    },
+    {
+      "number": 96,
+      "name_ar": "العلق",
+      "name_en": "Al-Alaq",
+      "ayahs": 19,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/96",
+      "reference_url": "https://quran.com/96"
+    },
+    {
+      "number": 97,
+      "name_ar": "القدر",
+      "name_en": "Al-Qadr",
+      "ayahs": 5,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/97",
+      "reference_url": "https://quran.com/97"
+    },
+    {
+      "number": 98,
+      "name_ar": "البينة",
+      "name_en": "Al-Bayyina",
+      "ayahs": 8,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/98",
+      "reference_url": "https://quran.com/98"
+    },
+    {
+      "number": 99,
+      "name_ar": "الزلزلة",
+      "name_en": "Az-Zalzala",
+      "ayahs": 8,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/99",
+      "reference_url": "https://quran.com/99"
+    },
+    {
+      "number": 100,
+      "name_ar": "العاديات",
+      "name_en": "Al-Aadiyaat",
+      "ayahs": 11,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/100",
+      "reference_url": "https://quran.com/100"
+    },
+    {
+      "number": 101,
+      "name_ar": "القارعة",
+      "name_en": "Al-Qaari'a",
+      "ayahs": 11,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/101",
+      "reference_url": "https://quran.com/101"
+    },
+    {
+      "number": 102,
+      "name_ar": "التكاثر",
+      "name_en": "At-Takaathur",
+      "ayahs": 8,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/102",
+      "reference_url": "https://quran.com/102"
+    },
+    {
+      "number": 103,
+      "name_ar": "العصر",
+      "name_en": "Al-Asr",
+      "ayahs": 3,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/103",
+      "reference_url": "https://quran.com/103"
+    },
+    {
+      "number": 104,
+      "name_ar": "الهمزة",
+      "name_en": "Al-Humaza",
+      "ayahs": 9,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/104",
+      "reference_url": "https://quran.com/104"
+    },
+    {
+      "number": 105,
+      "name_ar": "الفيل",
+      "name_en": "Al-Fil",
+      "ayahs": 5,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/105",
+      "reference_url": "https://quran.com/105"
+    },
+    {
+      "number": 106,
+      "name_ar": "قريش",
+      "name_en": "Quraish",
+      "ayahs": 4,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/106",
+      "reference_url": "https://quran.com/106"
+    },
+    {
+      "number": 107,
+      "name_ar": "الماعون",
+      "name_en": "Al-Maa'un",
+      "ayahs": 7,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/107",
+      "reference_url": "https://quran.com/107"
+    },
+    {
+      "number": 108,
+      "name_ar": "الكوثر",
+      "name_en": "Al-Kawthar",
+      "ayahs": 3,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/108",
+      "reference_url": "https://quran.com/108"
+    },
+    {
+      "number": 109,
+      "name_ar": "الكافرون",
+      "name_en": "Al-Kaafiroon",
+      "ayahs": 6,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/109",
+      "reference_url": "https://quran.com/109"
+    },
+    {
+      "number": 110,
+      "name_ar": "النصر",
+      "name_en": "An-Nasr",
+      "ayahs": 3,
+      "revelation": "Medinan",
+      "source_url": "https://api.alquran.cloud/v1/surah/110",
+      "reference_url": "https://quran.com/110"
+    },
+    {
+      "number": 111,
+      "name_ar": "المسد",
+      "name_en": "Al-Masad",
+      "ayahs": 5,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/111",
+      "reference_url": "https://quran.com/111"
+    },
+    {
+      "number": 112,
+      "name_ar": "الإخلاص",
+      "name_en": "Al-Ikhlaas",
+      "ayahs": 4,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/112",
+      "reference_url": "https://quran.com/112"
+    },
+    {
+      "number": 113,
+      "name_ar": "الفلق",
+      "name_en": "Al-Falaq",
+      "ayahs": 5,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/113",
+      "reference_url": "https://quran.com/113"
+    },
+    {
+      "number": 114,
+      "name_ar": "الناس",
+      "name_en": "An-Naas",
+      "ayahs": 6,
+      "revelation": "Meccan",
+      "source_url": "https://api.alquran.cloud/v1/surah/114",
+      "reference_url": "https://quran.com/114"
+    }
+  ],
+  "general_facts": [
+    {
+      "difficulty": 200,
+      "question": "كم عدد سور القرآن الكريم؟",
+      "answer": "114",
+      "explanation": "عدد سور القرآن الكريم 114 سورة.",
+      "source_url": "https://api.alquran.cloud/v1/surah",
+      "fact_group_id": "quran:count"
+    },
+    {
+      "difficulty": 200,
+      "question": "ما أول سورة في المصحف؟",
+      "answer": "الفاتحة",
+      "explanation": "أول سورة في ترتيب المصحف هي الفاتحة.",
+      "source_url": "https://quran.com/1",
+      "fact_group_id": "quran:first"
+    },
+    {
+      "difficulty": 200,
+      "question": "ما آخر سورة في المصحف؟",
+      "answer": "الناس",
+      "explanation": "آخر سورة في ترتيب المصحف هي الناس.",
+      "source_url": "https://quran.com/114",
+      "fact_group_id": "quran:last"
+    },
+    {
+      "difficulty": 200,
+      "question": "ما أطول سورة في القرآن الكريم؟",
+      "answer": "البقرة",
+      "explanation": "سورة البقرة أطول سور القرآن، وعدد آياتها 286 آية.",
+      "source_url": "https://quran.com/2",
+      "fact_group_id": "quran:longest"
+    },
+    {
+      "difficulty": 200,
+      "question": "ما أقصر سورة في القرآن الكريم؟",
+      "answer": "الكوثر",
+      "explanation": "سورة الكوثر أقصر سور القرآن، وعدد آياتها 3 آيات.",
+      "source_url": "https://quran.com/108",
+      "fact_group_id": "quran:shortest"
+    },
+    {
+      "difficulty": 200,
+      "question": "في أي سورة توجد آية الكرسي؟",
+      "answer": "البقرة",
+      "explanation": "آية الكرسي هي الآية 255 من سورة البقرة.",
+      "source_url": "https://quran.com/2/255",
+      "fact_group_id": "quran:kursi"
+    },
+    {
+      "difficulty": 400,
+      "question": "ما السورة التي تبدأ بـ«الحمد لله رب العالمين»؟",
+      "answer": "الفاتحة",
+      "explanation": "سورة الفاتحة تبدأ بعد البسملة بـ«الحمد لله رب العالمين».",
+      "source_url": "https://quran.com/1/2",
+      "fact_group_id": "quran:fatiha_hamd"
+    },
+    {
+      "difficulty": 400,
+      "question": "في أي سورة ذُكرت قصة أصحاب الكهف؟",
+      "answer": "الكهف",
+      "explanation": "ذُكرت قصة أصحاب الكهف في سورة الكهف، بدءًا من الآية 9.",
+      "source_url": "https://quran.com/18/9",
+      "fact_group_id": "quran:kahf"
+    },
+    {
+      "difficulty": 400,
+      "question": "في أي سورة ذُكرت قصة يوسف عليه السلام؟",
+      "answer": "يوسف",
+      "explanation": "سورة يوسف تعرض قصة يوسف عليه السلام، ومنها الآية 3.",
+      "source_url": "https://quran.com/12/3",
+      "fact_group_id": "quran:yusuf"
+    },
+    {
+      "difficulty": 400,
+      "question": "في أي سورة ذُكرت قصة موسى والخضر؟",
+      "answer": "الكهف",
+      "explanation": "ذُكرت قصة موسى والخضر في سورة الكهف، بدءًا من الآية 60.",
+      "source_url": "https://quran.com/18/60",
+      "fact_group_id": "quran:khidr"
+    },
+    {
+      "difficulty": 400,
+      "question": "في أي سورة ذُكرت مريم عليها السلام في اسمها؟",
+      "answer": "مريم",
+      "explanation": "سورة مريم هي السورة التي تحمل اسمها، وفيها ذكر مريم عليها السلام.",
+      "source_url": "https://quran.com/19/16",
+      "fact_group_id": "quran:maryam"
+    },
+    {
+      "difficulty": 400,
+      "question": "في أي سورة ذُكرت قصة أصحاب الفيل؟",
+      "answer": "الفيل",
+      "explanation": "ذُكرت قصة أصحاب الفيل في سورة الفيل.",
+      "source_url": "https://quran.com/105/1",
+      "fact_group_id": "quran:feel"
+    },
+    {
+      "difficulty": 600,
+      "question": "في أي سورة ذُكرت قصة سليمان مع الهدهد؟",
+      "answer": "النمل",
+      "explanation": "ذُكرت قصة سليمان مع الهدهد في سورة النمل، بدءًا من الآية 20.",
+      "source_url": "https://quran.com/27/20",
+      "fact_group_id": "quran:hudhud"
+    },
+    {
+      "difficulty": 600,
+      "question": "ما السورة التي تبدأ بـ«تبارك الذي بيده الملك»؟",
+      "answer": "الملك",
+      "explanation": "سورة الملك تبدأ بـ«تبارك الذي بيده الملك».",
+      "source_url": "https://quran.com/67/1",
+      "fact_group_id": "quran:mulk"
+    },
+    {
+      "difficulty": 600,
+      "question": "في أي سورة ذُكرت قصة أصحاب الأخدود؟",
+      "answer": "البروج",
+      "explanation": "ذُكرت قصة أصحاب الأخدود في سورة البروج، بدءًا من الآية 4.",
+      "source_url": "https://quran.com/85/4",
+      "fact_group_id": "quran:ukhdud"
+    },
+    {
+      "difficulty": 600,
+      "question": "ما السورة التي تبدأ بـ«طه»؟",
+      "answer": "طه",
+      "explanation": "سورة طه تبدأ بالحروف «طه».",
+      "source_url": "https://quran.com/20/1",
+      "fact_group_id": "quran:taha"
+    },
+    {
+      "difficulty": 600,
+      "question": "ما السورة التي تبدأ بـ«يس»؟",
+      "answer": "يس",
+      "explanation": "سورة يس تبدأ بالحروف «يس».",
+      "source_url": "https://quran.com/36/1",
+      "fact_group_id": "quran:yasin"
+    },
+    {
+      "difficulty": 600,
+      "question": "في أي سورة ذُكرت قصة بقرة بني إسرائيل؟",
+      "answer": "البقرة",
+      "explanation": "ذُكرت قصة بقرة بني إسرائيل في سورة البقرة، بدءًا من الآية 67.",
+      "source_url": "https://quran.com/2/67",
+      "fact_group_id": "quran:baqarah_cow"
+    }
+  ]
+}

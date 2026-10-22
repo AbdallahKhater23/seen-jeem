@@ -1,0 +1,1957 @@
+{
+  "generated_at": "2026-10-21T14:10:54.601940+00:00",
+  "database": "C:\\Users\\pc\\Downloads\\seen jeem\\backend\\data\\seenjeem.db",
+  "read_only": true,
+  "sqlite_schema_version": 7,
+  "active_football_rows_sha256": "0f1858a9e59b9d50648ca194bf6db611fbb7cec4453346052d5f97092563d2ed",
+  "methodology": {
+    "deterministic": "Stored active counts, normalized exact text, answer repetition, legacy fact groups, source presence, format counts, foreign keys.",
+    "heuristic": "First four normalized words with digits masked approximate templates. Era uses one unambiguous explicit 1900–2099 question year; all others unknown. Source entity IDs are legacy IDs, not validated canonical subjects.",
+    "not_measured": "Truth/ambiguity, canonical fact/event duplication, perceived similarity, source validity, actual historical-era and primary-entity distribution require editorial verification; missing provenance is not proof that a fact is false. External media URLs are not fetched by this audit."
+  },
+  "total_active_football": 2140,
+  "categories": {
+    "football": {
+      "label": "كورة عالمية وأوروبية",
+      "active": 343,
+      "difficulty": {
+        "200": 114,
+        "400": 119,
+        "600": 110
+      },
+      "formats": {
+        "text": 343
+      },
+      "exact_text": {
+        "known": 343,
+        "distinct": 343,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 343,
+        "distinct": 161,
+        "excess_rows": 182,
+        "rate": 0.530612,
+        "top_repeated": [
+          [
+            "الدوري الانجليزي الممتاز",
+            15
+          ],
+          [
+            "انجلترا",
+            14
+          ],
+          [
+            "الدوري الاسباني",
+            10
+          ],
+          [
+            "اسبانيا",
+            10
+          ],
+          [
+            "الدوري الايطالي",
+            9
+          ],
+          [
+            "ايطاليا",
+            9
+          ],
+          [
+            "الدوري الفرنسي",
+            9
+          ],
+          [
+            "الدوري الالماني",
+            8
+          ],
+          [
+            "المانيا",
+            7
+          ],
+          [
+            "فرنسا",
+            7
+          ],
+          [
+            "الدوري البرازيلي",
+            5
+          ],
+          [
+            "البرازيل",
+            5
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 343,
+        "distinct": 343,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "verification_status": {
+        "curated": 343
+      },
+      "missing_source_url": 343,
+      "missing_source_claim": 343,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية مضمّنة",
+          300
+        ],
+        [
+          "حزمة بيانات محلية منسّقة",
+          42
+        ],
+        [
+          "سؤال احتياطي محلي",
+          1
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "el_clasico",
+          1
+        ],
+        [
+          "milan_derby",
+          1
+        ],
+        [
+          "manchester_derby",
+          1
+        ],
+        [
+          "merseyside_derby",
+          1
+        ],
+        [
+          "camp_nou",
+          1
+        ],
+        [
+          "bernabeu",
+          1
+        ],
+        [
+          "anfield",
+          1
+        ],
+        [
+          "old_trafford",
+          1
+        ],
+        [
+          "allianz",
+          1
+        ],
+        [
+          "san_siro",
+          1
+        ],
+        [
+          "psg_parc",
+          1
+        ],
+        [
+          "dortmund_wall",
+          1
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "في اي مدينة يقع",
+          100
+        ],
+        [
+          "في اي دوري يلعب",
+          100
+        ],
+        [
+          "في اي دولة يقع",
+          100
+        ],
+        [
+          "ما اسم اعلي دوري",
+          6
+        ],
+        [
+          "من فاز بالكرة الذهبية",
+          4
+        ],
+        [
+          "اي ناديين يلعبان ديربي",
+          3
+        ],
+        [
+          "من فاز بكاس امم",
+          3
+        ],
+        [
+          "ما اسم ملعب نادي",
+          2
+        ],
+        [
+          "من فاز بكوبا امريكا",
+          2
+        ],
+        [
+          "كم عدد دول مجلس",
+          1
+        ],
+        [
+          "بين اي ناديين يلعب",
+          1
+        ],
+        [
+          "ما اسم ملعب ريال",
+          1
+        ]
+      ],
+      "template_entropy_heuristic": 2.5032,
+      "era_first_explicit_year_heuristic": {
+        "unknown": 330,
+        "contemporary": 10,
+        "golden_era": 1,
+        "modern_peak": 2
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 301,
+          "difficulty": 200,
+          "question_text": "في أي مدينة يقع نادي مانشستر يونايتد؟",
+          "answer_text": "مانشستر",
+          "fact_group_id": "legacy:919271690a5e654848ef3f8f9bb9c84471c769a9b0f2b0b9a7e1a9081223f6b3",
+          "source_url": null
+        },
+        {
+          "id": 302,
+          "difficulty": 400,
+          "question_text": "في أي دوري يلعب نادي مانشستر يونايتد؟",
+          "answer_text": "الدوري الإنجليزي الممتاز",
+          "fact_group_id": "legacy:6d0a0605daf7e6dab59887e4d93320030c307a6dc6e6508347ff1f3050f680fe",
+          "source_url": null
+        },
+        {
+          "id": 303,
+          "difficulty": 600,
+          "question_text": "في أي دولة يقع نادي مانشستر يونايتد؟",
+          "answer_text": "إنجلترا",
+          "fact_group_id": "legacy:48e1eca0ad0387ad86efddf5bbbaa8defd83aab13290f725137943e426d30bbc",
+          "source_url": null
+        }
+      ]
+    },
+    "ucl": {
+      "label": "دوري أبطال أوروبا",
+      "active": 276,
+      "difficulty": {
+        "200": 69,
+        "400": 138,
+        "600": 69
+      },
+      "formats": {
+        "text": 276
+      },
+      "exact_text": {
+        "known": 276,
+        "distinct": 276,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 276,
+        "distinct": 93,
+        "excess_rows": 183,
+        "rate": 0.663043,
+        "top_repeated": [
+          [
+            "ريال مدريد",
+            18
+          ],
+          [
+            "الملعب الاولمبي",
+            13
+          ],
+          [
+            "ميلان",
+            11
+          ],
+          [
+            "بايرن ميونخ",
+            11
+          ],
+          [
+            "برشلونة",
+            10
+          ],
+          [
+            "ليفربول",
+            10
+          ],
+          [
+            "يوفنتوس",
+            9
+          ],
+          [
+            "لندن",
+            8
+          ],
+          [
+            "ملعب ويمبلي",
+            8
+          ],
+          [
+            "بنفيكا",
+            7
+          ],
+          [
+            "باريس",
+            6
+          ],
+          [
+            "انتر ميلان",
+            6
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 276,
+        "distinct": 69,
+        "excess_rows": 207,
+        "rate": 0.75,
+        "top_repeated": [
+          [
+            "ucl_final:1956",
+            4
+          ],
+          [
+            "ucl_final:1957",
+            4
+          ],
+          [
+            "ucl_final:1958",
+            4
+          ],
+          [
+            "ucl_final:1959",
+            4
+          ],
+          [
+            "ucl_final:1960",
+            4
+          ],
+          [
+            "ucl_final:1961",
+            4
+          ],
+          [
+            "ucl_final:1962",
+            4
+          ],
+          [
+            "ucl_final:1963",
+            4
+          ],
+          [
+            "ucl_final:1964",
+            4
+          ],
+          [
+            "ucl_final:1965",
+            4
+          ],
+          [
+            "ucl_final:1966",
+            4
+          ],
+          [
+            "ucl_final:1967",
+            4
+          ]
+        ]
+      },
+      "verification_status": {
+        "curated": 276
+      },
+      "missing_source_url": 276,
+      "missing_source_claim": 276,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية منسّقة",
+          276
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "1956",
+          4
+        ],
+        [
+          "1957",
+          4
+        ],
+        [
+          "1958",
+          4
+        ],
+        [
+          "1959",
+          4
+        ],
+        [
+          "1960",
+          4
+        ],
+        [
+          "1961",
+          4
+        ],
+        [
+          "1962",
+          4
+        ],
+        [
+          "1963",
+          4
+        ],
+        [
+          "1964",
+          4
+        ],
+        [
+          "1965",
+          4
+        ],
+        [
+          "1966",
+          4
+        ],
+        [
+          "1967",
+          4
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "من فاز بدوري ابطال",
+          69
+        ],
+        [
+          "من حل وصيفا في",
+          69
+        ],
+        [
+          "في اي مدينة اقيم",
+          69
+        ],
+        [
+          "ما الملعب الذي احتضن",
+          69
+        ]
+      ],
+      "template_entropy_heuristic": 2,
+      "era_first_explicit_year_heuristic": {
+        "classic": 136,
+        "golden_era": 64,
+        "modern_peak": 52,
+        "contemporary": 24
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 2449,
+          "difficulty": 200,
+          "question_text": "من فاز بدوري أبطال أوروبا 1956؟",
+          "answer_text": "ريال مدريد",
+          "fact_group_id": "ucl_final:1956",
+          "source_url": null
+        },
+        {
+          "id": 2450,
+          "difficulty": 400,
+          "question_text": "من حل وصيفًا في نهائي دوري أبطال أوروبا 1956؟",
+          "answer_text": "ستاد ريمس",
+          "fact_group_id": "ucl_final:1956",
+          "source_url": null
+        },
+        {
+          "id": 2451,
+          "difficulty": 400,
+          "question_text": "في أي مدينة أقيم نهائي دوري أبطال أوروبا 1956؟",
+          "answer_text": "باريس",
+          "fact_group_id": "ucl_final:1956",
+          "source_url": null
+        }
+      ]
+    },
+    "worldcup": {
+      "label": "كأس العالم",
+      "active": 301,
+      "difficulty": {
+        "200": 100,
+        "400": 101,
+        "600": 100
+      },
+      "formats": {
+        "text": 301
+      },
+      "exact_text": {
+        "known": 301,
+        "distinct": 301,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 301,
+        "distinct": 99,
+        "excess_rows": 202,
+        "rate": 0.671096,
+        "top_repeated": [
+          [
+            "البرازيل",
+            28
+          ],
+          [
+            "ايطاليا",
+            22
+          ],
+          [
+            "فرنسا",
+            17
+          ],
+          [
+            "المانيا الغربية",
+            16
+          ],
+          [
+            "الارجنتين",
+            15
+          ],
+          [
+            "المانيا",
+            15
+          ],
+          [
+            "اوروغواي",
+            9
+          ],
+          [
+            "السويد",
+            7
+          ],
+          [
+            "الملعب الاولمبي",
+            6
+          ],
+          [
+            "اسبانيا",
+            6
+          ],
+          [
+            "انجلترا",
+            5
+          ],
+          [
+            "المكسيك",
+            5
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 301,
+        "distinct": 301,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "verification_status": {
+        "curated": 301
+      },
+      "missing_source_url": 301,
+      "missing_source_claim": 301,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية مضمّنة",
+          300
+        ],
+        [
+          "سؤال احتياطي محلي",
+          1
+        ]
+      ],
+      "source_entity_ids": [],
+      "template_prefix_heuristic": [
+        [
+          "في اي دولة اقيمت",
+          23
+        ],
+        [
+          "من فاز بكاس العالم",
+          22
+        ],
+        [
+          "من حل وصيفا في",
+          22
+        ],
+        [
+          "ما نتيجة نهائي كاس",
+          22
+        ],
+        [
+          "ما الدولة المستضيفة لمونديال",
+          22
+        ],
+        [
+          "من توج بلقب كاس",
+          22
+        ],
+        [
+          "في اي ملعب اقيم",
+          22
+        ],
+        [
+          "من صاحب المركز الثالث",
+          22
+        ],
+        [
+          "اي منتخب توج ببطولة",
+          22
+        ],
+        [
+          "ما الملعب الذي احتضن",
+          22
+        ],
+        [
+          "من حل ثالثا في",
+          22
+        ],
+        [
+          "من كان هداف كاس",
+          22
+        ]
+      ],
+      "template_entropy_heuristic": 4.2307,
+      "era_first_explicit_year_heuristic": {
+        "classic": 160,
+        "golden_era": 49,
+        "modern_peak": 52,
+        "contemporary": 19,
+        "unknown": 21
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 601,
+          "difficulty": 200,
+          "question_text": "في أي دولة أقيمت نسخة كأس العالم 1930؟",
+          "answer_text": "أوروغواي",
+          "fact_group_id": "legacy:247903f74b5c96fe7bd876562eb19cab40f4de594eb19435df0a849162e67a17",
+          "source_url": null
+        },
+        {
+          "id": 602,
+          "difficulty": 200,
+          "question_text": "من فاز بكأس العالم 1930؟",
+          "answer_text": "أوروغواي",
+          "fact_group_id": "legacy:4203b9a1d5963b9f3ffd4432cf98f14ddaf740b15c1d26a3ff3b6206170774dd",
+          "source_url": null
+        },
+        {
+          "id": 603,
+          "difficulty": 200,
+          "question_text": "من حل وصيفًا في مونديال 1930؟",
+          "answer_text": "الأرجنتين",
+          "fact_group_id": "legacy:63f6db4234161feec66b37e6226081f39ace78fab1200b24a045fbf59945f011",
+          "source_url": null
+        }
+      ]
+    },
+    "career": {
+      "label": "مسيرة لاعب",
+      "active": 483,
+      "difficulty": {
+        "200": 200,
+        "400": 101,
+        "600": 182
+      },
+      "formats": {
+        "career": 482,
+        "text": 1
+      },
+      "exact_text": {
+        "known": 483,
+        "distinct": 279,
+        "excess_rows": 204,
+        "rate": 0.42236,
+        "top_repeated": [
+          [
+            "تتبع محطات هاللاعب بالترتيب منو هو",
+            100
+          ],
+          [
+            "مسيرة فيها انتقالات عرف اللاعب من محطاته وي سنواته",
+            91
+          ],
+          [
+            "مسيرة فيها انتقالات و1 اعارة عرف اللاعب من محطاته وي سنواته",
+            8
+          ],
+          [
+            "لاعب بدا مسيرته مع بوكا جونيورز ووصل الي بوكا جونيورز منو هو",
+            3
+          ],
+          [
+            "لاعب بدا مع بوكا جونيورز ووصل الي بوكا جونيورز منو هو",
+            3
+          ],
+          [
+            "لاعب بدا مسيرته مع اكاديمية مانشستر يونايتد ووصل الي مانشستر يونايتد منو هو",
+            2
+          ],
+          [
+            "لاعب بدا مسيرته مع اكاديمية برشلونة ووصل الي برشلونة منو هو",
+            2
+          ],
+          [
+            "لاعب بدا مع اكاديمية مانشستر يونايتد ووصل الي مانشستر يونايتد منو هو",
+            2
+          ],
+          [
+            "لاعب بدا مع اكاديمية برشلونة ووصل الي برشلونة منو هو",
+            2
+          ]
+        ]
+      },
+      "answers": {
+        "known": 483,
+        "distinct": 101,
+        "excess_rows": 382,
+        "rate": 0.79089,
+        "top_repeated": [
+          [
+            "ليونيل ميسي",
+            5
+          ],
+          [
+            "كريستيانو رونالدو",
+            5
+          ],
+          [
+            "نيمار",
+            5
+          ],
+          [
+            "كيليان مبابي",
+            5
+          ],
+          [
+            "كريم بنزيما",
+            5
+          ],
+          [
+            "محمد صلاح",
+            5
+          ],
+          [
+            "ايرلينغ هالاند",
+            5
+          ],
+          [
+            "روبرت ليفاندوفسكي",
+            5
+          ],
+          [
+            "لوكا مودريتش",
+            5
+          ],
+          [
+            "توني كروس",
+            5
+          ],
+          [
+            "سيرخيو راموس",
+            5
+          ],
+          [
+            "اندريس انييستا",
+            5
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 483,
+        "distinct": 401,
+        "excess_rows": 82,
+        "rate": 0.169772,
+        "top_repeated": [
+          [
+            "player:ليونيل_ميسي",
+            2
+          ],
+          [
+            "player:كريستيانو_رونالدو",
+            2
+          ],
+          [
+            "player:نيمار",
+            2
+          ],
+          [
+            "player:كيليان_مبابي",
+            2
+          ],
+          [
+            "player:كريم_بنزيما",
+            2
+          ],
+          [
+            "player:محمد_صلاح",
+            2
+          ],
+          [
+            "player:إيرلينغ_هالاند",
+            2
+          ],
+          [
+            "player:روبرت_ليفاندوفسكي",
+            2
+          ],
+          [
+            "player:لوكا_مودريتش",
+            2
+          ],
+          [
+            "player:توني_كروس",
+            2
+          ],
+          [
+            "player:سيرخيو_راموس",
+            2
+          ],
+          [
+            "player:أندريس_إنييستا",
+            2
+          ]
+        ]
+      },
+      "verification_status": {
+        "curated": 483
+      },
+      "missing_source_url": 483,
+      "missing_source_claim": 483,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية مضمّنة",
+          300
+        ],
+        [
+          "حزمة بيانات محلية منسّقة",
+          182
+        ],
+        [
+          "سؤال احتياطي محلي",
+          1
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "ليونيل ميسي",
+          2
+        ],
+        [
+          "كريستيانو رونالدو",
+          2
+        ],
+        [
+          "نيمار",
+          2
+        ],
+        [
+          "كيليان مبابي",
+          2
+        ],
+        [
+          "كريم بنزيما",
+          2
+        ],
+        [
+          "محمد صلاح",
+          2
+        ],
+        [
+          "إيرلينغ هالاند",
+          2
+        ],
+        [
+          "روبرت ليفاندوفسكي",
+          2
+        ],
+        [
+          "لوكا مودريتش",
+          2
+        ],
+        [
+          "توني كروس",
+          2
+        ],
+        [
+          "سيرخيو راموس",
+          2
+        ],
+        [
+          "أندريس إنييستا",
+          2
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "لاعب بدا مسيرته مع",
+          100
+        ],
+        [
+          "تتبع محطات هاللاعب بالترتيب",
+          100
+        ],
+        [
+          "مسيرة فيها انتقالات عرف",
+          91
+        ],
+        [
+          "لاعب انتقل من برشلونة",
+          10
+        ],
+        [
+          "مسيرة فيها انتقالات و<number>",
+          9
+        ],
+        [
+          "لاعب بدا مع اكاديمية",
+          8
+        ],
+        [
+          "لاعب انتقل من مانشستر",
+          5
+        ],
+        [
+          "لاعب انتقل من يوفنتوس",
+          5
+        ],
+        [
+          "لاعب انتقل من ريال",
+          4
+        ],
+        [
+          "لاعب انتقل من تشيلسي",
+          4
+        ],
+        [
+          "لاعب بدا مع مانشستر",
+          4
+        ],
+        [
+          "لاعب انتقل من ارسنال",
+          4
+        ]
+      ],
+      "template_entropy_heuristic": 4.4935,
+      "era_first_explicit_year_heuristic": {
+        "unknown": 480,
+        "modern_peak": 1,
+        "golden_era": 2
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 901,
+          "difficulty": 200,
+          "question_text": "لاعب بدأ مسيرته مع برشلونة ووصل إلى إنتر ميامي… منو هو؟",
+          "answer_text": "ليونيل ميسي",
+          "fact_group_id": "legacy:bacff32e9096c2a67d8a6a1122e0e00b3d5d7b851f559f8711393b63e3417ea5",
+          "source_url": null
+        },
+        {
+          "id": 902,
+          "difficulty": 400,
+          "question_text": "تتبّع محطات هاللاعب بالترتيب… منو هو؟",
+          "answer_text": "ليونيل ميسي",
+          "fact_group_id": "legacy:ed978ee39f4dae5881f09a23041acd0cc2adf7d7b8f634f32921b912b39329e4",
+          "source_url": null
+        },
+        {
+          "id": 903,
+          "difficulty": 600,
+          "question_text": "مسيرة فيها انتقالات… عرف اللاعب من محطاته وي سنواته.",
+          "answer_text": "ليونيل ميسي",
+          "fact_group_id": "legacy:e1f82411d986ff3e8a751d0b65c7634af0d2f670bf7b8ad02d8eaaa3518a8f90",
+          "source_url": null
+        }
+      ]
+    },
+    "clubs": {
+      "label": "أندية وديربيات",
+      "active": 300,
+      "difficulty": {
+        "200": 100,
+        "400": 100,
+        "600": 100
+      },
+      "formats": {
+        "text": 300
+      },
+      "exact_text": {
+        "known": 300,
+        "distinct": 300,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 300,
+        "distinct": 132,
+        "excess_rows": 168,
+        "rate": 0.56,
+        "top_repeated": [
+          [
+            "الدوري الانجليزي الممتاز",
+            14
+          ],
+          [
+            "انجلترا",
+            14
+          ],
+          [
+            "الدوري الاسباني",
+            9
+          ],
+          [
+            "اسبانيا",
+            9
+          ],
+          [
+            "الدوري الايطالي",
+            8
+          ],
+          [
+            "ايطاليا",
+            8
+          ],
+          [
+            "الدوري الفرنسي",
+            8
+          ],
+          [
+            "الدوري الالماني",
+            7
+          ],
+          [
+            "المانيا",
+            7
+          ],
+          [
+            "فرنسا",
+            7
+          ],
+          [
+            "الدوري البرازيلي",
+            5
+          ],
+          [
+            "البرازيل",
+            5
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 300,
+        "distinct": 100,
+        "excess_rows": 200,
+        "rate": 0.666667,
+        "top_repeated": [
+          [
+            "club:مانشستر_يونايتد",
+            3
+          ],
+          [
+            "club:مانشستر_سيتي",
+            3
+          ],
+          [
+            "club:ليفربول",
+            3
+          ],
+          [
+            "club:أرسنال",
+            3
+          ],
+          [
+            "club:تشيلسي",
+            3
+          ],
+          [
+            "club:توتنهام_هوتسبير",
+            3
+          ],
+          [
+            "club:نيوكاسل_يونايتد",
+            3
+          ],
+          [
+            "club:أستون_فيلا",
+            3
+          ],
+          [
+            "club:إيفرتون",
+            3
+          ],
+          [
+            "club:وست_هام_يونايتد",
+            3
+          ],
+          [
+            "club:ليدز_يونايتد",
+            3
+          ],
+          [
+            "club:نوتينغهام_فورست",
+            3
+          ]
+        ]
+      },
+      "verification_status": {
+        "curated": 300
+      },
+      "missing_source_url": 300,
+      "missing_source_claim": 300,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية منسّقة",
+          300
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "مانشستر يونايتد",
+          3
+        ],
+        [
+          "مانشستر سيتي",
+          3
+        ],
+        [
+          "ليفربول",
+          3
+        ],
+        [
+          "أرسنال",
+          3
+        ],
+        [
+          "تشيلسي",
+          3
+        ],
+        [
+          "توتنهام هوتسبير",
+          3
+        ],
+        [
+          "نيوكاسل يونايتد",
+          3
+        ],
+        [
+          "أستون فيلا",
+          3
+        ],
+        [
+          "إيفرتون",
+          3
+        ],
+        [
+          "وست هام يونايتد",
+          3
+        ],
+        [
+          "ليدز يونايتد",
+          3
+        ],
+        [
+          "نوتينغهام فورست",
+          3
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "في اي مدينة يقع",
+          100
+        ],
+        [
+          "في اي دوري يلعب",
+          100
+        ],
+        [
+          "في اي دولة يقع",
+          100
+        ]
+      ],
+      "template_entropy_heuristic": 1.585,
+      "era_first_explicit_year_heuristic": {
+        "unknown": 300
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 3175,
+          "difficulty": 200,
+          "question_text": "في أي مدينة يقع نادي مانشستر يونايتد؟",
+          "answer_text": "مانشستر",
+          "fact_group_id": "club:مانشستر_يونايتد",
+          "source_url": null
+        },
+        {
+          "id": 3176,
+          "difficulty": 400,
+          "question_text": "في أي دوري يلعب نادي مانشستر يونايتد؟",
+          "answer_text": "الدوري الإنجليزي الممتاز",
+          "fact_group_id": "club:مانشستر_يونايتد",
+          "source_url": null
+        },
+        {
+          "id": 3177,
+          "difficulty": 600,
+          "question_text": "في أي دولة يقع نادي مانشستر يونايتد؟",
+          "answer_text": "إنجلترا",
+          "fact_group_id": "club:مانشستر_يونايتد",
+          "source_url": null
+        }
+      ]
+    },
+    "arab_ftbl": {
+      "label": "كورة عربية وخليجية",
+      "active": 41,
+      "difficulty": {
+        "200": 9,
+        "400": 13,
+        "600": 19
+      },
+      "formats": {
+        "text": 41
+      },
+      "exact_text": {
+        "known": 41,
+        "distinct": 41,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 41,
+        "distinct": 27,
+        "excess_rows": 14,
+        "rate": 0.341463,
+        "top_repeated": [
+          [
+            "قطر",
+            6
+          ],
+          [
+            "الكويت",
+            3
+          ],
+          [
+            "عمان",
+            3
+          ],
+          [
+            "الهلال",
+            3
+          ],
+          [
+            "العراق",
+            2
+          ],
+          [
+            "الامارات",
+            2
+          ],
+          [
+            "اليابان",
+            2
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 41,
+        "distinct": 27,
+        "excess_rows": 14,
+        "rate": 0.341463,
+        "top_repeated": [
+          [
+            "arab_ftbl:asian_cup_qatar_2019",
+            3
+          ],
+          [
+            "arab_ftbl:gulf_cup_kuwait",
+            2
+          ],
+          [
+            "arab_ftbl:gulf_cup_iraq_2023",
+            2
+          ],
+          [
+            "arab_ftbl:gulf_cup_oman",
+            2
+          ],
+          [
+            "arab_ftbl:gulf_cup_qatar",
+            2
+          ],
+          [
+            "arab_ftbl:asian_cup_japan",
+            2
+          ],
+          [
+            "arab_ftbl:asian_cup_saudi",
+            2
+          ],
+          [
+            "arab_ftbl:asian_cup_qatar_2023",
+            2
+          ],
+          [
+            "arab_ftbl:morocco_2022",
+            2
+          ],
+          [
+            "arab_ftbl:qatar_2022_host",
+            2
+          ],
+          [
+            "arab_ftbl:alhilal_acl",
+            2
+          ],
+          [
+            "arab_ftbl:alahly_caf",
+            2
+          ]
+        ]
+      },
+      "verification_status": {
+        "curated": 41
+      },
+      "missing_source_url": 41,
+      "missing_source_claim": 41,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية منسّقة",
+          41
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "asian_cup_qatar_2019",
+          3
+        ],
+        [
+          "gulf_cup_kuwait",
+          2
+        ],
+        [
+          "gulf_cup_iraq_2023",
+          2
+        ],
+        [
+          "gulf_cup_oman",
+          2
+        ],
+        [
+          "gulf_cup_qatar",
+          2
+        ],
+        [
+          "asian_cup_japan",
+          2
+        ],
+        [
+          "asian_cup_saudi",
+          2
+        ],
+        [
+          "asian_cup_qatar_2023",
+          2
+        ],
+        [
+          "morocco_2022",
+          2
+        ],
+        [
+          "qatar_2022_host",
+          2
+        ],
+        [
+          "alhilal_acl",
+          2
+        ],
+        [
+          "alahly_caf",
+          2
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "اي منتخب فاز بكاس",
+          5
+        ],
+        [
+          "من فاز بكاس اسيا",
+          4
+        ],
+        [
+          "اي منتخب يملك اكثر",
+          3
+        ],
+        [
+          "اي ناد سعودي فاز",
+          3
+        ],
+        [
+          "من كان وصيف قطر",
+          2
+        ],
+        [
+          "اي دولة استضافت كاس",
+          2
+        ],
+        [
+          "كم لقبا حققت الكويت",
+          1
+        ],
+        [
+          "من كان وصيف العراق",
+          1
+        ],
+        [
+          "اي دولة خليجية فازت",
+          1
+        ],
+        [
+          "كم لقبا حققت اليابان",
+          1
+        ],
+        [
+          "كم مرة فازت السعودية",
+          1
+        ],
+        [
+          "في اي سنة فازت",
+          1
+        ]
+      ],
+      "template_entropy_heuristic": 4.5498,
+      "era_first_explicit_year_heuristic": {
+        "unknown": 11,
+        "contemporary": 21,
+        "modern_peak": 7,
+        "classic": 2
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 3475,
+          "difficulty": 200,
+          "question_text": "أي منتخب يملك أكثر ألقاب كأس الخليج العربي؟",
+          "answer_text": "الكويت",
+          "fact_group_id": "arab_ftbl:gulf_cup_kuwait",
+          "source_url": null
+        },
+        {
+          "id": 3476,
+          "difficulty": 600,
+          "question_text": "كم لقبًا حققت الكويت في كأس الخليج العربي حتى 2024؟",
+          "answer_text": "10",
+          "fact_group_id": "arab_ftbl:gulf_cup_kuwait",
+          "source_url": null
+        },
+        {
+          "id": 3477,
+          "difficulty": 400,
+          "question_text": "أي منتخب فاز بكأس الخليج 2023 في البصرة؟",
+          "answer_text": "العراق",
+          "fact_group_id": "arab_ftbl:gulf_cup_iraq_2023",
+          "source_url": null
+        }
+      ]
+    },
+    "numbers": {
+      "label": "أرقام قياسية كروية",
+      "active": 36,
+      "difficulty": {
+        "200": 9,
+        "400": 11,
+        "600": 16
+      },
+      "formats": {
+        "text": 36
+      },
+      "exact_text": {
+        "known": 36,
+        "distinct": 36,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 36,
+        "distinct": 26,
+        "excess_rows": 10,
+        "rate": 0.277778,
+        "top_repeated": [
+          [
+            "5",
+            4
+          ],
+          [
+            "2",
+            4
+          ],
+          [
+            "البرازيل",
+            2
+          ],
+          [
+            "15",
+            2
+          ],
+          [
+            "ليونيل ميسي",
+            2
+          ],
+          [
+            "كريستيانو رونالدو",
+            2
+          ]
+        ]
+      },
+      "legacy_fact_groups": {
+        "known": 36,
+        "distinct": 28,
+        "excess_rows": 8,
+        "rate": 0.222222,
+        "top_repeated": [
+          [
+            "numbers:wc_titles_brazil",
+            2
+          ],
+          [
+            "numbers:ucl_titles_real",
+            2
+          ],
+          [
+            "numbers:ballon_messi",
+            2
+          ],
+          [
+            "numbers:wc_top_scorer_klose",
+            2
+          ],
+          [
+            "numbers:messi_2012_goals",
+            2
+          ],
+          [
+            "numbers:fontaine_1958",
+            2
+          ],
+          [
+            "numbers:worldcup_2022_final",
+            2
+          ],
+          [
+            "numbers:most_wc_hosts",
+            2
+          ]
+        ]
+      },
+      "verification_status": {
+        "curated": 36
+      },
+      "missing_source_url": 36,
+      "missing_source_claim": 36,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "حزمة بيانات محلية منسّقة",
+          36
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "wc_titles_brazil",
+          2
+        ],
+        [
+          "ucl_titles_real",
+          2
+        ],
+        [
+          "ballon_messi",
+          2
+        ],
+        [
+          "wc_top_scorer_klose",
+          2
+        ],
+        [
+          "messi_2012_goals",
+          2
+        ],
+        [
+          "fontaine_1958",
+          2
+        ],
+        [
+          "worldcup_2022_final",
+          2
+        ],
+        [
+          "most_wc_hosts",
+          2
+        ],
+        [
+          "fastest_wc_goal",
+          1
+        ],
+        [
+          "wc_appearances",
+          1
+        ],
+        [
+          "pl_titles_united",
+          1
+        ],
+        [
+          "haaland_pl_goals",
+          1
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "كم لقبا لدوري ابطال",
+          3
+        ],
+        [
+          "اي ناد يملك اكثر",
+          2
+        ],
+        [
+          "من هو الهداف التاريخي",
+          2
+        ],
+        [
+          "من سجل <number> هدفا",
+          2
+        ],
+        [
+          "اي منتخب فاز بكاس",
+          1
+        ],
+        [
+          "كم لقبا لكاس العالم",
+          1
+        ],
+        [
+          "من يملك اكثر جوائز",
+          1
+        ],
+        [
+          "كم كرة ذهبية يملك",
+          1
+        ],
+        [
+          "كم هدفا سجل ميروسلاف",
+          1
+        ],
+        [
+          "كم هدفا سجل ليونيل",
+          1
+        ],
+        [
+          "في اي نسخة من",
+          1
+        ],
+        [
+          "من سجل اسرع هدف",
+          1
+        ]
+      ],
+      "template_entropy_heuristic": 4.8712,
+      "era_first_explicit_year_heuristic": {
+        "unknown": 22,
+        "contemporary": 11,
+        "modern_peak": 2,
+        "golden_era": 1
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 3516,
+          "difficulty": 200,
+          "question_text": "أي منتخب فاز بكأس العالم خمس مرات؟",
+          "answer_text": "البرازيل",
+          "fact_group_id": "numbers:wc_titles_brazil",
+          "source_url": null
+        },
+        {
+          "id": 3517,
+          "difficulty": 400,
+          "question_text": "كم لقبًا لكأس العالم تملك البرازيل حتى 2024؟",
+          "answer_text": "5",
+          "fact_group_id": "numbers:wc_titles_brazil",
+          "source_url": null
+        },
+        {
+          "id": 3518,
+          "difficulty": 200,
+          "question_text": "أي نادٍ يملك أكثر ألقاب دوري أبطال أوروبا حتى 2024؟",
+          "answer_text": "ريال مدريد",
+          "fact_group_id": "numbers:ucl_titles_real",
+          "source_url": null
+        }
+      ]
+    },
+    "nicknames": {
+      "label": "ألقاب اللاعبين",
+      "active": 360,
+      "difficulty": {
+        "200": 120,
+        "400": 120,
+        "600": 120
+      },
+      "formats": {
+        "text": 360
+      },
+      "exact_text": {
+        "known": 360,
+        "distinct": 360,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "answers": {
+        "known": 360,
+        "distinct": 360,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "legacy_fact_groups": {
+        "known": 360,
+        "distinct": 360,
+        "excess_rows": 0,
+        "rate": 0,
+        "top_repeated": []
+      },
+      "verification_status": {
+        "verified_api": 360
+      },
+      "missing_source_url": 0,
+      "missing_source_claim": 0,
+      "missing_checked_at": 0,
+      "source_names": [
+        [
+          "Wikidata",
+          360
+        ]
+      ],
+      "source_entity_ids": [
+        [
+          "Q17515",
+          1
+        ],
+        [
+          "Q1835",
+          1
+        ],
+        [
+          "Q20110",
+          1
+        ],
+        [
+          "Q1912",
+          1
+        ],
+        [
+          "Q1354960",
+          1
+        ],
+        [
+          "Q455462",
+          1
+        ],
+        [
+          "Q73360",
+          1
+        ],
+        [
+          "Q102027",
+          1
+        ],
+        [
+          "Q178649",
+          1
+        ],
+        [
+          "Q17158",
+          1
+        ],
+        [
+          "Q57079",
+          1
+        ],
+        [
+          "Q214903",
+          1
+        ]
+      ],
+      "template_prefix_heuristic": [
+        [
+          "ما اللقب الذي يعرف",
+          120
+        ],
+        [
+          "من اللاعب الذي يلقب",
+          120
+        ],
+        [
+          "لاعب من السويد يلقب",
+          18
+        ],
+        [
+          "لاعب من اسبانيا يلقب",
+          11
+        ],
+        [
+          "لاعب من المجر يلقب",
+          8
+        ],
+        [
+          "لاعب من سويسرا يلقب",
+          7
+        ],
+        [
+          "لاعب من الارجنتين يلقب",
+          7
+        ],
+        [
+          "لاعب من المكسيك يلقب",
+          6
+        ],
+        [
+          "لاعب من بولندا يلقب",
+          5
+        ],
+        [
+          "لاعب من كولومبيا يلقب",
+          4
+        ],
+        [
+          "لاعب من رومانيا يلقب",
+          4
+        ],
+        [
+          "لاعب من الولايات المتحدة",
+          3
+        ]
+      ],
+      "template_entropy_heuristic": 3.1691,
+      "era_first_explicit_year_heuristic": {
+        "unknown": 360
+      },
+      "external_media_references": 0,
+      "samples": [
+        {
+          "id": 12471,
+          "difficulty": 200,
+          "question_text": "ما اللقب الذي يُعرف به اللاعب دييغو مارادونا؟",
+          "answer_text": "El Pibe de Oro",
+          "fact_group_id": "nickname:Q17515",
+          "source_url": "https://www.wikidata.org/wiki/Q17515"
+        },
+        {
+          "id": 12472,
+          "difficulty": 200,
+          "question_text": "ما اللقب الذي يُعرف به اللاعب زين الدين زيدان؟",
+          "answer_text": "Zizou",
+          "fact_group_id": "nickname:Q1835",
+          "source_url": "https://www.wikidata.org/wiki/Q1835"
+        },
+        {
+          "id": 12473,
+          "difficulty": 200,
+          "question_text": "ما اللقب الذي يُعرف به اللاعب فرانشيسكو توتي؟",
+          "answer_text": "il Capitano",
+          "fact_group_id": "nickname:Q20110",
+          "source_url": "https://www.wikidata.org/wiki/Q20110"
+        }
+      ]
+    }
+  },
+  "foreign_key_violations": [],
+  "schema": {
+    "categories": "CREATE TABLE categories (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    slug TEXT UNIQUE NOT NULL,\n    name_ar TEXT NOT NULL,\n    icon TEXT NOT NULL,\n    sort_order INTEGER NOT NULL DEFAULT 0,\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))\n)",
+    "sqlite_sequence": "CREATE TABLE sqlite_sequence(name,seq)",
+    "questions": "CREATE TABLE questions (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    category_id INTEGER NOT NULL REFERENCES categories(id),\n    difficulty INTEGER NOT NULL CHECK (difficulty IN (200, 400, 600)),\n    question_type TEXT NOT NULL CHECK (question_type IN ('flag', 'text', 'career', 'spot_diff')),\n    question_text TEXT NOT NULL,\n    flag_code TEXT NULL,\n    media_url_a TEXT NULL,\n    media_url_b TEXT NULL,\n    payload_json TEXT NULL,\n    answer_text TEXT NOT NULL,\n    tolerance TEXT NOT NULL DEFAULT 'مطابق تماماً',\n    explanation TEXT NULL,\n    source_name TEXT NULL,\n    source_url TEXT NULL,\n    source_checked_at TEXT NULL,\n    content_origin TEXT NOT NULL CHECK (content_origin IN ('curated', 'api_sourced', 'generated_puzzle')),\n    fingerprint TEXT UNIQUE NOT NULL,\n    is_active INTEGER NOT NULL DEFAULT 1 CHECK (is_active IN (0, 1)),\n    is_reserved_backup INTEGER NOT NULL DEFAULT 0 CHECK (is_reserved_backup IN (0, 1)),\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))\n, fact_group_id TEXT NULL, source_entity_id TEXT NULL, verification_status TEXT NOT NULL DEFAULT 'curated', content_version INTEGER NOT NULL DEFAULT 1, times_played INTEGER NOT NULL DEFAULT 0, last_played_match_id INTEGER NULL, deck_position INTEGER NOT NULL DEFAULT 0, source_license TEXT NULL, source_claim TEXT NULL)",
+    "idx_questions_cat_diff_active": "CREATE INDEX idx_questions_cat_diff_active\n    ON questions(category_id, difficulty, is_active)",
+    "idx_questions_backup": "CREATE INDEX idx_questions_backup\n    ON questions(is_reserved_backup, is_active)",
+    "question_buckets": "CREATE TABLE question_buckets (\n    category_id INTEGER NOT NULL REFERENCES categories(id),\n    difficulty INTEGER NOT NULL CHECK (difficulty IN (200, 400, 600)),\n    cycle INTEGER NOT NULL DEFAULT 1 CHECK (cycle >= 1),\n    updated_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    PRIMARY KEY (category_id, difficulty)\n)",
+    "question_usage": "CREATE TABLE question_usage (\n    question_id INTEGER NOT NULL REFERENCES questions(id),\n    cycle INTEGER NOT NULL CHECK (cycle >= 1),\n    used_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    PRIMARY KEY (question_id, cycle)\n)",
+    "idx_question_usage_cycle": "CREATE INDEX idx_question_usage_cycle ON question_usage(cycle)",
+    "matches": "CREATE TABLE matches (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    match_code TEXT UNIQUE NOT NULL,\n    team1_name TEXT NOT NULL,\n    team2_name TEXT NOT NULL,\n    score_team1 INTEGER NOT NULL DEFAULT 0,\n    score_team2 INTEGER NOT NULL DEFAULT 0,\n    current_turn TEXT NOT NULL DEFAULT 'team1' CHECK (current_turn IN ('team1', 'team2')),\n    status TEXT NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'completed', 'abandoned')),\n    winner TEXT NULL CHECK (winner IN ('team1', 'team2', 'tie')),\n    coin_toss_winner TEXT NOT NULL DEFAULT 'team1' CHECK (coin_toss_winner IN ('team1', 'team2')),\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    updated_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    version INTEGER NOT NULL DEFAULT 1 CHECK (version >= 1)\n, selected_categories_json TEXT NOT NULL DEFAULT '[]', host_token_hash TEXT NULL, host_installation_id INTEGER NULL REFERENCES device_installations(id) ON DELETE SET NULL, host_user_id INTEGER NULL REFERENCES users(id) ON DELETE RESTRICT)",
+    "idx_matches_status": "CREATE INDEX idx_matches_status ON matches(status)",
+    "match_tiles": "CREATE TABLE match_tiles (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    match_id INTEGER NOT NULL REFERENCES matches(id) ON DELETE CASCADE,\n    tile_key TEXT NOT NULL,\n    category_id INTEGER NULL REFERENCES categories(id),\n    difficulty INTEGER NULL CHECK (difficulty IS NULL OR difficulty IN (200, 400, 600)),\n    question_id INTEGER NOT NULL REFERENCES questions(id),\n    is_backup INTEGER NOT NULL DEFAULT 0 CHECK (is_backup IN (0, 1)),\n    status TEXT NOT NULL DEFAULT 'unplayed' CHECK (status IN ('unplayed', 'played', 'rerolled')),\n    outcome TEXT NULL CHECK (outcome IN ('team1', 'team2', 'none')),\n    delta_team1 INTEGER NOT NULL DEFAULT 0,\n    delta_team2 INTEGER NOT NULL DEFAULT 0,\n    powers_applied_json TEXT NULL,\n    compatible_categories_json TEXT NULL,\n    compatible_difficulties_json TEXT NULL,\n    answered_at TEXT NULL,\n    rerolled_from_question_id INTEGER NULL REFERENCES questions(id),\n    resolved_request_id TEXT NULL,\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')), allocation_cycle INTEGER NOT NULL DEFAULT 1, opened_at TEXT NULL, revealed_at TEXT NULL, active_team TEXT NULL, noise_until TEXT NULL,\n    UNIQUE(match_id, tile_key),\n    CHECK (\n        (is_backup = 0 AND category_id IS NOT NULL AND difficulty IS NOT NULL)\n        OR (is_backup = 1)\n    ),\n    CHECK (\n        (is_backup = 1 AND compatible_categories_json IS NOT NULL)\n        OR (is_backup = 0)\n    )\n)",
+    "idx_match_tiles_board": "CREATE INDEX idx_match_tiles_board\n    ON match_tiles(match_id, is_backup, status)",
+    "idx_match_tiles_question": "CREATE INDEX idx_match_tiles_question\n    ON match_tiles(question_id, status)",
+    "idx_match_tiles_bucket": "CREATE INDEX idx_match_tiles_bucket\n    ON match_tiles(match_id, category_id, difficulty, is_backup)",
+    "idx_match_tiles_request": "CREATE UNIQUE INDEX idx_match_tiles_request\n    ON match_tiles(match_id, resolved_request_id)\n    WHERE resolved_request_id IS NOT NULL",
+    "score_adjustments": "CREATE TABLE score_adjustments (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    match_id INTEGER NOT NULL REFERENCES matches(id) ON DELETE CASCADE,\n    request_id TEXT NOT NULL,\n    team_key TEXT NOT NULL CHECK (team_key IN ('team1', 'team2')),\n    delta INTEGER NOT NULL CHECK (delta IN (-100, 100)),\n    reason TEXT NOT NULL DEFAULT 'تعديل يدوي من المقدم',\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    UNIQUE(match_id, request_id)\n)",
+    "idx_adjustments_match": "CREATE INDEX idx_adjustments_match ON score_adjustments(match_id, created_at)",
+    "match_events": "CREATE TABLE match_events (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    match_id INTEGER NOT NULL REFERENCES matches(id) ON DELETE CASCADE,\n    event_type TEXT NOT NULL,\n    request_key TEXT NULL,\n    payload_json TEXT NOT NULL DEFAULT '{}',\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))\n)",
+    "idx_events_match": "CREATE INDEX idx_events_match ON match_events(match_id, id)",
+    "idx_events_request": "CREATE UNIQUE INDEX idx_events_request\n    ON match_events(match_id, request_key)\n    WHERE request_key IS NOT NULL",
+    "idempotency_keys": "CREATE TABLE idempotency_keys (\n    scope TEXT NOT NULL,\n    key TEXT NOT NULL,\n    request_hash TEXT NOT NULL,\n    status_code INTEGER NOT NULL,\n    response_json TEXT NOT NULL,\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    PRIMARY KEY (scope, key)\n)",
+    "seed_runs": "CREATE TABLE seed_runs (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    seed_version TEXT NOT NULL,\n    deterministic_seed INTEGER NOT NULL,\n    inserted INTEGER NOT NULL DEFAULT 0,\n    updated INTEGER NOT NULL DEFAULT 0,\n    skipped INTEGER NOT NULL DEFAULT 0,\n    invalid INTEGER NOT NULL DEFAULT 0,\n    total_active INTEGER NOT NULL DEFAULT 0,\n    network_status TEXT NOT NULL DEFAULT 'offline',\n    report_json TEXT NOT NULL DEFAULT '{}',\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))\n)",
+    "fact_records": "CREATE TABLE fact_records (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    fact_group_id TEXT NOT NULL,\n    fact_type TEXT NOT NULL,\n    source_name TEXT NOT NULL,\n    source_entity_id TEXT NULL,\n    source_url TEXT NULL,\n    verification_status TEXT NOT NULL DEFAULT 'curated',\n    payload_json TEXT NOT NULL,\n    content_version INTEGER NOT NULL DEFAULT 1,\n    retrieved_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    updated_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')), source_license TEXT NULL, source_claim TEXT NULL,\n    UNIQUE (fact_group_id, fact_type, source_name)\n)",
+    "idx_fact_records_group": "CREATE INDEX idx_fact_records_group ON fact_records(fact_group_id)",
+    "idx_questions_shoe": "CREATE INDEX idx_questions_shoe\n    ON questions(category_id, difficulty, is_active, times_played, deck_position)",
+    "idx_questions_fact_group": "CREATE INDEX idx_questions_fact_group\n    ON questions(fact_group_id)",
+    "idx_matches_finished": "CREATE INDEX idx_matches_finished\n    ON matches(status, updated_at)",
+    "harvester_cursors": "CREATE TABLE harvester_cursors (\n    source_name TEXT NOT NULL,\n    category_slug TEXT NOT NULL,\n    cursor TEXT NOT NULL DEFAULT '0',\n    last_synced_at TEXT NULL,\n    total_harvested INTEGER NOT NULL DEFAULT 0,\n    checkpoint_json TEXT NOT NULL DEFAULT '{}',\n    updated_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    PRIMARY KEY (source_name, category_slug)\n)",
+    "sync_jobs": "CREATE TABLE sync_jobs (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    job_key TEXT UNIQUE NOT NULL,\n    source_name TEXT NOT NULL,\n    category_slug TEXT NULL,\n    status TEXT NOT NULL DEFAULT 'queued'\n        CHECK (status IN ('queued', 'running', 'succeeded', 'partial', 'failed')),\n    requested_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    started_at TEXT NULL,\n    finished_at TEXT NULL,\n    detail_json TEXT NOT NULL DEFAULT '{}',\n    error TEXT NULL\n)",
+    "idx_sync_jobs_active": "CREATE UNIQUE INDEX idx_sync_jobs_active\n    ON sync_jobs(source_name, COALESCE(category_slug, ''))\n    WHERE status IN ('queued', 'running')",
+    "idx_sync_jobs_recent": "CREATE INDEX idx_sync_jobs_recent ON sync_jobs(requested_at)",
+    "match_powers": "CREATE TABLE match_powers (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    match_id INTEGER NOT NULL REFERENCES matches(id) ON DELETE CASCADE,\n    team_key TEXT NOT NULL CHECK (team_key IN ('team1', 'team2')),\n    power_id TEXT NOT NULL,\n    pick_index INTEGER NOT NULL CHECK (pick_index >= 0 AND pick_index < 6),\n    drafted_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    used_at TEXT NULL,\n    used_tile_key TEXT NULL,\n    UNIQUE(match_id, pick_index),\n    UNIQUE(match_id, team_key, power_id)\n)",
+    "idx_match_powers_match": "CREATE INDEX idx_match_powers_match\n    ON match_powers(match_id, pick_index)",
+    "idx_match_powers_team": "CREATE INDEX idx_match_powers_team\n    ON match_powers(match_id, team_key, power_id)",
+    "users": "CREATE TABLE users (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    username TEXT NULL UNIQUE,\n    display_name TEXT NOT NULL,\n    kind TEXT NOT NULL DEFAULT 'named' CHECK (kind IN ('named', 'shadow')),\n    is_active INTEGER NOT NULL DEFAULT 1 CHECK (is_active IN (0, 1)),\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))\n, password_hash TEXT NULL)",
+    "device_installations": "CREATE TABLE device_installations (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    install_code TEXT UNIQUE NOT NULL,\n    credential_hash TEXT UNIQUE NOT NULL,\n    shadow_user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE RESTRICT,\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    last_seen_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    revoked INTEGER NOT NULL DEFAULT 0 CHECK (revoked IN (0, 1))\n)",
+    "idx_installations_shadow": "CREATE INDEX idx_installations_shadow\n    ON device_installations(shadow_user_id)",
+    "match_participants": "CREATE TABLE match_participants (\n    match_id INTEGER NOT NULL REFERENCES matches(id) ON DELETE CASCADE,\n    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE RESTRICT,\n    team_key TEXT NOT NULL CHECK (team_key IN ('team1', 'team2')),\n    created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    PRIMARY KEY (match_id, user_id)\n)",
+    "idx_participants_user": "CREATE INDEX idx_participants_user\n    ON match_participants(user_id, match_id)",
+    "user_question_history": "CREATE TABLE user_question_history (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE RESTRICT,\n    question_id INTEGER NOT NULL REFERENCES questions(id) ON DELETE RESTRICT,\n    match_id INTEGER NULL REFERENCES matches(id) ON DELETE SET NULL,\n    outcome TEXT NOT NULL DEFAULT 'none' CHECK (outcome IN ('team1', 'team2', 'none')),\n    played_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),\n    UNIQUE(user_id, question_id)\n)",
+    "idx_history_user": "CREATE INDEX idx_history_user\n    ON user_question_history(user_id, question_id)",
+    "account_sessions": "CREATE TABLE account_sessions (\n    token_hash TEXT PRIMARY KEY,\n    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,\n    expires_at INTEGER NOT NULL\n)",
+    "idx_account_sessions_expiry": "CREATE INDEX idx_account_sessions_expiry ON account_sessions(expires_at)",
+    "auth_attempts": "CREATE TABLE auth_attempts (\n    scope TEXT PRIMARY KEY,\n    attempts INTEGER NOT NULL DEFAULT 0,\n    window_start INTEGER NOT NULL\n)"
+  }
+}

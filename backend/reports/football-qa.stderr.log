@@ -1,0 +1,46 @@
+INFO:     Started server process [20804]
+INFO:     Waiting for application startup.
+2026-10-21 17:31:54,770 INFO seenjeem database ready path=C:\Users\pc\Downloads\seen jeem\backend\data\football-qa-20261021.db schema=8 interrupted_sync_jobs=0
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8003 (Press CTRL+C to quit)
+2026-10-21 17:48:24,477 INFO seenjeem request id=3d55266bbddd4eaa9d448028390d9709 method=GET path=/api/v1/auth/me status=401 duration_ms=6.2
+2026-10-21 17:48:24,485 INFO seenjeem request id=56ba4e1da10646b1953a8015eed30e67 method=GET path=/api/v1/auth/me status=401 duration_ms=0.7
+2026-10-21 17:48:25,842 INFO seenjeem request id=f1a3cac496ba4d68a7656c777bec9de3 method=POST path=/api/v1/auth/register status=201 duration_ms=612.1
+2026-10-21 17:48:26,005 INFO seenjeem request id=11119496500a45c89eac8d8f557a00c0 method=GET path=/api/v1/users status=200 duration_ms=11.2
+2026-10-21 17:48:26,744 INFO seenjeem request id=f65ebaa4eddc4eff809c0d39f402ab0b method=GET path=/api/v1/categories status=200 duration_ms=791.6
+2026-10-21 17:48:56,510 INFO seenjeem request id=6b123ed32e5f4f11a4075253a9b11ba5 method=GET path=/api/v1/auth/me status=401 duration_ms=1.0
+2026-10-21 17:48:56,527 INFO seenjeem request id=e2e0297701d0414a9bb56c144039b098 method=GET path=/api/v1/auth/me status=401 duration_ms=0.8
+2026-10-21 17:48:57,735 INFO seenjeem request id=5a2f73277ec34ba1964b8ebbc0c447af method=POST path=/api/v1/auth/register status=201 duration_ms=562.9
+2026-10-21 17:48:57,820 INFO seenjeem request id=fa66ae80e6d64d9aa21183426d0ba4b2 method=GET path=/api/v1/users status=200 duration_ms=6.4
+2026-10-21 17:48:58,619 INFO seenjeem request id=28e9e1f7aff64085b98e2a9f6ca82557 method=GET path=/api/v1/categories status=200 duration_ms=804.3
+2026-10-21 17:49:14,156 INFO seenjeem request id=5d4b582fb48e479381c0f004750c2f86 method=GET path=/api/v1/auth/me status=401 duration_ms=1.0
+2026-10-21 17:49:14,174 INFO seenjeem request id=e777f8460aa0457985b6c6594c80110c method=GET path=/api/v1/auth/me status=401 duration_ms=0.8
+2026-10-21 17:49:15,453 INFO seenjeem request id=e25fd5676bb54f00a60fe3c1e87d8154 method=POST path=/api/v1/auth/register status=201 duration_ms=614.4
+2026-10-21 17:49:15,562 INFO seenjeem request id=aa24ac9ebb0240388e2accbce022313c method=GET path=/api/v1/users status=200 duration_ms=17.3
+2026-10-21 17:49:16,291 INFO seenjeem request id=70949f9697f94faebaf9de6fe0ec66de method=GET path=/api/v1/categories status=200 duration_ms=746.8
+2026-10-21 17:49:29,895 INFO seenjeem request id=42b2b1157606406c897d1034d49e26eb method=GET path=/api/v1/auth/me status=401 duration_ms=0.8
+2026-10-21 17:49:29,912 INFO seenjeem request id=1ad543c2b80d42379220fe515299a3a7 method=GET path=/api/v1/auth/me status=401 duration_ms=0.8
+2026-10-21 17:49:31,112 INFO seenjeem request id=e01c786f8dd4476f91c88ba2d3711ab9 method=POST path=/api/v1/auth/register status=201 duration_ms=560.6
+2026-10-21 17:49:31,225 INFO seenjeem request id=f0a27e204c7e4690bda84ead04efa437 method=GET path=/api/v1/users status=200 duration_ms=34.8
+2026-10-21 17:49:31,951 INFO seenjeem request id=076ccf25c3714fd3ba953d84ecdadff7 method=GET path=/api/v1/categories status=200 duration_ms=760.1
+2026-10-21 17:50:28,756 INFO seenjeem request id=d7d161f7242343afbe1b54d92d877ef9 method=GET path=/api/v1/auth/me status=401 duration_ms=1.0
+2026-10-21 17:50:28,771 INFO seenjeem request id=8c358ab9a2f1419b99478648179d5527 method=GET path=/api/v1/auth/me status=401 duration_ms=0.7
+2026-10-21 17:50:29,984 INFO seenjeem request id=0290a9d1b0b14805b1cbc40461ee1553 method=POST path=/api/v1/auth/register status=201 duration_ms=556.5
+2026-10-21 17:50:30,105 INFO seenjeem request id=89643e428f784846872e380177e40947 method=GET path=/api/v1/users status=200 duration_ms=31.9
+2026-10-21 17:50:30,795 INFO seenjeem request id=8ea0c8ec0e0b43c0b2801b1b8c80e4a1 method=GET path=/api/v1/categories status=200 duration_ms=724.3
+2026-10-21 17:50:30,828 INFO seenjeem request id=f0c7a4ed95c64c9eb3ad8f579db9ec7f method=POST path=/api/v1/installations/register status=201 duration_ms=14.1
+2026-10-21 17:50:31,306 INFO seenjeem request id=51ff8e1428654f75857e99f740d9854e method=POST path=/api/v1/matches status=201 duration_ms=452.8
+2026-10-21 17:50:31,377 INFO seenjeem request id=dcf5eccbd81848e9be3df4bb1e5223e5 method=GET path=/api/v1/matches/reqCUiAbMfbev-uX status=200 duration_ms=37.2
+2026-10-21 17:50:31,396 INFO seenjeem request id=f2b0749ed6e14190b0ea3e6ce31514e0 method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/draft/picks status=200 duration_ms=15.9
+2026-10-21 17:50:31,467 INFO seenjeem request id=09d0dd89721b4b378966a518d9f2946e method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/draft/picks status=200 duration_ms=17.0
+2026-10-21 17:50:31,505 INFO seenjeem request id=d987fb033fff46e0bdb7cb86b7d1b7b9 method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/draft/picks status=200 duration_ms=18.7
+2026-10-21 17:50:31,545 INFO seenjeem request id=afb40c4e827a44049464d9a5f38ef00a method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/draft/picks status=200 duration_ms=18.4
+2026-10-21 17:50:31,591 INFO seenjeem request id=4ab58dcb584b4d28baa98ada92690ea1 method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/draft/picks status=200 duration_ms=20.3
+2026-10-21 17:50:31,634 INFO seenjeem request id=7cfb3979053d4e259ffa423ec289776d method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/draft/picks status=200 duration_ms=20.5
+2026-10-21 17:50:32,288 INFO seenjeem request id=a116cbf711e540f8acb833d9f75419ec method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/tiles/career-200-1/open status=200 duration_ms=24.1
+2026-10-21 17:50:32,357 INFO seenjeem request id=bbfd7c1d6a5a41139d26e1d9cdb42b23 method=GET path=/api/v1/auth/me status=200 duration_ms=22.4
+2026-10-21 17:50:32,599 INFO seenjeem request id=125ebf88521a42a69f08ab4a426c4b4c method=POST path=/api/v1/matches/reqCUiAbMfbev-uX/tiles/career-200-1/reveal status=200 duration_ms=20.2
+2026-10-21 17:50:32,857 INFO seenjeem request id=de21141865324c50b56da1a23ac37958 method=GET path=/api/v1/auth/me status=200 duration_ms=14.2
+2026-10-21 17:50:32,878 INFO seenjeem request id=b461ccd2c10242bb93dfca46a3c67990 method=GET path=/api/v1/auth/me status=200 duration_ms=16.4
+2026-10-21 17:50:32,942 INFO seenjeem request id=26f0aca3a7304e7facf247ce5de6d53c method=GET path=/api/v1/matches/reqCUiAbMfbev-uX status=200 duration_ms=15.5
+2026-10-21 20:13:20,278 INFO seenjeem request id=79ebed236391430cbeb21529bbcf1094 method=GET path=/api/v1/health status=200 duration_ms=22.2

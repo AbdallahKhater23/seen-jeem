@@ -1,0 +1,75 @@
+2:01:07 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:01:51 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:03:34 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:03:51 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:04:17 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:04:53 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:04:55 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:00 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:48 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:48 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:49 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:54 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:55 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:05:56 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:08:32 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:08:41 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:09:08 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:09:26 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:09:27 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:09:29 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:09:43 AM [vite] http proxy error: /api/v1/health
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:18:05 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:18:05 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:18:11 AM [vite] http proxy error: /api/v1/auth/login
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)
+2:20:41 AM [vite] http proxy error: /api/v1/auth/me
+Error: connect ECONNREFUSED 127.0.0.1:8001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16)

@@ -1,0 +1,22 @@
+{
+  "base": "http://127.0.0.1:5176",
+  "viewport": "1920x1080",
+  "journey": [
+    "Registered disposable QA account through UI",
+    {
+      "actualServerBoard": {
+        "questions": 36,
+        "stage": "board",
+        "leaked": false,
+        "visualTypes": [
+          "career_tree"
+        ]
+      }
+    },
+    "Opened actual allocated career question; answer absent until UI reveal; reveal hydrated answer",
+    "Reload preserved revealed visual and answer"
+  ],
+  "status": "FAIL",
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\ntrue !== false\n\n    at file:///C:/Users/pc/Downloads/seen%20jeem/frontend/scripts/football-e2e.mjs:106:10",
+  "pageErrors": []
+}

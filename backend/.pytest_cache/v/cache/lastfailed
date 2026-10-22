@@ -1,0 +1,5 @@
+{
+  "tests/test_api_and_matches.py::test_health_and_twelve_categories_contract": true,
+  "tests/test_admin_dashboard.py::test_question_bank_reports_twelve_categories_and_three_difficulties": true,
+  "tests/test_schema_and_seed.py::test_seed_creates_twelve_categories_and_operational_inventory": true
+}

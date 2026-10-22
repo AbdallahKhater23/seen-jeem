@@ -1,0 +1,9 @@
+
+  VITE v6.4.4  ready in 458 ms
+
+  ➜  Local:   http://127.0.0.1:5174/
+11:00:40 PM [vite] (client) hmr update /src/App.jsx, /src/index.css, /src/components/StageTransition.jsx, /src/views/PodiumView.jsx, /src/views/BoardView.jsx, /src/views/DraftView.jsx, /src/views/ArenaView.jsx, /src/views/LobbyView.jsx, /src/components/HeaderScoreboard.jsx
+11:00:43 PM [vite] (client) hmr update /src/App.jsx, /src/index.css, /src/components/StageTransition.jsx, /src/views/PodiumView.jsx, /src/views/BoardView.jsx, /src/views/DraftView.jsx, /src/views/ArenaView.jsx, /src/views/LobbyView.jsx, /src/components/HeaderScoreboard.jsx
+11:10:22 PM [vite] (client) page reload src/main.jsx
+11:10:26 PM [vite] (client) hmr update /src/App.jsx, /src/index.css, /src/components/StageTransition.jsx, /src/views/PodiumView.jsx, /src/views/BoardView.jsx, /src/views/DraftView.jsx, /src/views/ArenaView.jsx, /src/views/LobbyView.jsx, /src/components/HeaderScoreboard.jsx
+11:10:29 PM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css

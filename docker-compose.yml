@@ -1,0 +1,43 @@
+name: seenjeem
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      APP_ENV: production
+      DATABASE_PATH: /data/seenjeem.db
+      ADMIN_TOKEN: ${ADMIN_TOKEN:?Set ADMIN_TOKEN in .env before starting the stack}
+      SEED_VERSION: ${SEED_VERSION:-2026.10.1}
+      SEED_RANDOM_SEED: ${SEED_RANDOM_SEED:-20261019}
+      SQLITE_BUSY_TIMEOUT_MS: ${SQLITE_BUSY_TIMEOUT_MS:-5000}
+    volumes:
+      - seenjeem-data:/data
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import json,urllib.request; d=json.load(urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health', timeout=5)); raise SystemExit(0 if d.get('database') == 'ready' else 1)",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "${APP_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  seenjeem-data:

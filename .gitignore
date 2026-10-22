@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local databases and test artifacts
+*.db
+*.db-shm
+*.db-wal
+tmp-seed-test.db
+backend/.seed_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Temporary browser/screenshot work
+.tmp-chrome-trivia/
+frontend/docs/screenshots/_crop.png

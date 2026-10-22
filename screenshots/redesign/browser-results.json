@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "accessibility": [
+    {
+      "screen": "01-sign-in-desktop",
+      "findings": []
+    },
+    {
+      "screen": "02-sign-in-mobile",
+      "findings": []
+    },
+    {
+      "screen": "03-lobby-desktop",
+      "findings": []
+    },
+    {
+      "screen": "05-lobby-mobile",
+      "findings": []
+    },
+    {
+      "screen": "07-powers-desktop",
+      "findings": []
+    },
+    {
+      "screen": "08-board-desktop",
+      "findings": []
+    },
+    {
+      "screen": "08b-board-tablet-landscape",
+      "findings": []
+    },
+    {
+      "screen": "08c-board-tablet",
+      "findings": []
+    },
+    {
+      "screen": "09-board-mobile",
+      "findings": []
+    },
+    {
+      "screen": "09b-board-small-phone",
+      "findings": []
+    },
+    {
+      "screen": "10-question-desktop",
+      "findings": []
+    },
+    {
+      "screen": "11-answer-desktop",
+      "findings": []
+    },
+    {
+      "screen": "12-question-mobile",
+      "findings": []
+    },
+    {
+      "screen": "13-account-history",
+      "findings": []
+    },
+    {
+      "screen": "14-results-desktop",
+      "findings": []
+    },
+    {
+      "screen": "15-results-mobile",
+      "findings": []
+    },
+    {
+      "screen": "16-admin-sign-in",
+      "findings": []
+    }
+  ],
+  "checkedAt": "2026-10-20T23:12:40.426Z"
+}

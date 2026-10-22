@@ -1,0 +1,19 @@
+X [ERROR] Cannot read directory "../../..": Access is denied.
+
+X [ERROR] Could not resolve "C:\\Users\\pc\\Downloads\\seen jeem\\frontend\\vite.config.js"
+
+failed to load config from C:\Users\pc\Downloads\seen jeem\frontend\vite.config.js
+error when starting dev server:
+Error: Build failed with 2 errors:
+error: Cannot read directory "../../..": Access is denied.
+error: Could not resolve "C:\\Users\\pc\\Downloads\\seen jeem\\frontend\\vite.config.js"
+    at failureErrorWithLog (C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:1467:15)
+    at C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:926:25
+    at runOnEndCallbacks (C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:1307:45)
+    at buildResponseToResult (C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:924:7)
+    at C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:951:16
+    at responseCallbacks.<computed> (C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:603:9)
+    at handleIncomingPacket (C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:658:12)
+    at Socket.readFromStdout (C:\Users\pc\Downloads\seen jeem\frontend\node_modules\esbuild\lib\main.js:581:7)
+    at Socket.emit (node:events:514:20)
+    at addChunk (node:internal/streams/readable:575:12)

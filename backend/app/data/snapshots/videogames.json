@@ -1,0 +1,2950 @@
+{
+  "snapshot_version": 1,
+  "generator": "harvest_fact_snapshots.py",
+  "retrieved_at": "2026-10-20T20:43:18+00:00",
+  "source": {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "sparql_endpoint": "https://query.wikidata.org/sparql",
+    "license": "CC0 1.0 (Wikidata structured data)",
+    "access": "public SPARQL + wbgetentities API"
+  },
+  "filters": {
+    "single_developer": true,
+    "single_publisher": true,
+    "target_platforms": {
+      "Q10683": "PlayStation 3",
+      "Q50107": "PlayStation 4",
+      "Q63184502": "PlayStation 5",
+      "Q1406": "PC (Windows)"
+    },
+    "note": "IGDB was checked and returned 401 without credentials; it is not used."
+  },
+  "games": [
+    {
+      "qid": "Q83265",
+      "title_ar": "جراند ثفت أوتو: سان أندرياس",
+      "title_en": "Grand Theft Auto: San Andreas",
+      "developer_qid": "Q94893",
+      "developer_label": "روكستار نورث",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2004-10-26",
+      "first_release_year": "2004",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 88,
+      "source_url": "https://www.wikidata.org/wiki/Q83265",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q692989",
+      "title_ar": "روبلوكس",
+      "title_en": "Roblox",
+      "developer_qid": "Q67186598",
+      "developer_label": "شركة روبلوكس",
+      "publisher_qid": "Q67186598",
+      "publisher_label": "شركة روبلوكس",
+      "first_release_date": "2006-08-27",
+      "first_release_year": "2006",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 86,
+      "source_url": "https://www.wikidata.org/wiki/Q692989",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q131007",
+      "title_ar": "وورلد أوف ووركرافت",
+      "title_en": null,
+      "developer_qid": "Q178824",
+      "developer_label": "بليزارد إنترتينمنت",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "2004-11-23",
+      "first_release_year": "2004",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 79,
+      "source_url": "https://www.wikidata.org/wiki/Q131007",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q94671",
+      "title_ar": "جراند ثفت أوتو: فايس سيتي",
+      "title_en": "Grand Theft Auto: Vice City",
+      "developer_qid": "Q94893",
+      "developer_label": "روكستار نورث",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2002-10-29",
+      "first_release_year": "2002",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 78,
+      "source_url": "https://www.wikidata.org/wiki/Q94671",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q28937399",
+      "title_ar": "ببجي",
+      "title_en": null,
+      "developer_qid": "Q65124447",
+      "developer_label": "PUBG Studios",
+      "publisher_qid": "Q4035237",
+      "publisher_label": "كرافتون غيم يونيون",
+      "first_release_date": "2017-03-23",
+      "first_release_year": "2017",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 75,
+      "source_url": "https://www.wikidata.org/wiki/Q28937399",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q382108",
+      "title_ar": "تيم فورتريس 2",
+      "title_en": "Team Fortress 2",
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2007-10-10",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 72,
+      "source_url": "https://www.wikidata.org/wiki/Q382108",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q349375",
+      "title_ar": "فورتنايت",
+      "title_en": null,
+      "developer_qid": "Q739711",
+      "developer_label": "إيبك غيمز",
+      "publisher_qid": "Q739711",
+      "publisher_label": "إيبك غيمز",
+      "first_release_date": "2017-07-25",
+      "first_release_year": "2017",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 71,
+      "source_url": "https://www.wikidata.org/wiki/Q349375",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q96417649",
+      "title_ar": "أمونغ آس",
+      "title_en": null,
+      "developer_qid": "Q98961329",
+      "developer_label": "إنرسلوث",
+      "publisher_qid": "Q98961329",
+      "publisher_label": "إنرسلوث",
+      "first_release_date": "2018-06-15",
+      "first_release_year": "2018",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 64,
+      "source_url": "https://www.wikidata.org/wiki/Q96417649",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q193581",
+      "title_ar": "هاف-لايف 2",
+      "title_en": "Half-Life 2",
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2004-11-16",
+      "first_release_year": "2004",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 62,
+      "source_url": "https://www.wikidata.org/wiki/Q193581",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q274897",
+      "title_ar": "بورتال",
+      "title_en": null,
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2007-10-10",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 60,
+      "source_url": "https://www.wikidata.org/wiki/Q274897",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q1986744",
+      "title_ar": "ذا لاست أوف أس",
+      "title_en": null,
+      "developer_qid": "Q720871",
+      "developer_label": "نوتي دوغ",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2013-06-14",
+      "first_release_year": "2013",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q1986744",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q200864",
+      "title_ar": "أساسنز كريد",
+      "title_en": "Assassin's Creed",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2007-11-13",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q200864",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q27438121",
+      "title_ar": "ريد ديد ريدمبشن 2",
+      "title_en": "Red Dead Redemption 2",
+      "developer_qid": "Q959329",
+      "developer_label": "روكستار سان دييغو",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2018-10-26",
+      "first_release_year": "2018",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 59,
+      "source_url": "https://www.wikidata.org/wiki/Q27438121",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q106827",
+      "title_ar": "سكند لايف",
+      "title_en": "Second Life",
+      "developer_qid": "Q86853",
+      "developer_label": "ليندن لاب",
+      "publisher_qid": "Q86853",
+      "publisher_label": "ليندن لاب",
+      "first_release_date": "2003-06-23",
+      "first_release_year": "2003",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 54,
+      "source_url": "https://www.wikidata.org/wiki/Q106827",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q57270",
+      "title_ar": "بايوشوك",
+      "title_en": "BioShock",
+      "developer_qid": "Q743717",
+      "developer_label": "إراشينال جيمز",
+      "publisher_qid": "Q94937",
+      "publisher_label": "تو كي جيمز",
+      "first_release_date": "2007-08-21",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 54,
+      "source_url": "https://www.wikidata.org/wiki/Q57270",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q94460",
+      "title_ar": "جراند ثفت أوتو 2",
+      "title_en": null,
+      "developer_qid": "Q94893",
+      "developer_label": "روكستار نورث",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "1999-09-30",
+      "first_release_year": "1999",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 52,
+      "source_url": "https://www.wikidata.org/wiki/Q94460",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q207948",
+      "title_ar": "وور كرافت 3: عهد الفوضى",
+      "title_en": "Warcraft III: Reign of Chaos",
+      "developer_qid": "Q178824",
+      "developer_label": "بليزارد إنترتينمنت",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "2002-07-03",
+      "first_release_year": "2002",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 51,
+      "source_url": "https://www.wikidata.org/wiki/Q207948",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q275950",
+      "title_ar": "ريزدنت إيفل 4",
+      "title_en": "Resident Evil 4",
+      "developer_qid": "Q14428",
+      "developer_label": "كابكوم",
+      "publisher_qid": "Q14428",
+      "publisher_label": "كابكوم",
+      "first_release_date": "2005-01-11",
+      "first_release_year": "2005",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q275950",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q279446",
+      "title_ar": "بورتال 2",
+      "title_en": null,
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2011-04-18",
+      "first_release_year": "2011",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q279446",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q548203",
+      "title_ar": "ريد ديد ريدمبشن",
+      "title_en": "Red Dead Redemption",
+      "developer_qid": "Q959329",
+      "developer_label": "روكستار سان دييغو",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2010-05-18",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q548203",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q94778",
+      "title_ar": "جراند ثفت أوتو: ليبرتي سيتي ستوريز",
+      "title_en": null,
+      "developer_qid": "Q1750959",
+      "developer_label": "روكستار ليدز",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2005-10-25",
+      "first_release_year": "2005",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q94778",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q220767",
+      "title_ar": "أيج أوف إمبايرز",
+      "title_en": "Age of Empires",
+      "developer_qid": "Q308913",
+      "developer_label": "إنسمبل ستوديوز",
+      "publisher_qid": "Q73801",
+      "publisher_label": "إكس بوكس غيم ستوديوز",
+      "first_release_date": "1997-10-15",
+      "first_release_year": "1997",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 49,
+      "source_url": "https://www.wikidata.org/wiki/Q220767",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q379128",
+      "title_ar": "بلانتس فيرسيز زومبيز",
+      "title_en": null,
+      "developer_qid": "Q1064703",
+      "developer_label": "بوب كاب",
+      "publisher_qid": "Q1064703",
+      "publisher_label": "بوب كاب",
+      "first_release_date": "2009-05-05",
+      "first_release_year": "2009",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 49,
+      "source_url": "https://www.wikidata.org/wiki/Q379128",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q6582527",
+      "title_ar": "ميتال غير سوليد",
+      "title_en": "Metal Gear Solid",
+      "developer_qid": "Q45700",
+      "developer_label": "كونامي",
+      "publisher_qid": "Q45700",
+      "publisher_label": "كونامي",
+      "first_release_date": "1998-09-03",
+      "first_release_year": "1998",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 48,
+      "source_url": "https://www.wikidata.org/wiki/Q6582527",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q15712701",
+      "title_ar": "قلوب من حديد 4",
+      "title_en": null,
+      "developer_qid": "Q3539040",
+      "developer_label": "استوديو برودكس للتطوير",
+      "publisher_qid": "Q217493",
+      "publisher_label": "بارادوكس إنتراكتيف",
+      "first_release_date": "2016-06-06",
+      "first_release_year": "2016",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q15712701",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q220365",
+      "title_ar": "نيد فور سبيد: موست ونتد (لعبة فيديو 2005)",
+      "title_en": "Need for Speed: Most Wanted",
+      "developer_qid": "Q2373062",
+      "developer_label": "إي آيه بلاك بوكس",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2005-11-11",
+      "first_release_year": "2005",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q220365",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q2632206",
+      "title_ar": "يورو ترك سيميولايتر 2",
+      "title_en": null,
+      "developer_qid": "Q1470335",
+      "developer_label": "إس سي إس سوفتويير",
+      "publisher_qid": "Q1470335",
+      "publisher_label": "إس سي إس سوفتويير",
+      "first_release_date": "2012-10-18",
+      "first_release_year": "2012",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q2632206",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q590342",
+      "title_ar": "عالم الدبابات",
+      "title_en": "World of Tanks",
+      "developer_qid": "Q372471",
+      "developer_label": "وور غيمينغ",
+      "publisher_qid": "Q372471",
+      "publisher_label": "وور غيمينغ",
+      "first_release_date": "2010-08-12",
+      "first_release_year": "2010",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q590342",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q60102",
+      "title_ar": "فول أوت",
+      "title_en": null,
+      "developer_qid": "Q743712",
+      "developer_label": "Black Isle Studios",
+      "publisher_qid": "Q628249",
+      "publisher_label": "إنتربلاي إنترتينمينت",
+      "first_release_date": "1997-10-10",
+      "first_release_year": "1997",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 47,
+      "source_url": "https://www.wikidata.org/wiki/Q60102",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q18515944",
+      "title_ar": "أوفرواتش",
+      "title_en": null,
+      "developer_qid": "Q178824",
+      "developer_label": "بليزارد إنترتينمنت",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "2016-05-24",
+      "first_release_year": "2016",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q18515944",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q207986",
+      "title_ar": "كول أوف ديوتي: بلاك أوبس",
+      "title_en": null,
+      "developer_qid": "Q382543",
+      "developer_label": "تريارك",
+      "publisher_qid": "Q200491",
+      "publisher_label": "أكتيفجن",
+      "first_release_date": "2010-11-09",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q207986",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q221164",
+      "title_ar": "فول أوت 3",
+      "title_en": null,
+      "developer_qid": "Q3300783",
+      "developer_label": "بيثيسدا غيم ستوديوز",
+      "publisher_qid": "Q684425",
+      "publisher_label": "بيثيسدا سوفت ووركس",
+      "first_release_date": "2008-10-28",
+      "first_release_year": "2008",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q221164",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q4052939",
+      "title_ar": "ور ثندر",
+      "title_en": "War Thunder",
+      "developer_qid": "Q1984338",
+      "developer_label": "غايجين إنترتنمنت",
+      "publisher_qid": "Q1984338",
+      "publisher_label": "غايجين إنترتنمنت",
+      "first_release_date": "2012-11-01",
+      "first_release_year": "2012",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q4052939",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q4558721",
+      "title_ar": "الطيور الغاضبة",
+      "title_en": null,
+      "developer_qid": "Q870095",
+      "developer_label": "روفيو إنترتينمنت",
+      "publisher_qid": "Q870095",
+      "publisher_label": "روفيو إنترتينمنت",
+      "first_release_date": "2009-12-11",
+      "first_release_year": "2009",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q4558721",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q59154",
+      "title_ar": "مافيا 2",
+      "title_en": "Mafia II",
+      "developer_qid": "Q222045",
+      "developer_label": "تو كي تشيك",
+      "publisher_qid": "Q94937",
+      "publisher_label": "تو كي جيمز",
+      "first_release_date": "2010-08-24",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q59154",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q94640",
+      "title_ar": "جراند ثفت أوتو: فايس سيتي ستوريز",
+      "title_en": null,
+      "developer_qid": "Q1750959",
+      "developer_label": "روكستار ليدز",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2006-10-31",
+      "first_release_year": "2006",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 46,
+      "source_url": "https://www.wikidata.org/wiki/Q94640",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q10493813",
+      "title_ar": "فول أوت 4",
+      "title_en": null,
+      "developer_qid": "Q3300783",
+      "developer_label": "بيثيسدا غيم ستوديوز",
+      "publisher_qid": "Q684425",
+      "publisher_label": "بيثيسدا سوفت ووركس",
+      "first_release_date": "2015-11-09",
+      "first_release_year": "2015",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q10493813",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q187732",
+      "title_ar": "رون سكيب",
+      "title_en": "RuneScape",
+      "developer_qid": "Q958101",
+      "developer_label": "جاغيكس",
+      "publisher_qid": "Q958101",
+      "publisher_label": "جاغيكس",
+      "first_release_date": "2001-01-04",
+      "first_release_year": "2001",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q187732",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q211735",
+      "title_ar": "أساسنز كريد 2",
+      "title_en": "Assassin's Creed II",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2009-11-17",
+      "first_release_year": "2009",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q211735",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q244030",
+      "title_ar": "ديابلو 3",
+      "title_en": null,
+      "developer_qid": "Q178824",
+      "developer_label": "بليزارد إنترتينمنت",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "2012-05-15",
+      "first_release_year": "2012",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q244030",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q817369",
+      "title_ar": "إله الحرب",
+      "title_en": "God of War",
+      "developer_qid": "Q656710",
+      "developer_label": "سانتا مونيكا ستوديو",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2005-03-22",
+      "first_release_year": "2005",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 45,
+      "source_url": "https://www.wikidata.org/wiki/Q817369",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q12147068",
+      "title_ar": "كول أوف ديوتي: جوستس",
+      "title_en": null,
+      "developer_qid": "Q731482",
+      "developer_label": "إنفنتي وورد",
+      "publisher_qid": "Q200491",
+      "publisher_label": "أكتيفجن",
+      "first_release_date": "2013-11-05",
+      "first_release_year": "2013",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q12147068",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q1248594",
+      "title_ar": "ريزدنت إيفل",
+      "title_en": "Resident Evil",
+      "developer_qid": "Q14428",
+      "developer_label": "كابكوم",
+      "publisher_qid": "Q14428",
+      "publisher_label": "كابكوم",
+      "first_release_date": "1996-03-22",
+      "first_release_year": "1996",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q1248594",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q219795",
+      "title_ar": "نيد فور سبيد: كاربون",
+      "title_en": "Need for Speed: Carbon",
+      "developer_qid": "Q752317",
+      "developer_label": "إي أيه فانكوفر",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2006-10-30",
+      "first_release_year": "2006",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q219795",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q223381",
+      "title_ar": "فاينل فانتسي 10",
+      "title_en": "Final Fantasy X",
+      "developer_qid": "Q739552",
+      "developer_label": "سكوير",
+      "publisher_qid": "Q739552",
+      "publisher_label": "سكوير",
+      "first_release_date": "2001-07-19",
+      "first_release_year": "2001",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q223381",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q244033",
+      "title_ar": "ديابلو 2",
+      "title_en": null,
+      "developer_qid": "Q2464302",
+      "developer_label": "Blizzard North",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "2000-06-28",
+      "first_release_year": "2000",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q244033",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q380918",
+      "title_ar": "كول أوف ديوتي: بلاك أوبس 2",
+      "title_en": "Call of Duty: Black Ops II",
+      "developer_qid": "Q382543",
+      "developer_label": "تريارك",
+      "publisher_qid": "Q200491",
+      "publisher_label": "أكتيفجن",
+      "first_release_date": "2012-11-12",
+      "first_release_year": "2012",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 44,
+      "source_url": "https://www.wikidata.org/wiki/Q380918",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q220960",
+      "title_ar": "ديابلو",
+      "title_en": "Diablo",
+      "developer_qid": "Q2464302",
+      "developer_label": "Blizzard North",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "1996-12-31",
+      "first_release_year": "1996",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q220960",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q245006",
+      "title_ar": "فاينل فانتسي 8",
+      "title_en": "Final Fantasy VIII",
+      "developer_qid": "Q739552",
+      "developer_label": "سكوير",
+      "publisher_qid": "Q739552",
+      "publisher_label": "سكوير",
+      "first_release_date": "1999-02-11",
+      "first_release_year": "1999",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q245006",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q287637",
+      "title_ar": "ذا ويتشر",
+      "title_en": "The Witcher",
+      "developer_qid": "Q1172164",
+      "developer_label": "سي دي بروجكت ريد",
+      "publisher_qid": "Q527336",
+      "publisher_label": "شركة أتاري",
+      "first_release_date": "2007-10-26",
+      "first_release_year": "2007",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q287637",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q677351",
+      "title_ar": "أساسنز كريد: برذرهود",
+      "title_en": "Assassin's Creed: Brotherhood",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2010-11-16",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q677351",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q752835",
+      "title_ar": "سايلنت هيل 2",
+      "title_en": "Silent Hill 2",
+      "developer_qid": "Q598181",
+      "developer_label": "تيم سايلنت",
+      "publisher_qid": "Q45700",
+      "publisher_label": "كونامي",
+      "first_release_date": "2001-09-25",
+      "first_release_year": "2001",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q752835",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q791454",
+      "title_ar": "باتلفيلد 3",
+      "title_en": "Battlefield 3",
+      "developer_qid": "Q722027",
+      "developer_label": "ديجيتال إلوجينز سي إي",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2011-10-25",
+      "first_release_year": "2011",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 43,
+      "source_url": "https://www.wikidata.org/wiki/Q791454",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q237484",
+      "title_ar": "كرايسس",
+      "title_en": "Crysis",
+      "developer_qid": "Q164716",
+      "developer_label": "كرايتيك",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2007-11-13",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q237484",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q42564798",
+      "title_ar": "شبح تسوشيما",
+      "title_en": "Ghost of Tsushima",
+      "developer_qid": "Q916714",
+      "developer_label": "سكر بنش برودكشنز",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2020-07-17",
+      "first_release_year": "2020",
+      "platforms": [
+        "PlayStation 5"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q42564798",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q472909",
+      "title_ar": "لفت 4 ديد 2",
+      "title_en": "Left 4 Dead 2",
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2009-11-17",
+      "first_release_year": "2009",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q472909",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q782919",
+      "title_ar": "سبيسوير",
+      "title_en": "Spacewar!",
+      "developer_qid": "Q2634274",
+      "developer_label": "ستيف راسيل",
+      "publisher_qid": "Q2634274",
+      "publisher_label": "ستيف راسيل",
+      "first_release_date": "1962-01-01",
+      "first_release_year": "1962",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 42,
+      "source_url": "https://www.wikidata.org/wiki/Q782919",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q17618314",
+      "title_ar": "فايف نايتس آت فريديز",
+      "title_en": "Five Nights at Freddy's",
+      "developer_qid": "Q19827680",
+      "developer_label": "سكوت كاوثون",
+      "publisher_qid": "Q19827680",
+      "publisher_label": "سكوت كاوثون",
+      "first_release_date": "2014-08-08",
+      "first_release_year": "2014",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q17618314",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q18149274",
+      "title_ar": "سيتيز: سكاي لاينز",
+      "title_en": null,
+      "developer_qid": "Q16829899",
+      "developer_label": "كولوسال_أوردر",
+      "publisher_qid": "Q217493",
+      "publisher_label": "بارادوكس إنتراكتيف",
+      "first_release_date": "2015-03-10",
+      "first_release_year": "2015",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q18149274",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q18149495",
+      "title_ar": "كاب هيد",
+      "title_en": "Cuphead",
+      "developer_qid": "Q105450826",
+      "developer_label": "Studio MDHR",
+      "publisher_qid": "Q105450826",
+      "publisher_label": "Studio MDHR",
+      "first_release_date": "2017-09-29",
+      "first_release_year": "2017",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q18149495",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q247210",
+      "title_ar": "نيد فور سبيد: أندرغراوند",
+      "title_en": "Need for Speed: Underground",
+      "developer_qid": "Q2373062",
+      "developer_label": "إي آيه بلاك بوكس",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2003-11-17",
+      "first_release_year": "2003",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q247210",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q739654",
+      "title_ar": "أساسنز كريد: ريفليشنز",
+      "title_en": "Assassin's Creed: Revelations",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2011-11-15",
+      "first_release_year": "2011",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q739654",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q8262784",
+      "title_ar": "هيرث ستون هيروس أوف ووركرافت",
+      "title_en": "Hearthstone",
+      "developer_qid": "Q178824",
+      "developer_label": "بليزارد إنترتينمنت",
+      "publisher_qid": "Q178824",
+      "publisher_label": "بليزارد إنترتينمنت",
+      "first_release_date": "2014-03-11",
+      "first_release_year": "2014",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q8262784",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q98582386",
+      "title_ar": "بلاك ميث: ووكونغ",
+      "title_en": null,
+      "developer_qid": "Q109342583",
+      "developer_label": "جيم سينس",
+      "publisher_qid": "Q109342583",
+      "publisher_label": "جيم سينس",
+      "first_release_date": "2024-08-20",
+      "first_release_year": "2024",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 41,
+      "source_url": "https://www.wikidata.org/wiki/Q98582386",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q111165107",
+      "title_ar": "كاونتر سترايك 2",
+      "title_en": null,
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2023-09-27",
+      "first_release_year": "2023",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q111165107",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q14838050",
+      "title_ar": "أوت لاست",
+      "title_en": "Outlast",
+      "developer_qid": "Q16625595",
+      "developer_label": "ريد بارلز",
+      "publisher_qid": "Q16625595",
+      "publisher_label": "ريد بارلز",
+      "first_release_date": "2013-09-04",
+      "first_release_year": "2013",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q14838050",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q176336",
+      "title_ar": "فار كراي 2",
+      "title_en": "Far Cry 2",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2008-10-21",
+      "first_release_year": "2008",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q176336",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q24577667",
+      "title_ar": "ريزدنت إيفل 7: بايوهازرد",
+      "title_en": null,
+      "developer_qid": "Q14428",
+      "developer_label": "كابكوم",
+      "publisher_qid": "Q14428",
+      "publisher_label": "كابكوم",
+      "first_release_date": "2017-01-24",
+      "first_release_year": "2017",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q24577667",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q2618557",
+      "title_ar": "باتلفيلد 4",
+      "title_en": "Battlefield 4",
+      "developer_qid": "Q722027",
+      "developer_label": "ديجيتال إلوجينز سي إي",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2013-10-29",
+      "first_release_year": "2013",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q2618557",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q2625075",
+      "title_ar": "يوروبا يونيفرساليس 4",
+      "title_en": "Europa Universalis IV",
+      "developer_qid": "Q3539040",
+      "developer_label": "استوديو برودكس للتطوير",
+      "publisher_qid": "Q217493",
+      "publisher_label": "بارادوكس إنتراكتيف",
+      "first_release_date": "2013-08-13",
+      "first_release_year": "2013",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q2625075",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q327594",
+      "title_ar": "فاينل فانتسي 12",
+      "title_en": "Final Fantasy XII",
+      "developer_qid": "Q207784",
+      "developer_label": "سكوير إنكس",
+      "publisher_qid": "Q207784",
+      "publisher_label": "سكوير إنكس",
+      "first_release_date": "2006-03-16",
+      "first_release_year": "2006",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q327594",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q725057",
+      "title_ar": "ماس إفكت 2",
+      "title_en": "Mass Effect 2",
+      "developer_qid": "Q219758",
+      "developer_label": "بايوير",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2010-01-26",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q725057",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q739784",
+      "title_ar": "ريزدنت إيفل 3: نمسيس",
+      "title_en": "Resident Evil 3: Nemesis",
+      "developer_qid": "Q14428",
+      "developer_label": "كابكوم",
+      "publisher_qid": "Q14428",
+      "publisher_label": "كابكوم",
+      "first_release_date": "1999-09-22",
+      "first_release_year": "1999",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 40,
+      "source_url": "https://www.wikidata.org/wiki/Q739784",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q137802",
+      "title_ar": "هيلو 3",
+      "title_en": "Halo 3",
+      "developer_qid": "Q735267",
+      "developer_label": "بنجي",
+      "publisher_qid": "Q73801",
+      "publisher_label": "إكس بوكس غيم ستوديوز",
+      "first_release_date": "2007-09-25",
+      "first_release_year": "2007",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q137802",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q24031560",
+      "title_ar": "باتلفيلد 1",
+      "title_en": "Battlefield 1",
+      "developer_qid": "Q722027",
+      "developer_label": "ديجيتال إلوجينز سي إي",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2016-10-21",
+      "first_release_year": "2016",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q24031560",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q590836",
+      "title_ar": "تمبل ران",
+      "title_en": null,
+      "developer_qid": "Q6003289",
+      "developer_label": "Imangi Studios",
+      "publisher_qid": "Q6003289",
+      "publisher_label": "Imangi Studios",
+      "first_release_date": "2011-08-04",
+      "first_release_year": "2011",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q590836",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q601050",
+      "title_ar": "ريزدنت إيفل 5",
+      "title_en": null,
+      "developer_qid": "Q14428",
+      "developer_label": "كابكوم",
+      "publisher_qid": "Q14428",
+      "publisher_label": "كابكوم",
+      "first_release_date": "2009-03-05",
+      "first_release_year": "2009",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q601050",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q726190",
+      "title_ar": "نيد فور سبيد: أندرجراوند 2",
+      "title_en": "Need for Speed: Underground 2",
+      "developer_qid": "Q752317",
+      "developer_label": "إي أيه فانكوفر",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2004-11-09",
+      "first_release_year": "2004",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 39,
+      "source_url": "https://www.wikidata.org/wiki/Q726190",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q1371726",
+      "title_ar": "واتش دوغز",
+      "title_en": "Watch Dogs",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2014-05-27",
+      "first_release_year": "2014",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q1371726",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q14565978",
+      "title_ar": "بيبرز، بليز",
+      "title_en": "Papers, Please",
+      "developer_qid": "Q15732499",
+      "developer_label": "لوكاس بوب",
+      "publisher_qid": "Q33326497",
+      "publisher_label": "3909",
+      "first_release_date": "2013-08-08",
+      "first_release_year": "2013",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q14565978",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q15983778",
+      "title_ar": "أساسنز كريد يونيتي",
+      "title_en": "Assassin's Creed Unity",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2014-11-11",
+      "first_release_year": "2014",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q15983778",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q16190030",
+      "title_ar": "جيومتري داش",
+      "title_en": "Geometry Dash",
+      "developer_qid": "Q20664503",
+      "developer_label": "RobTop Games",
+      "publisher_qid": "Q20664503",
+      "publisher_label": "RobTop Games",
+      "first_release_date": "2013-08-13",
+      "first_release_year": "2013",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q16190030",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q206653",
+      "title_ar": "باتلفيلد 2",
+      "title_en": null,
+      "developer_qid": "Q722027",
+      "developer_label": "ديجيتال إلوجينز سي إي",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2005-06-21",
+      "first_release_year": "2005",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q206653",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q2252689",
+      "title_ar": "إله الحرب 2",
+      "title_en": "God of War II",
+      "developer_qid": "Q656710",
+      "developer_label": "سانتا مونيكا ستوديو",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2007-03-13",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q2252689",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q252804",
+      "title_ar": "هيلو 2",
+      "title_en": null,
+      "developer_qid": "Q735267",
+      "developer_label": "بنجي",
+      "publisher_qid": "Q73801",
+      "publisher_label": "إكس بوكس غيم ستوديوز",
+      "first_release_date": "2004-11-09",
+      "first_release_year": "2004",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q252804",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q25340029",
+      "title_ar": "سبايدرمان",
+      "title_en": "Spider-Man",
+      "developer_qid": "Q1141245",
+      "developer_label": "إنسومنياك غيمز",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2018-09-07",
+      "first_release_year": "2018",
+      "platforms": [
+        "PlayStation 5"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q25340029",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q29300592",
+      "title_ar": "هولو نايت",
+      "title_en": null,
+      "developer_qid": "Q29326164",
+      "developer_label": "تيم شيري",
+      "publisher_qid": "Q29326164",
+      "publisher_label": "تيم شيري",
+      "first_release_date": "2017-02-24",
+      "first_release_year": "2017",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q29300592",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q629626",
+      "title_ar": "القرون الوسطى II: الحرب الشاملة",
+      "title_en": "Medieval II: Total War",
+      "developer_qid": "Q611508",
+      "developer_label": "ذا كريتيف أسمبلي",
+      "publisher_qid": "Q122741",
+      "publisher_label": "سيجا",
+      "first_release_date": "2006-11-11",
+      "first_release_year": "2006",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q629626",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q64441774",
+      "title_ar": "بوابة بلدور 3",
+      "title_en": null,
+      "developer_qid": "Q4042609",
+      "developer_label": "لاريان ستوديوز",
+      "publisher_qid": "Q4042609",
+      "publisher_label": "لاريان ستوديوز",
+      "first_release_date": "2020-10-06",
+      "first_release_year": "2020",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q64441774",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q725902",
+      "title_ar": "حرب النجوم: فرسان الجمهورية القديمة",
+      "title_en": "Star Wars: Knights of the Old Republic",
+      "developer_qid": "Q219758",
+      "developer_label": "بايوير",
+      "publisher_qid": "Q216611",
+      "publisher_label": "لوكاس آرتز",
+      "first_release_date": "2003-01-01",
+      "first_release_year": "2003",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q725902",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q746228",
+      "title_ar": "باتمان: أركام أسايلم",
+      "title_en": "Batman: Arkham Asylum",
+      "developer_qid": "Q2307159",
+      "developer_label": "روك ستيدي ستوديوز",
+      "publisher_qid": "Q679933",
+      "publisher_label": "إيدوس إنتراكتيف",
+      "first_release_date": "2009-08-25",
+      "first_release_year": "2009",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q746228",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q837923",
+      "title_ar": "غاريز مود",
+      "title_en": "Garry's Mod",
+      "developer_qid": "Q13512339",
+      "developer_label": "فيس بنش ستوديوز",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2006-11-29",
+      "first_release_year": "2006",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q837923",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q901362",
+      "title_ar": "ماونت أند بليد",
+      "title_en": "Mount & Blade",
+      "developer_qid": "Q2352604",
+      "developer_label": "TaleWorlds",
+      "publisher_qid": "Q2352604",
+      "publisher_label": "TaleWorlds",
+      "first_release_date": "2008-09-16",
+      "first_release_year": "2008",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q901362",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q97120062",
+      "title_ar": "فار كراي 6",
+      "title_en": "Far Cry 6",
+      "developer_qid": "Q500799",
+      "developer_label": "يوبي سوفت تورنتو",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2021-10-07",
+      "first_release_year": "2021",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 38,
+      "source_url": "https://www.wikidata.org/wiki/Q97120062",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q18951",
+      "title_ar": "هاف-لايف 2: أيبيسود ون",
+      "title_en": "Half-Life 2: Episode One",
+      "developer_qid": "Q193559",
+      "developer_label": "فالف كوربوريشن",
+      "publisher_qid": "Q193559",
+      "publisher_label": "فالف كوربوريشن",
+      "first_release_date": "2006-06-01",
+      "first_release_year": "2006",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q18951",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q390595",
+      "title_ar": "فاينل فانتسي 13",
+      "title_en": "Final Fantasy XIII",
+      "developer_qid": "Q207784",
+      "developer_label": "سكوير إنكس",
+      "publisher_qid": "Q207784",
+      "publisher_label": "سكوير إنكس",
+      "first_release_date": "2009-12-17",
+      "first_release_year": "2009",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q390595",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q535940",
+      "title_ar": "فاينل فانتسي 6",
+      "title_en": "Final Fantasy VI",
+      "developer_qid": "Q739552",
+      "developer_label": "سكوير",
+      "publisher_qid": "Q739552",
+      "publisher_label": "سكوير",
+      "first_release_date": "1994-04-02",
+      "first_release_year": "1994",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q535940",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q663665",
+      "title_ar": "نيد فور سبيد: برو ستريت",
+      "title_en": "Need for Speed: ProStreet",
+      "developer_qid": "Q752317",
+      "developer_label": "إي أيه فانكوفر",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2007-11-14",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q663665",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q677869",
+      "title_ar": "ملوك الصليبية 2",
+      "title_en": "Crusader Kings II",
+      "developer_qid": "Q3539040",
+      "developer_label": "استوديو برودكس للتطوير",
+      "publisher_qid": "Q217493",
+      "publisher_label": "بارادوكس إنتراكتيف",
+      "first_release_date": "2012-02-14",
+      "first_release_year": "2012",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q677869",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q719960",
+      "title_ar": "هاري بوتر أند ذا سورسررز ستون",
+      "title_en": "Harry Potter and the Philosopher's Stone",
+      "developer_qid": "Q4042267",
+      "developer_label": "KnowWonder",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2001-11-16",
+      "first_release_year": "2001",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q719960",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q729074",
+      "title_ar": "ديد سبيس",
+      "title_en": null,
+      "developer_qid": "Q1576335",
+      "developer_label": "فيسرال غيمز",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2008-10-13",
+      "first_release_year": "2008",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q729074",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q910938",
+      "title_ar": "فول أوت 2",
+      "title_en": null,
+      "developer_qid": "Q743712",
+      "developer_label": "Black Isle Studios",
+      "publisher_qid": "Q628249",
+      "publisher_label": "إنتربلاي إنترتينمينت",
+      "first_release_date": "1998-09-30",
+      "first_release_year": "1998",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q910938",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q911226",
+      "title_ar": "فاينل فانتسي 4",
+      "title_en": "Final Fantasy IV",
+      "developer_qid": "Q739552",
+      "developer_label": "سكوير",
+      "publisher_qid": "Q739552",
+      "publisher_label": "سكوير",
+      "first_release_date": "1991-07-19",
+      "first_release_year": "1991",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q911226",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q939588",
+      "title_ar": "الموتى السائرون",
+      "title_en": "The Walking Dead: Season One",
+      "developer_qid": "Q1383563",
+      "developer_label": "تلتيل غيمز",
+      "publisher_qid": "Q1383563",
+      "publisher_label": "تلتيل غيمز",
+      "first_release_date": "2012-04-24",
+      "first_release_year": "2012",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q939588",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q96216515",
+      "title_ar": "ريزدنت إيفل فيلدج",
+      "title_en": null,
+      "developer_qid": "Q14428",
+      "developer_label": "كابكوم",
+      "publisher_qid": "Q14428",
+      "publisher_label": "كابكوم",
+      "first_release_date": "2021-05-07",
+      "first_release_year": "2021",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 37,
+      "source_url": "https://www.wikidata.org/wiki/Q96216515",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q1129094",
+      "title_ar": "إل أيه نوار",
+      "title_en": null,
+      "developer_qid": "Q2445401",
+      "developer_label": "تيم بوندي",
+      "publisher_qid": "Q94912",
+      "publisher_label": "روكستار جيمز",
+      "first_release_date": "2011-05-17",
+      "first_release_year": "2011",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q1129094",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q1129452",
+      "title_ar": "إله الحرب 3",
+      "title_en": "God of War III",
+      "developer_qid": "Q656710",
+      "developer_label": "سانتا مونيكا ستوديو",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2010-03-16",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q1129452",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q16972008",
+      "title_ar": "فاكتوريو",
+      "title_en": "Factorio",
+      "developer_qid": "Q26720075",
+      "developer_label": "Wube software",
+      "publisher_qid": "Q26720075",
+      "publisher_label": "Wube software",
+      "first_release_date": "2016-02-25",
+      "first_release_year": "2016",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q16972008",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q20829312",
+      "title_ar": "ستيلاريس",
+      "title_en": null,
+      "developer_qid": "Q3539040",
+      "developer_label": "استوديو برودكس للتطوير",
+      "publisher_qid": "Q217493",
+      "publisher_label": "بارادوكس إنتراكتيف",
+      "first_release_date": "2016-05-09",
+      "first_release_year": "2016",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q20829312",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q247935",
+      "title_ar": "ميتال غير سوليد 3: سنيك إيتر",
+      "title_en": "Metal Gear Solid 3: Snake Eater",
+      "developer_qid": "Q45700",
+      "developer_label": "كونامي",
+      "publisher_qid": "Q45700",
+      "publisher_label": "كونامي",
+      "first_release_date": "2004-11-17",
+      "first_release_year": "2004",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q247935",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q281246",
+      "title_ar": "نيد فور سبيد: ذا رن",
+      "title_en": "Need for Speed: The Run",
+      "developer_qid": "Q2373062",
+      "developer_label": "إي آيه بلاك بوكس",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2011-11-15",
+      "first_release_year": "2011",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q281246",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q54617566",
+      "title_ar": "أساسنز كريد أوديسي",
+      "title_en": null,
+      "developer_qid": "Q3547650",
+      "developer_label": "يوبي سوفت كيبك",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2018-10-05",
+      "first_release_year": "2018",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q54617566",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q59511757",
+      "title_ar": "مورتال كومبات 11",
+      "title_en": "Mortal Kombat 11",
+      "developer_qid": "Q2696696",
+      "developer_label": "نيثرريلم ستوديوز",
+      "publisher_qid": "Q2319420",
+      "publisher_label": "وارنر برذرز إنترآكتيف إنترتيمنت",
+      "first_release_date": "2019-04-23",
+      "first_release_year": "2019",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q59511757",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q636219",
+      "title_ar": "غيرز أوف وور",
+      "title_en": "Gears of War",
+      "developer_qid": "Q739711",
+      "developer_label": "إيبك غيمز",
+      "publisher_qid": "Q73801",
+      "publisher_label": "إكس بوكس غيم ستوديوز",
+      "first_release_date": "2006-11-07",
+      "first_release_year": "2006",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q636219",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q648980",
+      "title_ar": "أليس: عودة الجنون",
+      "title_en": "Alice: Madness Returns",
+      "developer_qid": "Q2373150",
+      "developer_label": "سبايسي هورس",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2011-06-14",
+      "first_release_year": "2011",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q648980",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q719176",
+      "title_ar": "كراش بانديكوت",
+      "title_en": "Crash Bandicoot",
+      "developer_qid": "Q720871",
+      "developer_label": "نوتي دوغ",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "1996-09-09",
+      "first_release_year": "1996",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q719176",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q753749",
+      "title_ar": "فول أوت: فيغاس الجديدة",
+      "title_en": "Fallout: New Vegas",
+      "developer_qid": "Q629821",
+      "developer_label": "أوبسيديان إنترتنمنت",
+      "publisher_qid": "Q684425",
+      "publisher_label": "بيثيسدا سوفت ووركس",
+      "first_release_date": "2010-10-19",
+      "first_release_year": "2010",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q753749",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q92464687",
+      "title_ar": "أساسنز كريد فالهالا",
+      "title_en": "Assassin's Creed Valhalla",
+      "developer_qid": "Q903621",
+      "developer_label": "يوبي سوفت مونتريال",
+      "publisher_qid": "Q188273",
+      "publisher_label": "يوبي سوفت",
+      "first_release_date": "2020-11-10",
+      "first_release_year": "2020",
+      "platforms": [
+        "PC (Windows)",
+        "PlayStation 5"
+      ],
+      "sitelinks": 36,
+      "source_url": "https://www.wikidata.org/wiki/Q92464687",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q17118361",
+      "title_ar": "مورتال كومبات إكس",
+      "title_en": "Mortal Kombat X",
+      "developer_qid": "Q2696696",
+      "developer_label": "نيثرريلم ستوديوز",
+      "publisher_qid": "Q2319420",
+      "publisher_label": "وارنر برذرز إنترآكتيف إنترتيمنت",
+      "first_release_date": "2015-04-14",
+      "first_release_year": "2015",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q17118361",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q17150",
+      "title_ar": "أنشارتد: ثروة دريك",
+      "title_en": "Uncharted: Drake's Fortune",
+      "developer_qid": "Q720871",
+      "developer_label": "نوتي دوغ",
+      "publisher_qid": "Q18594",
+      "publisher_label": "سوني إنتراكتيف إنترتينمنت",
+      "first_release_date": "2007-11-19",
+      "first_release_year": "2007",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q17150",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q20420",
+      "title_ar": "إمباير إيرث",
+      "title_en": "Empire Earth",
+      "developer_qid": "Q3026554",
+      "developer_label": "Stainless Steel Studios",
+      "publisher_qid": "Q494614",
+      "publisher_label": "سييرا إنترتينمنت",
+      "first_release_date": "2001-11-12",
+      "first_release_year": "2001",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q20420",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q4037583",
+      "title_ar": "دراغون إيج: إنكوزيشن",
+      "title_en": "Dragon Age: Inquisition",
+      "developer_qid": "Q219758",
+      "developer_label": "بايوير",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2014-11-18",
+      "first_release_year": "2014",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q4037583",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q42266827",
+      "title_ar": "نادي الأدب دوكي دوكي",
+      "title_en": "Doki Doki Literature Club!",
+      "developer_qid": "Q51701831",
+      "developer_label": "Team Salvato",
+      "publisher_qid": "Q51701831",
+      "publisher_label": "Team Salvato",
+      "first_release_date": "2017-09-22",
+      "first_release_year": "2017",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q42266827",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q471974",
+      "title_ar": "نيد فور سبيد: أندر كفر",
+      "title_en": "Need for Speed: Undercover",
+      "developer_qid": "Q2373062",
+      "developer_label": "إي آيه بلاك بوكس",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2008-11-18",
+      "first_release_year": "2008",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q471974",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q56884780",
+      "title_ar": "ماينكرافت دونجنس",
+      "title_en": "Minecraft Dungeons",
+      "developer_qid": "Q1129295",
+      "developer_label": "موجانغ",
+      "publisher_qid": "Q73801",
+      "publisher_label": "إكس بوكس غيم ستوديوز",
+      "first_release_date": "2020-05-26",
+      "first_release_year": "2020",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q56884780",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q575505",
+      "title_ar": "آلن ويك",
+      "title_en": null,
+      "developer_qid": "Q830947",
+      "developer_label": "ريميدي إنترتيمنت",
+      "publisher_qid": "Q73801",
+      "publisher_label": "إكس بوكس غيم ستوديوز",
+      "first_release_date": "2010-05-14",
+      "first_release_year": "2010",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q575505",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q626802",
+      "title_ar": "كينغدوم هارتس 2",
+      "title_en": "Kingdom Hearts II",
+      "developer_qid": "Q207784",
+      "developer_label": "سكوير إنكس",
+      "publisher_qid": "Q207784",
+      "publisher_label": "سكوير إنكس",
+      "first_release_date": "2005-12-22",
+      "first_release_year": "2005",
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q626802",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q663583",
+      "title_ar": "بوابة بلدور",
+      "title_en": "Baldur's Gate",
+      "developer_qid": "Q219758",
+      "developer_label": "بايوير",
+      "publisher_qid": "Q628249",
+      "publisher_label": "إنتربلاي إنترتينمينت",
+      "first_release_date": "1998-12-21",
+      "first_release_year": "1998",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q663583",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q684904",
+      "title_ar": "كوماند أند كنكر: ريد أليرت 2",
+      "title_en": "Command & Conquer: Red Alert 2",
+      "developer_qid": "Q267949",
+      "developer_label": "ويستوود ستوديوز",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2000-10-23",
+      "first_release_year": "2000",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q684904",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    },
+    {
+      "qid": "Q753511",
+      "title_ar": "ماس إفكت 3",
+      "title_en": "Mass Effect 3",
+      "developer_qid": "Q219758",
+      "developer_label": "بايوير",
+      "publisher_qid": "Q173941",
+      "publisher_label": "إلكترونيك آرتس",
+      "first_release_date": "2012-03-06",
+      "first_release_year": "2012",
+      "platforms": [
+        "PlayStation 3",
+        "PC (Windows)"
+      ],
+      "sitelinks": 35,
+      "source_url": "https://www.wikidata.org/wiki/Q753511",
+      "claims": {
+        "developer": "P178",
+        "publisher": "P123",
+        "release": "P577",
+        "platform": "P400"
+      }
+    }
+  ]
+}

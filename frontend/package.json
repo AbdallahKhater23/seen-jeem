@@ -1,0 +1,31 @@
+{
+  "name": "seena-jeem-trivia",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "لعبة مسابقات خليجية محلية لفريقين على شاشة واحدة، مستوحاة من أسلوب البرامج التلفزيونية",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}

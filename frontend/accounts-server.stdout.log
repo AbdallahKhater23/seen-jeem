@@ -1,0 +1,138 @@
+12:20:22 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v6.4.4  ready in 505 ms
+
+  ➜  Local:   http://127.0.0.1:5174/
+12:20:59 AM [vite] (client) hmr update /src/index.css, /src/components/AccountGate.jsx, /src/App.jsx, /src/components/StageTransition.jsx, /src/views/BoardView.jsx, /src/views/DraftView.jsx, /src/views/PodiumView.jsx, /src/views/ArenaView.jsx, /src/views/LobbyView.jsx, /src/components/HeaderScoreboard.jsx
+12:21:44 AM [vite] (client) hmr update /src/index.css, /src/components/AccountGate.jsx, /src/App.jsx, /src/components/StageTransition.jsx, /src/views/BoardView.jsx, /src/views/DraftView.jsx, /src/views/PodiumView.jsx, /src/views/ArenaView.jsx, /src/views/LobbyView.jsx, /src/components/HeaderScoreboard.jsx
+12:21:46 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+12:22:55 AM [vite] (client) hmr update /src/components/MatchstickRenderer.jsx, /src/index.css
+12:41:04 AM [vite] (client) hmr update /src/components/MatchstickRenderer.jsx, /src/index.css
+12:41:04 AM [vite] (client) hmr invalidate /src/components/MatchstickRenderer.jsx Could not Fast Refresh (new export)
+12:41:04 AM [vite] (client) hmr update /src/index.css, /src/views/ArenaView.jsx
+12:41:10 AM [vite] (client) hmr update /src/components/MatchstickRenderer.jsx, /src/index.css
+12:41:10 AM [vite] (client) hmr invalidate /src/components/MatchstickRenderer.jsx Could not Fast Refresh ("buildSticks" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:41:10 AM [vite] (client) hmr update /src/index.css, /src/views/ArenaView.jsx
+12:41:16 AM [vite] (client) page reload src/components/MatchstickRenderer.test.jsx
+12:42:00 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/views/DraftView.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/CareerPathRenderer.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/HeaderScoreboard.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/Icon.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+12:42:00 AM [vite] (client) page reload src/admin/AdminApp.jsx
+12:42:00 AM [vite] (client) hmr update /src/components/PowerCard.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/RadialTimer.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/spotScenes.jsx, /src/index.css
+12:42:00 AM [vite] (client) hmr update /src/components/StageTransition.jsx, /src/index.css
+12:42:00 AM [vite] (client) page reload src/admin/main.jsx
+12:42:22 AM [vite] (client) page reload tailwind.config.js
+12:42:24 AM [vite] (client) hmr update /src/index.css
+12:42:26 AM [vite] (client) page reload index.html
+12:42:28 AM [vite] (client) hmr update /src/components/StageBackdrop.jsx, /src/index.css
+12:43:32 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+12:43:34 AM [vite] (client) hmr update /src/components/Icon.jsx, /src/index.css
+12:44:59 AM [vite] (client) page reload src/main.jsx
+12:46:09 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+12:46:09 AM [vite] (client) page reload src/components/AccountGate.test.jsx
+12:46:09 AM [vite] (client) hmr update /src/components/BrandMark.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/CareerPathRenderer.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/CategoryVisual.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/HeaderScoreboard.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/Icon.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/MatchstickRenderer.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+12:46:09 AM [vite] (client) page reload src/components/MatchstickRenderer.test.jsx
+12:46:09 AM [vite] (client) hmr update /src/components/PowerCard.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/RadialTimer.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/SpotDifferenceRenderer.jsx, /src/index.css
+12:46:09 AM [vite] (client) page reload src/components/SpotDifferenceRenderer.test.jsx
+12:46:09 AM [vite] (client) hmr update /src/components/spotScenes.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/StageBackdrop.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/components/StageTransition.jsx, /src/index.css
+12:46:09 AM [vite] (client) page reload src/components/StageTransition.test.jsx
+12:46:09 AM [vite] (client) page reload src/admin/AdminApp.jsx
+12:46:09 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/views/DraftView.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+12:46:09 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+12:46:09 AM [vite] (client) page reload src/admin/main.jsx
+12:47:05 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr update /src/components/HeaderScoreboard.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr update /src/index.css, /src/components/AccountGate.jsx, /src/App.jsx, /src/components/StageTransition.jsx, /src/views/BoardView.jsx, /src/views/DraftView.jsx, /src/views/PodiumView.jsx, /src/views/ArenaView.jsx, /src/views/LobbyView.jsx, /src/components/HeaderScoreboard.jsx, /src/components/PowerCard.jsx
+12:47:05 AM [vite] (client) hmr update /src/views/DraftView.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr update /src/components/StageTransition.jsx, /src/index.css
+12:47:05 AM [vite] (client) hmr invalidate /src/components/StageTransition.jsx Could not Fast Refresh ("STAGE_ORDER" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:47:05 AM [vite] (client) hmr update /src/index.css, /src/App.jsx
+12:47:09 AM [vite] (client) hmr update /src/components/StageTransition.jsx, /src/index.css
+12:47:09 AM [vite] (client) hmr invalidate /src/components/StageTransition.jsx Could not Fast Refresh ("STAGE_ORDER" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:47:09 AM [vite] (client) hmr update /src/index.css, /src/App.jsx
+12:47:46 AM [vite] (client) hmr update /src/brand.css
+12:49:24 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+12:49:26 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+12:49:28 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+12:49:30 AM [vite] (client) hmr update /src/brand.css
+12:49:32 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/views/DraftView.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/components/HeaderScoreboard.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/components/MatchstickRenderer.jsx, /src/index.css
+12:49:32 AM [vite] (client) hmr update /src/components/SpotDifferenceRenderer.jsx, /src/index.css
+12:50:18 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+2:02:54 AM [vite] (client) hmr update /src/brand.css
+2:04:13 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:05:28 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+2:05:28 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+2:05:28 AM [vite] (client) hmr update /src/views/DraftView.jsx, /src/index.css
+2:05:28 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+2:05:28 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+2:05:46 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+2:05:47 AM [vite] (client) page reload src/admin/AdminApp.jsx
+2:05:49 AM [vite] (client) hmr update /src/brand.css
+2:07:03 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+2:07:04 AM [vite] (client) hmr update /src/components/PowerCard.jsx, /src/index.css
+2:07:06 AM [vite] (client) hmr update /src/components/RadialTimer.jsx, /src/index.css
+2:07:07 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+2:08:03 AM [vite] (client) hmr update /src/brand.css
+2:09:08 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+2:09:09 AM [vite] (client) hmr update /src/components/StageTransition.jsx, /src/index.css
+2:09:09 AM [vite] (client) hmr invalidate /src/components/StageTransition.jsx Could not Fast Refresh ("STAGE_ORDER" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:09:09 AM [vite] (client) hmr update /src/index.css, /src/App.jsx
+2:09:11 AM [vite] (client) hmr update /src/brand.css
+2:10:58 AM [vite] (client) page reload tailwind.config.js
+2:10:59 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+2:11:01 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+2:11:04 AM [vite] (client) hmr update /src/brand.css
+2:12:23 AM [vite] (client) hmr update /src/views/ArenaView.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/views/BoardView.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/AccountGate.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/views/DraftView.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/views/LobbyView.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/views/PodiumView.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/BrandMark.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/CareerPathRenderer.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/CategoryVisual.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/HeaderScoreboard.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/Icon.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/MatchstickRenderer.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/PowerCard.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/RadialTimer.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/SpotDifferenceRenderer.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/spotScenes.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/StageBackdrop.jsx, /src/index.css
+2:12:23 AM [vite] (client) hmr update /src/components/StageTransition.jsx, /src/index.css
+2:12:23 AM [vite] (client) page reload src/admin/AdminApp.jsx
+2:12:23 AM [vite] (client) hmr update /src/components/TeamAvatar.jsx, /src/index.css
+2:12:23 AM [vite] (client) page reload src/admin/main.jsx
+2:12:25 AM [vite] (client) page reload tailwind.config.js
